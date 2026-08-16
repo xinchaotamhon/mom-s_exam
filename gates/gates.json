@@ -53,6 +53,19 @@
       "enabled": true,
       "introduced_by": "static-app",
       "invariant": "Gói triển khai Cloudflare có thể tải trang và dữ liệu mà không cần bước dựng"
+    },
+    {
+      "id": "deploy.cloudflare-static-assets-config",
+      "description": "Tên Worker và định tuyến SPA không gây lỗi triển khai Cloudflare",
+      "tier": "regression",
+      "command": ["pwsh", "-File", "tests/test_cloudflare_deploy_config.ps1"],
+      "cwd": ".",
+      "timeout_seconds": 20,
+      "expected_exit_code": 0,
+      "required": true,
+      "enabled": true,
+      "introduced_by": "DEPLOY-001",
+      "invariant": "Workers Build không gặp vòng lặp _redirects và tên Worker luôn khớp dự án Cloudflare"
     }
   ]
 }

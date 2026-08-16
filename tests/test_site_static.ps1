@@ -9,7 +9,6 @@ $required = @(
     'site/manifest.webmanifest',
     'site/service-worker.js',
     'site/_headers',
-    'site/_redirects',
     'wrangler.jsonc'
 )
 foreach ($relative in $required) {

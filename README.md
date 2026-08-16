@@ -4,15 +4,16 @@ Trang ôn tập gồm 395 câu trắc nghiệm và 143 câu vấn đáp, đượ
 
 ## Đưa lên Cloudflare
 
-Cách dễ nhất bằng trang quản lý Cloudflare:
+Kho mã này đã được cấu hình cho **Cloudflare Workers Static Assets** với tên Worker `mom-s-exam`:
 
-1. Tạo một dự án **Workers & Pages** mới và kết nối thư mục mã nguồn này.
-2. Chọn triển khai dưới dạng tài nguyên tĩnh.
-3. Đặt lệnh dựng trang là `exit 0` (hoặc để trống nếu giao diện Cloudflare cho phép).
-4. Đặt thư mục đầu ra là `site`.
-5. Triển khai và mở địa chỉ Cloudflare cấp để kiểm tra trên điện thoại.
+1. Trong **Workers & Pages**, mở Worker `mom-s-exam` và kết nối kho GitHub này.
+2. Chọn nhánh sản xuất `main`; để trống thư mục gốc và lệnh dựng.
+3. Đặt lệnh triển khai là `npx wrangler deploy`.
+4. Triển khai rồi mở địa chỉ `workers.dev` Cloudflare cấp để kiểm tra trên điện thoại.
 
-Nếu dùng Wrangler trên máy đã cài Node.js, chạy `npx wrangler deploy` tại thư mục dự án.
+Nếu dùng Wrangler trên máy đã cài Node.js, chạy `npx wrangler deploy` tại thư mục dự án. Không thêm quy tắc `/* /index.html 200` vào `site/_redirects`: chế độ SPA đã được khai báo trong `wrangler.jsonc`.
+
+Nếu tạo dự án **Cloudflare Pages** riêng, để trống lệnh dựng và đặt thư mục đầu ra là `site`.
 
 ## Cập nhật nội dung
 

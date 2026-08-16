@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "on-thi-bi-thu-chi-bo",
+  "name": "mom-s-exam",
   "compatibility_date": "2026-08-15",
   "assets": {
     "directory": "./site",
