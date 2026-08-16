@@ -1,5 +1,5 @@
 ---
-last_verified: 2026-08-15
+last_verified: 2026-08-16
 verified_by: Codex
 status: ready
 ---
@@ -14,6 +14,7 @@ status: ready
 - Ứng dụng tĩnh trong `site` đã hoàn tất, không có máy chủ, không thu thập dữ liệu cá nhân và đã qua kiểm thử trình duyệt 390 px.
 - 60 đáp án có nguồn công khai trực tiếp; 132 đáp án cần bản văn bản nội bộ Lào Cai để nâng mức xác minh.
 - Chạy toàn bộ cổng bằng `tools/run_gates.ps1`.
+- Nhánh `main` đã được đẩy lên `https://github.com/xinchaotamhon/mom-s_exam`; không dùng force-push.
 
 ## Phạm vi tiếp theo
 

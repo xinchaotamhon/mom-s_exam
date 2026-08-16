@@ -1,5 +1,5 @@
 ---
-last_verified: 2026-08-15
+last_verified: 2026-08-16
 verified_by: Codex
 status: active
 ---
@@ -16,6 +16,7 @@ status: active
 - Ứng dụng là trang tĩnh, không có máy chủ, không thu thông tin cá nhân và lưu tiến độ trong trình duyệt của người học.
 - Gói triển khai Cloudflare nằm trong `site`; `wrangler.jsonc` trỏ trực tiếp tới thư mục này.
 - Bốn cổng bắt buộc và kiểm thử trình duyệt thật ở chiều rộng 390 px đều đạt ngày 15/08/2026.
+- Mã nguồn đã được đẩy an toàn lên nhánh `main` của `https://github.com/xinchaotamhon/mom-s_exam`; mốc xuất bản đầu tiên chứa đủ ứng dụng và giấy phép là `ab0744b`.
 
 ## Đã hoàn tất
 
