@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "original-document",
+      "title": "Ngân hàng câu hỏi Hội thi bí thư chi bộ giỏi (tệp gia đình cung cấp)",
+      "url": null,
+      "kind": "source-document",
+      "note": "Nguồn nguyên văn của 538 câu hỏi; bản sao bất biến được lưu trong dự án."
+    },
+    {
+      "id": "qd-01-2026",
+      "title": "Quy định 01-QĐ/TW năm 2026 về chế độ đảng phí",
+      "url": "https://ubkttw.vn/tai-lieu-tu-lieu/bo-chinh-tri",
+      "kind": "official-index",
+      "note": "Danh mục văn bản của Ủy ban Kiểm tra Trung ương; nội dung được đối chiếu thêm với bản toàn văn công khai."
+    },
+    {
+      "id": "qd-399-2026",
+      "title": "Quy định 399-QĐ/TW năm 2026 về văn bản của Đảng",
+      "url": "https://thads.moj.gov.vn/portal/tin-tuc/chi-tiet/quy-inh-399-qtw-chuan-hoa-cong-tac-ban-hanh-van-ban-cua-ang-tu-trung-uong-en-co-so-t9zdk3.html?handler=TinDocNhieu",
+      "kind": "public-authority",
+      "note": "Bài giới thiệu của cơ quan thuộc Bộ Tư pháp."
+    },
+    {
+      "id": "hd-05-2026",
+      "title": "Hướng dẫn 05-HD/VPTW năm 2026 về thể thức văn bản của Đảng",
+      "url": "https://tulieuvankien.dangcongsan.vn/upload/2006988/20260529/HD_05_VPTW_e1550.pdf",
+      "kind": "official-document",
+      "note": "Bản PDF trên hệ thống Tư liệu - Văn kiện Đảng."
+    },
+    {
+      "id": "law-117-2025",
+      "title": "Luật Bảo vệ bí mật nhà nước số 117/2025/QH15",
+      "url": "https://vbpl.moj.gov.vn/bocongan/Pages/vbpq-toanvan.aspx?ItemID=187038",
+      "kind": "official-law",
+      "note": "Toàn văn trên Cơ sở dữ liệu quốc gia về văn bản pháp luật."
+    },
+    {
+      "id": "lao-cai-model",
+      "title": "Lào Cai xây dựng mô hình xã, phường xã hội chủ nghĩa tại Trấn Yên và phường Lào Cai",
+      "url": "https://baolaocai.vn/hoan-thien-de-an-xay-dung-thi-diem-mo-hinh-xa-phuong-xa-hoi-chu-nghia-tai-tran-yen-phuong-lao-cai-post898806.html",
+      "kind": "provincial-news",
+      "note": "Nguồn báo chí chính thức của tỉnh."
+    },
+    {
+      "id": "lao-cai-project-quiz",
+      "title": "Bộ câu hỏi tìm hiểu các đề án trọng tâm của Đảng bộ tỉnh Lào Cai",
+      "url": "https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/dap-an-tim-hieu-cac-de-an-trong-tam-nghi-quyet-chien-luoc-cua-ban-chap-hanh-dang-bo-tinh-lao-cai-ra-406081-270871.html",
+      "kind": "public-reference",
+      "note": "Nguồn tham khảo công khai; vẫn ưu tiên văn bản nội bộ khi có thể tiếp cận."
+    },
+    {
+      "id": "resolution-169-2026",
+      "title": "Chỉ tiêu tuổi thọ năm 2030 tại Nghị quyết 169/NQ-CP",
+      "url": "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/117787/tuoi-tho-trung-binh-34-tinh-thanh-pho-nam-2030",
+      "kind": "public-reference",
+      "note": "Bảng tổng hợp chỉ tiêu cho 34 tỉnh, thành phố."
+    },
+    {
+      "id": "hd-25-2022",
+      "title": "Hướng dẫn 25-HD/BCĐTW năm 2022 về các hành vi tiêu cực",
+      "url": "https://tulieuvankien.dangcongsan.vn/home/chu-truong-chinh-sach-moi/19-hanh-vi-tieu-cuc-can-tap-trung-chi-dao-phong-chong-3830",
+      "kind": "official-party-reference",
+      "note": "Nguồn Tư liệu - Văn kiện Đảng xác nhận 19 hành vi cần tập trung phòng, chống."
+    },
+    {
+      "id": "law-132-2025",
+      "title": "Luật 132/2025/QH15 sửa đổi Luật Phòng, chống tham nhũng",
+      "url": "https://xaydungchinhsach.chinhphu.vn/gia-tri-tai-san-muc-thu-nhap-phai-ke-khai-va-ke-khai-bo-sung-ap-dung-tu-1-7-119260127153606685.htm",
+      "kind": "public-authority",
+      "note": "Báo Điện tử Chính phủ xác nhận ngưỡng kê khai bổ sung là 1 tỷ đồng từ 01/7/2026."
+    },
+    {
+      "id": "hd-02-2021",
+      "title": "Quy trình rà soát, giáo dục, sàng lọc đảng viên theo Hướng dẫn 02-HD/BTCTW",
+      "url": "https://vietnamnet.vn/huong-dan-quy-trinh-ra-soat-phat-hien-sang-loc-dang-vien-734733.html",
+      "kind": "public-reference",
+      "note": "Bài trình bày đủ bốn bước của quy trình."
+    },
+    {
+      "id": "hd-42-2025",
+      "title": "Hướng dẫn 42-HD/BTCTW năm 2025 về sinh hoạt chi bộ",
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Huong-dan-42-HD-BTCTW-2025-thuc-hien-Chi-thi-50-CT-TW-nang-cao-chat-luong-sinh-hoat-chi-bo-679297.aspx?tab=2",
+      "kind": "public-reference",
+      "note": "Bản toàn văn công khai để đối chiếu thời lượng và trình tự."
+    },
+    {
+      "id": "qd-208-2026",
+      "title": "Quy định 208-QĐ/TW năm 2026 về thi hành Điều lệ Đảng",
+      "url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-so-208-qd-tw-ve-thi-hanh-dieu-le-dang-11926072817225275.htm",
+      "kind": "public-authority",
+      "note": "Toàn văn đăng trên Báo Điện tử Chính phủ."
+    },
+    {
+      "id": "hd-01-2026",
+      "title": "Hướng dẫn 01-HD/TW năm 2026 thi hành Điều lệ Đảng",
+      "url": "https://xaydungchinhsach.chinhphu.vn/thi-hanh-dieu-le-dang.html",
+      "kind": "public-authority",
+      "note": "Trang tổng hợp văn bản trên Báo Điện tử Chính phủ."
+    },
+    {
+      "id": "qd-350-2025",
+      "title": "Quy định 350-QĐ/TW năm 2025 về đào tạo lý luận chính trị",
+      "url": "https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Quy-dinh-350-QD-TW-2025-doi-tuong-tieu-chuan-va-phan-cap-dao-tao-ly-luan-chinh-tri-671400.aspx?tab=2",
+      "kind": "public-reference",
+      "note": "Bản toàn văn công khai để đối chiếu độ tuổi."
+    },
+    {
+      "id": "kl-21-2021",
+      "title": "Kết luận 21-KL/TW năm 2021 về xây dựng, chỉnh đốn Đảng",
+      "url": "https://quochoi.vn/pages/tim-kiem.aspx?ItemID=64774",
+      "kind": "public-authority",
+      "note": "Bài giới thiệu trên Cổng thông tin điện tử Quốc hội."
+    }
+  ]
+}

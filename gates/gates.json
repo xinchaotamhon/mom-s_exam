@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "project": "bi-thu-chi-bo-flashcards",
+  "gates": [
+    {
+      "id": "foundation.start-here-exists",
+      "description": "Điểm vào ổn định của dự án tồn tại",
+      "tier": "smoke",
+      "command": ["pwsh", "-File", "tests/test_foundation.ps1"],
+      "cwd": ".",
+      "timeout_seconds": 20,
+      "expected_exit_code": 0,
+      "required": true,
+      "enabled": true,
+      "introduced_by": "project-bootstrap",
+      "invariant": "Phiên làm việc mới luôn có một điểm vào ổn định"
+    },
+    {
+      "id": "content.source-pipeline",
+      "description": "Nguồn DOCX bất biến và được bóc tách đủ 538 câu",
+      "tier": "smoke",
+      "command": ["pwsh", "-File", "tests/test_source_pipeline.ps1"],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "expected_exit_code": 0,
+      "required": true,
+      "enabled": true,
+      "introduced_by": "docx-ingestion",
+      "invariant": "Không mất hoặc trộn câu hỏi trong quá trình chuyển đổi"
+    },
+    {
+      "id": "content.curated-complete",
+      "description": "395 đáp án và 143 gợi ý đều đầy đủ",
+      "tier": "smoke",
+      "command": ["pwsh", "-File", "tests/test_curated_content.ps1"],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "expected_exit_code": 0,
+      "required": true,
+      "enabled": true,
+      "introduced_by": "content-curation",
+      "invariant": "Không có câu trắc nghiệm thiếu đáp án hoặc câu vấn đáp thiếu gợi ý"
+    },
+    {
+      "id": "site.static-integrity",
+      "description": "Trang tĩnh đủ tệp, dữ liệu hợp lệ và mã giao diện đúng cú pháp",
+      "tier": "smoke",
+      "command": ["pwsh", "-File", "tests/test_site_static.ps1"],
+      "cwd": ".",
+      "timeout_seconds": 30,
+      "expected_exit_code": 0,
+      "required": true,
+      "enabled": true,
+      "introduced_by": "static-app",
+      "invariant": "Gói triển khai Cloudflare có thể tải trang và dữ liệu mà không cần bước dựng"
+    }
+  ]
+}

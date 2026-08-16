@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "note": "Answer letters follow the order of questions in each section. Whitespace is ignored by the compiler.",
+  "answerSequences": {
+    "van-phong": "ABCBADCDDD ACDCCDBDDB DDDBBCCDCB AACDBDCBAD DBCBBDD",
+    "tuyen-giao-dan-van": "DCACBCBAAC CBBCACADCD CCBCBCBCCC BCBBACDBCC BBCBBBCCAA BBBACDCBBC CADADBBCB",
+    "noi-chinh": "DDDCACBACB BCDDACDDAD ACCCDABCBB BABCBCDAAD DDABABCBBD CCABBBBABB BAABBBCCCD CDDCCBCBC",
+    "kiem-tra-giam-sat": "CDCCCBCBCD BCDACAABDC AABBADCADC CACCCCCACB BBBBBBBBBD",
+    "to-chuc-xay-dung-dang": "CBCDAAADCD BABCABBBDD DABBBAAABB DDDDCADCBA ABBCDAADBD BAABBBBBBC BBBCBDCCBD CBBBCCCBBB BCAABABCBC CDABABCBBB ACCBCCADCB BACBCCBBBB CBBBCBBBBA DBCABCBCAB ACBCCCCBBC"
+  },
+  "reviewPolicy": {
+    "publiclyVerified": [
+      { "sectionId": "van-phong", "from": 1, "to": 17, "sourceIds": ["qd-01-2026"] },
+      { "sectionId": "van-phong", "from": 18, "to": 33, "sourceIds": ["qd-399-2026", "hd-05-2026"] },
+      { "sectionId": "van-phong", "from": 34, "to": 44, "sourceIds": ["law-117-2025"] },
+      { "sectionId": "tuyen-giao-dan-van", "from": 53, "to": 53, "sourceIds": ["lao-cai-model"] },
+      { "sectionId": "tuyen-giao-dan-van", "from": 54, "to": 57, "sourceIds": ["lao-cai-project-quiz"] },
+      { "sectionId": "tuyen-giao-dan-van", "from": 65, "to": 65, "sourceIds": ["resolution-169-2026"] },
+      { "sectionId": "noi-chinh", "from": 6, "to": 6, "sourceIds": ["hd-25-2022"] },
+      { "sectionId": "noi-chinh", "from": 9, "to": 9, "sourceIds": ["law-132-2025"] },
+      { "sectionId": "to-chuc-xay-dung-dang", "from": 51, "to": 51, "sourceIds": ["hd-02-2021"] },
+      { "sectionId": "to-chuc-xay-dung-dang", "from": 100, "to": 102, "sourceIds": ["hd-42-2025"] },
+      { "sectionId": "to-chuc-xay-dung-dang", "from": 140, "to": 142, "sourceIds": ["qd-350-2025"] },
+      { "sectionId": "to-chuc-xay-dung-dang", "from": 146, "to": 146, "sourceIds": ["kl-21-2021"] }
+    ]
+  }
+}

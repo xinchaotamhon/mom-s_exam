@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Biểu tượng ôn thi">
+  <rect width="512" height="512" rx="128" fill="#285b4b"/>
+  <circle cx="256" cy="256" r="158" fill="#fffdf8"/>
+  <path d="M174 263l53 55 114-127" fill="none" stroke="#285b4b" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

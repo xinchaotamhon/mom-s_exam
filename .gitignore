@@ -1,0 +1,4 @@
+node_modules/
+.wrangler/
+50-Evidence/edge-profile/
+*.log

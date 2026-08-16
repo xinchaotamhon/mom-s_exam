@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#285b4b">
+  <meta name="description" content="Thẻ ôn Hội thi Bí thư chi bộ giỏi, dễ đọc và nhẹ nhàng.">
+  <title>Ôn thi Bí thư chi bộ</title>
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Đi tới nội dung chính</a>
+
+  <header class="site-header">
+    <button class="brand" id="brandButton" type="button" aria-label="Về trang đầu">
+      <span class="brand-mark" aria-hidden="true">✓</span>
+      <span>
+        <strong>Ôn thi nhẹ nhàng</strong>
+        <small>Hội thi Bí thư chi bộ giỏi</small>
+      </span>
+    </button>
+    <div class="header-actions">
+      <button class="icon-button" id="sourcesButton" type="button" aria-label="Xem nguồn tham khảo" title="Nguồn tham khảo">i</button>
+      <button class="icon-button" id="settingsButton" type="button" aria-label="Mở cài đặt" title="Cài đặt chữ">Aa</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="view home-view" id="homeView" aria-labelledby="homeTitle">
+      <div class="hero-card">
+        <p class="eyebrow">MỖI LẦN MỘT CÂU</p>
+        <h1 id="homeTitle">Cứ bình tĩnh, mình ôn từng chút một nhé.</h1>
+        <p class="hero-copy">Không tính giờ, không gây áp lực. Kết quả được lưu ngay trên thiết bị này.</p>
+        <button class="primary-button resume-button is-hidden" id="resumeButton" type="button">
+          Tiếp tục câu đang học
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+
+      <section class="progress-overview" aria-labelledby="progressTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">TIẾN ĐỘ CỦA MÌNH</p>
+            <h2 id="progressTitle">Hôm nay đã ôn được</h2>
+          </div>
+          <span class="gentle-badge" id="todayCount">0 câu</span>
+        </div>
+        <div class="progress-grid">
+          <article class="progress-card">
+            <span class="progress-icon mcq-icon" aria-hidden="true">A</span>
+            <div>
+              <strong id="mcqProgressText">0 / 395</strong>
+              <span>câu trắc nghiệm đã làm</span>
+            </div>
+          </article>
+          <article class="progress-card">
+            <span class="progress-icon oral-icon" aria-hidden="true">☰</span>
+            <div>
+              <strong id="oralProgressText">0 / 143</strong>
+              <span>câu vấn đáp đã ôn</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="study-modes" aria-labelledby="modeTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CHỌN CÁCH ÔN</p>
+            <h2 id="modeTitle">Mình muốn học phần nào?</h2>
+          </div>
+        </div>
+        <div class="mode-grid">
+          <button class="mode-card" type="button" data-mode="mcq">
+            <span class="mode-number">395 câu</span>
+            <span class="mode-symbol mcq-symbol" aria-hidden="true">✓</span>
+            <strong>Trắc nghiệm</strong>
+            <span>Chọn một đáp án rồi kiểm tra ngay</span>
+            <em>Bắt đầu ôn <b aria-hidden="true">→</b></em>
+          </button>
+          <button class="mode-card" type="button" data-mode="oral">
+            <span class="mode-number">143 câu</span>
+            <span class="mode-symbol oral-symbol" aria-hidden="true">✦</span>
+            <strong>Vấn đáp</strong>
+            <span>Tự trả lời, sau đó mở gợi ý khi cần</span>
+            <em>Bắt đầu ôn <b aria-hidden="true">→</b></em>
+          </button>
+        </div>
+        <div class="review-actions">
+          <button class="soft-button" id="reviewWrongButton" type="button" disabled>
+            <span aria-hidden="true">↺</span>
+            Ôn lại câu trắc nghiệm sai
+            <b id="wrongCount">0</b>
+          </button>
+          <button class="soft-button" id="reviewOralButton" type="button" disabled>
+            <span aria-hidden="true">♡</span>
+            Ôn lại câu vấn đáp cần nhớ
+            <b id="oralReviewCount">0</b>
+          </button>
+        </div>
+      </section>
+
+      <p class="home-note"><span aria-hidden="true">🔒</span> Tiến độ chỉ lưu trên máy đang dùng, không gửi thông tin cá nhân đi đâu.</p>
+    </section>
+
+    <section class="view practice-view is-hidden" id="practiceView" aria-labelledby="questionTitle">
+      <div class="practice-toolbar">
+        <button class="back-button" id="backButton" type="button"><span aria-hidden="true">←</span> Trang đầu</button>
+        <div class="session-progress" aria-label="Tiến độ phiên ôn tập">
+          <span id="sessionProgressText">Câu 1 / 1</span>
+          <div class="progress-track" aria-hidden="true"><span id="sessionProgressBar"></span></div>
+        </div>
+      </div>
+
+      <article class="question-card" id="questionCard">
+        <div class="question-meta">
+          <span class="type-badge" id="typeBadge">TRẮC NGHIỆM</span>
+          <span id="sectionLabel">Công tác văn phòng</span>
+        </div>
+        <h1 id="questionTitle" tabindex="-1">Đang tải câu hỏi…</h1>
+
+        <form id="mcqForm" class="mcq-area">
+          <fieldset>
+            <legend class="sr-only">Chọn một đáp án</legend>
+            <div class="option-list" id="optionList"></div>
+          </fieldset>
+          <button class="primary-button check-button" id="checkButton" type="submit" disabled>Kiểm tra đáp án</button>
+        </form>
+
+        <section class="oral-area is-hidden" id="oralArea" aria-label="Gợi ý vấn đáp">
+          <div class="hint-actions">
+            <button class="hint-button" id="lightHintButton" type="button">
+              <span aria-hidden="true">💡</span>
+              Gợi ý nhẹ
+            </button>
+            <button class="hint-button" id="outlineButton" type="button">
+              <span aria-hidden="true">☷</span>
+              Xem khung trả lời
+            </button>
+          </div>
+          <div class="hint-panel is-hidden" id="lightHintPanel" aria-live="polite"></div>
+          <div class="outline-panel is-hidden" id="outlinePanel" aria-live="polite"></div>
+          <div class="oral-rating">
+            <p>Sau khi tự trả lời, cô thấy câu này thế nào?</p>
+            <div>
+              <button class="rating-button remember-button" id="rememberButton" type="button">✓ Đã nhớ</button>
+              <button class="rating-button review-button" id="needReviewButton" type="button">↺ Cần ôn lại</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="feedback-panel is-hidden" id="feedbackPanel" aria-live="polite">
+          <div class="feedback-title" id="feedbackTitle"></div>
+          <p id="explanationText"></p>
+          <p class="memory-line"><strong>Mẹo nhớ:</strong> <span id="memoryText"></span></p>
+        </section>
+
+        <details class="source-details" id="questionSources">
+          <summary>Nguồn và mức đối chiếu</summary>
+          <div id="questionSourceContent"></div>
+        </details>
+      </article>
+
+      <nav class="question-nav" aria-label="Chuyển câu hỏi">
+        <button class="nav-button" id="previousButton" type="button"><span aria-hidden="true">←</span> Câu trước</button>
+        <button class="nav-button next-button" id="nextButton" type="button">Câu tiếp <span aria-hidden="true">→</span></button>
+      </nav>
+    </section>
+
+    <section class="view empty-view is-hidden" id="emptyView" aria-labelledby="emptyTitle">
+      <div class="empty-card">
+        <span aria-hidden="true">🌿</span>
+        <h1 id="emptyTitle">Mình đã ôn hết nhóm này rồi.</h1>
+        <p id="emptyText">Rất tốt! Có thể quay về trang đầu để chọn phần khác.</p>
+        <button class="primary-button" id="emptyHomeButton" type="button">Về trang đầu</button>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="sectionDialog" class="app-dialog">
+    <form method="dialog">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">CHỌN CHỦ ĐỀ</p>
+          <h2 id="sectionDialogTitle">Ôn trắc nghiệm</h2>
+        </div>
+        <button class="dialog-close" value="cancel" aria-label="Đóng">×</button>
+      </div>
+      <div class="section-options" id="sectionOptions"></div>
+      <label class="shuffle-toggle">
+        <input type="checkbox" id="shuffleInput">
+        <span>Trộn thứ tự câu hỏi</span>
+      </label>
+    </form>
+  </dialog>
+
+  <dialog id="settingsDialog" class="app-dialog small-dialog">
+    <form method="dialog">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">DỄ ĐỌC HƠN</p>
+          <h2>Cỡ chữ</h2>
+        </div>
+        <button class="dialog-close" value="cancel" aria-label="Đóng">×</button>
+      </div>
+      <div class="font-controls" role="group" aria-label="Chọn cỡ chữ">
+        <button type="button" data-font="0.95">Vừa</button>
+        <button type="button" data-font="1.08">Lớn</button>
+        <button type="button" data-font="1.2">Rất lớn</button>
+      </div>
+      <hr>
+      <button class="danger-link" id="resetProgressButton" type="button">Xóa toàn bộ tiến độ trên máy này</button>
+    </form>
+  </dialog>
+
+  <dialog id="sourcesDialog" class="app-dialog sources-dialog">
+    <form method="dialog">
+      <div class="dialog-heading">
+        <div>
+          <p class="eyebrow">MINH BẠCH NỘI DUNG</p>
+          <h2>Nguồn tham khảo</h2>
+        </div>
+        <button class="dialog-close" value="cancel" aria-label="Đóng">×</button>
+      </div>
+      <p class="dialog-note">Ứng dụng hỗ trợ ôn tập, không thay thế đáp án chính thức của Ban Tổ chức. Các câu dựa trên văn bản nội bộ được ghi rõ để tiếp tục đối chiếu.</p>
+      <div class="source-list" id="sourceList"></div>
+    </form>
+  </dialog>
+
+  <div class="toast is-hidden" id="toast" role="status" aria-live="polite"></div>
+  <noscript>Ứng dụng cần bật JavaScript để hiển thị các thẻ câu hỏi.</noscript>
+  <script src="/app.js" defer></script>
+</body>
+</html>
