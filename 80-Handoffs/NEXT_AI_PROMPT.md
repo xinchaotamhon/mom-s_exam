@@ -12,17 +12,18 @@ status: ready
 
 - DOCX trong `data/source` là đầu vào bất biến; bộ biên dịch tạo đúng 395 câu trắc nghiệm và 143 câu vấn đáp.
 - Ứng dụng tĩnh trong `site` đã hoàn tất, không có máy chủ, không thu thập dữ liệu cá nhân và đã qua kiểm thử trình duyệt 390 px.
-- 60 đáp án có nguồn công khai trực tiếp; 132 đáp án cần bản văn bản nội bộ Lào Cai để nâng mức xác minh.
+- 395 câu trắc nghiệm có lời giải nói 40–70 từ; 143 câu vấn đáp và 20 tình huống cuối có liên hệ thực tế với Trường Mầm non Sơn Thịnh. Focused gate kiểm tra đủ ID, giới hạn độ dài, chữ cái đáp án và ngăn khẳng định sự việc nội bộ không có nguồn.
+- 61 đáp án có nguồn công khai trực tiếp; 132 đáp án cần bản văn bản nội bộ Lào Cai để nâng mức xác minh.
 - Vòng thi cuối đã tích hợp: 30 trắc nghiệm + 20 tình huống, tách trong `bank.finalRound`, không làm thay đổi 538 câu cũ hoặc khóa localStorage `on-thi-bi-thu-chi-bo-v1`.
 - 30 MCQ vòng cuối là tuyển chọn lại từ 395 câu cũ; gate đối chiếu prompt/lựa chọn và đáp án. Ba hiệu chỉnh publicly-verified nằm trong `data/curated/final-round-corrections.json`; `sourceAnswer` giữ nguyên đáp án nguồn.
 - Chạy `build_final_round.py` trước `compile_content.ps1`; derived data có hash corrections để gate phát hiện stale. Focused gate cũng kiểm tra tình huống 10 không còn số trang `11` dính sau kết luận.
 - Nguồn vòng cuối bất biến trong `data/source/final-*.docx`, provenance và SHA-256 ở `data/source/FINAL_ROUND_PROVENANCE.md`; render DOCX chưa khả thi vì runtime không có LibreOffice bundled.
-- Chạy toàn bộ cổng bằng `tools/run_gates.ps1`.
+- Chạy toàn bộ 7 cổng bằng `tools/run_gates.ps1`; bản ngày 19/09/2026 đã đạt và được nghiệm thu trình duyệt trong ứng dụng ở 390 × 844, không có lỗi trình duyệt.
 - Nhánh `main` đã được đẩy lên `https://github.com/xinchaotamhon/mom-s_exam`; không dùng force-push.
 
 ## Phạm vi tiếp theo
 
-1. Chạy Workers Build và smoke trình duyệt thật cho khu vực vòng cuối; nếu có phản hồi trên điện thoại thì chỉ chỉnh UX, không sửa nguồn DOCX.
+1. Xác nhận Workers Build đã nhận commit hỗ trợ trình bày và smoke URL thật cho lời giải trắc nghiệm, liên hệ vấn đáp và liên hệ tình huống; nếu có phản hồi trên điện thoại thì chỉ chỉnh UX, không sửa nguồn DOCX.
 2. Nếu nhận được các văn bản nội bộ Lào Cai, đối chiếu các câu cần xác minh trong cả ngân hàng cũ và vòng cuối trước khi đổi trạng thái nguồn.
 
 ## Ranh giới

@@ -112,6 +112,27 @@
       "url": "https://quochoi.vn/pages/tim-kiem.aspx?ItemID=64774",
       "kind": "public-authority",
       "note": "Bài giới thiệu trên Cổng thông tin điện tử Quốc hội."
+    },
+    {
+      "id": "son-thinh-current-locality",
+      "title": "Nghị quyết 1673/NQ-UBTVQH15 về xã Văn Chấn, tỉnh Lào Cai",
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-1673-nq-ubtvqh15-sap-xep-cac-dvhc-cap-xa-cua-tinh-lao-cai-nam-2025-119250616214156071.htm",
+      "kind": "public-authority",
+      "note": "Nguồn chính thức xác nhận thị trấn Sơn Thịnh cùng Đồng Khê, Suối Bu và Suối Giàng được sắp xếp thành xã Văn Chấn thuộc tỉnh Lào Cai."
+    },
+    {
+      "id": "son-thinh-school-context",
+      "title": "Trường Mầm non Sơn Thịnh trong xây dựng trường chuẩn quốc gia",
+      "url": "https://vanchan.yenbai.gov.vn/Articles/view/?Category=F772Z4SEMNG3MQXR&UserKey=Van-Chan-Xay-dung-truong-chuan-Quoc-gia-chia-khoa-de-nang-cao-chat-luong-giao-duc",
+      "kind": "local-public-authority",
+      "note": "Nguồn UBND huyện Văn Chấn trước sắp xếp, dùng để định hướng ví dụ về cơ sở vật chất, nuôi dưỡng, chăm sóc trẻ và bồi dưỡng đội ngũ; không dùng để khẳng định sự việc cụ thể hiện nay."
+    },
+    {
+      "id": "son-thinh-digital-context",
+      "title": "Chuyển đổi số tại Trường Mầm non Sơn Thịnh",
+      "url": "https://tinhdoan.laocai.gov.vn/tuoi-tre-Yen-Bai-voi-cds/?PageIndex=14&UserKey=Van-Chan-chuyen-doi-so-nang-chat-luong-day-va-hoc",
+      "kind": "provincial-public-authority",
+      "note": "Nguồn công khai của Tỉnh đoàn Lào Cai nêu thực tiễn chuyển đổi số, thanh toán không dùng tiền mặt và quản lý văn bản tại trường học ở Văn Chấn."
     }
   ]
 }

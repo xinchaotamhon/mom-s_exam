@@ -55,6 +55,19 @@
       "invariant": "Bộ câu hỏi cũ không đổi; vòng cuối tách riêng và mọi đáp án có nguồn DOCX"
     },
     {
+      "id": "content.exam-delivery-support",
+      "description": "Mỗi trắc nghiệm có lời giải nói ngắn; mỗi vấn đáp và tình huống có liên hệ Trường Mầm non Sơn Thịnh",
+      "tier": "smoke",
+      "command": ["pwsh", "-File", "tests/test_exam_delivery_support.ps1"],
+      "cwd": ".",
+      "timeout_seconds": 90,
+      "expected_exit_code": 0,
+      "required": true,
+      "enabled": true,
+      "introduced_by": "exam-delivery-and-workplace-application",
+      "invariant": "395 lời giải ngắn và 163 liên hệ thực tế luôn đủ, đúng câu, giới hạn độ dài và không bịa sự việc tại trường"
+    },
+    {
       "id": "site.static-integrity",
       "description": "Trang tĩnh đủ tệp, dữ liệu hợp lệ và mã giao diện đúng cú pháp",
       "tier": "smoke",

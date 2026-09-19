@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Liên hệ thực tế dạng ví dụ áp dụng cho 20 tình huống vòng cuối tại Trường Mầm non Sơn Thịnh; không khẳng định sự cố hay dữ kiện nội bộ đã xảy ra.",
+  "localityLabel": "Trường Mầm non Sơn Thịnh, xã Văn Chấn, tỉnh Lào Cai (địa bàn tỉnh Yên Bái trước sắp xếp năm 2025)",
+  "sources": [
+    {
+      "url": "https://vanban.chinhphu.vn/?docid=213998&pageid=27160",
+      "title": "Nghị quyết 1673/NQ-UBTVQH15 về sắp xếp đơn vị hành chính cấp xã của tỉnh Lào Cai năm 2025",
+      "note": "Nguồn Chính phủ dùng để đối chiếu tên xã Văn Chấn sau sắp xếp; không suy ra dữ kiện nội bộ trường."
+    },
+    {
+      "url": "https://tinhdoan.laocai.gov.vn/tuoi-tre-Yen-Bai-voi-cds/?PageIndex=14&UserKey=Van-Chan-chuyen-doi-so-nang-chat-luong-day-va-hoc",
+      "title": "Tỉnh đoàn Lào Cai: Văn Chấn chuyển đổi số nâng chất lượng dạy và học",
+      "note": "Nguồn cổng thông tin cơ quan tỉnh nêu đích danh Trường Mầm non Sơn Thịnh trong địa bàn Văn Chấn và mô tả bối cảnh trường học; không dùng để suy ra sự cố hay quy trình nội bộ hiện tại của trường."
+    },
+    {
+      "url": "https://dichvucong.laocai.gov.vn/trang-chu/dich-vu-cong/chon-truong-hop-ho-so?ma-thu-tuc-public=30048",
+      "title": "Cổng Dịch vụ công tỉnh Lào Cai",
+      "note": "Cổng hành chính hiện hành liệt kê UBND xã Văn Chấn thuộc tỉnh Lào Cai, dùng để chuẩn hóa localityLabel."
+    },
+    {
+      "url": "https://vanchan.yenbai.gov.vn/Articles/view/?Category=F772Z4SEMNG3MQXR&UserKey=Van-Chan-Xay-dung-truong-chuan-Quoc-gia-chia-khoa-de-nang-cao-chat-luong-giao-duc",
+      "title": "UBND huyện Văn Chấn: Xây dựng trường chuẩn quốc gia",
+      "note": "Nguồn địa phương trước sắp xếp xác nhận tên trường và địa bàn Văn Chấn, Yên Bái cũ; chỉ dùng làm đối chiếu lịch sử địa danh."
+    },
+    {
+      "url": "https://dauthau.asia/procuring-entity/truong-mam-non-son-thinh-191450/",
+      "title": "Thông tin bên mời thầu Trường Mầm non Sơn Thịnh",
+      "note": "Nguồn công khai bổ trợ ghi địa chỉ sau sáp nhập là thôn Phiêng 1, xã Văn Chấn, Lào Cai; không suy ra dữ kiện hoạt động bên trong trường."
+    }
+  ],
+  "items": [
+    {
+      "questionId": "final-scenario-1",
+      "schoolApplication": "Ví dụ tại chi bộ Trường Mầm non Sơn Thịnh, có thể phân công người am hiểu công nghệ trực tiếp thu và theo dõi đóng đảng phí, đồng thời giao bí thư, phó bí thư hoặc chi ủy viên chỉ đạo, xét duyệt theo đúng vai trò. Nên lập danh sách, biên nhận và bảng theo dõi riêng; mọi khoản thu, nộp được đối chiếu định kỳ để giáo viên dễ kiểm tra và không nhầm trách nhiệm.",
+      "contextTag": "đảng phí; phân công; chuyển đổi số"
+    },
+    {
+      "questionId": "final-scenario-2",
+      "schoolApplication": "Ví dụ khi chi bộ Trường Mầm non Sơn Thịnh tiếp nhận đề nghị miễn đảng phí của một giáo viên, bí thư có thể hướng dẫn nộp đơn, kiểm tra giấy xác nhận hộ cận nghèo và hoàn cảnh, rồi ghi rõ thời hạn, thẩm quyền trong biên bản. Không nên công khai hoàn cảnh cá nhân tại cuộc họp rộng; chỉ người có trách nhiệm được tiếp cận hồ sơ và theo dõi thời điểm xem xét lại.",
+      "contextTag": "đảng phí; hồ sơ; bảo mật"
+    },
+    {
+      "questionId": "final-scenario-3",
+      "schoolApplication": "Ví dụ trong cuộc họp chi bộ Trường Mầm non Sơn Thịnh có tài liệu mật, thư ký phải tắt và cất điện thoại cá nhân, chỉ dùng thiết bị hoặc phương thức ghi chép đã được cho phép. Có thể chuẩn bị sổ biên bản, danh sách người dự, quy trình thu hồi tài liệu và kiểm tra cuối buổi. Nếu phát hiện ghi âm hoặc sao chụp trái phép, cần dừng việc, bảo quản hiện trạng và báo cáo cấp có thẩm quyền.",
+      "contextTag": "bí mật nhà nước; an toàn thông tin"
+    },
+    {
+      "questionId": "final-scenario-4",
+      "schoolApplication": "Ví dụ tại Trường Mầm non Sơn Thịnh, chi bộ có thể đưa việc học chủ nghĩa Mác–Lênin và tư tưởng Hồ Chí Minh vào sinh hoạt ngắn gắn với tình huống nuôi dưỡng, chăm sóc trẻ, trách nhiệm nêu gương và ứng xử với phụ huynh. Mỗi đảng viên chuẩn bị một ý kiến hoặc việc làm cụ thể sau buổi học; bí thư ghi nhận, nhắc lại ở kỳ sau, tránh học hình thức hoặc tách rời chuyên môn.",
+      "contextTag": "tư tưởng chính trị; nêu gương; chuyên môn"
+    },
+    {
+      "questionId": "final-scenario-5",
+      "schoolApplication": "Ví dụ khi chi bộ Trường Mầm non Sơn Thịnh giới thiệu quần chúng là giáo viên, cấp ủy nên kiểm tra đầy đủ bản khai, chữ ký và xác nhận của cấp ủy đang quản lý hồ sơ cha mẹ trước khi quyết định có cần xác minh thêm. Nếu thông tin đã được xác nhận đúng thẩm quyền, ghi rõ căn cứ trong hồ sơ, tránh cử người đi xác minh trùng lặp; chỉ bổ sung khi còn điểm chưa rõ.",
+      "contextTag": "kết nạp Đảng; thẩm tra hồ sơ"
+    },
+    {
+      "questionId": "final-scenario-6",
+      "schoolApplication": "Ví dụ tại Trường Mầm non Sơn Thịnh, nếu việc mở rộng đường ảnh hưởng lối vào điểm trường, chi bộ và ban giám hiệu có thể phối hợp trưởng thôn tổ chức buổi đối thoại công khai, giải thích lợi ích và phương án an toàn, lắng nghe hộ chưa đồng thuận. Nhà trường chỉ vận động trên tinh thần tự nguyện, không gây áp lực; các ý kiến, phương án bồi hoàn hoặc hỗ trợ phải chuyển cơ quan có thẩm quyền xem xét bằng văn bản.",
+      "contextTag": "dân vận; đối thoại; an toàn đường đến trường"
+    },
+    {
+      "questionId": "final-scenario-7",
+      "schoolApplication": "Ví dụ khi có tin kích động liên quan đền bù gần Trường Mầm non Sơn Thịnh, chi bộ có thể phân công đảng viên nắm tình hình phụ huynh, xác minh thông tin từ UBND xã và giải thích bằng ngôn ngữ dễ hiểu tại cuộc họp cha mẹ trẻ. Không phát tán tin chưa kiểm chứng hoặc tự hứa về tiền, đất; ghi nhận kiến nghị, báo cáo đúng cấp và phối hợp giữ an toàn cho trẻ, giáo viên, cổng trường.",
+      "contextTag": "dân vận; thông tin sai lệch; an ninh trường học"
+    },
+    {
+      "questionId": "final-scenario-8",
+      "schoolApplication": "Ví dụ ở Trường Mầm non Sơn Thịnh, xe công hoặc phương tiện mua từ ngân sách chỉ được dùng cho nhiệm vụ được phê duyệt như đưa đón hoạt động chuyên môn, không chở việc riêng dù người sử dụng có trả tiền xăng. Ban giám hiệu có thể duy trì lệnh điều xe, sổ hành trình, người duyệt và đối chiếu nhiên liệu; nếu phát hiện dùng sai mục đích, lập biên bản và báo cáo cấp quản lý để xử lý.",
+      "contextTag": "tài sản công; kiểm soát nội bộ"
+    },
+    {
+      "questionId": "final-scenario-9",
+      "schoolApplication": "Ví dụ khi phân công tổ trưởng hoặc giới thiệu cán bộ quản lý ở Trường Mầm non Sơn Thịnh, bí thư chi bộ cần dùng tiêu chí công khai về năng lực, phẩm chất, kết quả chăm sóc–giáo dục trẻ; không gọi riêng để tác động cho người nhà. Người có quan hệ lợi ích nên báo cáo và không tham gia khâu quyết định liên quan. Hồ sơ đề xuất, thảo luận và biểu quyết cần được ghi chép, lưu đúng quy định.",
+      "contextTag": "kiểm soát quyền lực; công tác cán bộ"
+    },
+    {
+      "questionId": "final-scenario-10",
+      "schoolApplication": "Ví dụ với gói mua thực phẩm, đồ dùng hoặc máy tính cho Trường Mầm non Sơn Thịnh, tổ lập nhu cầu theo số lượng thực tế, viết tiêu chí trung tính để nhiều nhà cung cấp đáp ứng. Thành viên tham gia phải kê khai xung đột lợi ích, không cài thông số theo người quen; hồ sơ khảo sát, báo giá, đánh giá và phê duyệt được lưu để chi bộ, công đoàn hoặc cơ quan kiểm tra giám sát.",
+      "contextTag": "đấu thầu; xung đột lợi ích; mua sắm trường học"
+    },
+    {
+      "questionId": "final-scenario-11",
+      "schoolApplication": "Ví dụ nếu chi bộ Trường Mầm non Sơn Thịnh phát hiện dấu hiệu vi phạm của một đảng viên đang giữ chức vụ thuộc cấp có thẩm quyền khác, bí thư không tự mở cuộc kiểm tra vượt thẩm quyền. Có thể ghi nhận thông tin, bảo quản tài liệu, trao đổi kín với cấp ủy cấp trên và chuyển báo cáo theo kênh quy định. Trong thời gian chờ hướng dẫn, vẫn bảo đảm hoạt động chăm sóc trẻ và không lan truyền suy đoán.",
+      "contextTag": "kiểm tra; thẩm quyền; bảo mật"
+    },
+    {
+      "questionId": "final-scenario-12",
+      "schoolApplication": "Ví dụ khi kiểm tra hồ sơ chi bộ Trường Mầm non Sơn Thịnh và có nguy cơ tài liệu bị xáo trộn, tổ kiểm tra có thể yêu cầu giữ nguyên hiện trạng, lập danh mục, niêm phong hoặc sao lưu theo quy trình được phép. Yêu cầu nên ghi bằng văn bản, nêu phạm vi và thời gian; nếu gặp phản ứng, báo cáo cấp ủy và cơ quan kiểm tra cấp trên, tránh tự ý thu giữ hoặc sửa tài liệu.",
+      "contextTag": "bảo toàn chứng cứ; kiểm tra"
+    },
+    {
+      "questionId": "final-scenario-13",
+      "schoolApplication": "Ví dụ nếu một giáo viên sinh hoạt tạm thời tại chi bộ Trường Mầm non Sơn Thịnh có hành vi vi phạm ở nơi công tác, bí thư nên lập báo cáo sự việc, lấy thông tin khách quan và hỏi hướng dẫn của cấp ủy có thẩm quyền trước khi quyết định kỷ luật. Chi bộ không nên tự kết luận vượt quyền; đồng thời bảo vệ người liên quan, giữ kỷ luật phát ngôn và duy trì môi trường an toàn cho trẻ.",
+      "contextTag": "kỷ luật Đảng; sinh hoạt tạm thời"
+    },
+    {
+      "questionId": "final-scenario-14",
+      "schoolApplication": "Ví dụ khi giải quyết tố cáo trong chi bộ Trường Mầm non Sơn Thịnh, bí thư chỉ cung cấp thông tin cần thiết cho tổ xác minh và người bị tố cáo theo quy định, không tự nêu tên người tố cáo để đối chất. Hồ sơ nên phân quyền lưu trữ, trao đổi kín, ghi nhận từng bước và bảo vệ người cung cấp thông tin khỏi bị gây áp lực. Mọi kết luận phải dựa trên xác minh, không dựa vào tin truyền miệng trong hội đồng.",
+      "contextTag": "giải quyết tố cáo; bảo vệ người tố cáo"
+    },
+    {
+      "questionId": "final-scenario-15",
+      "schoolApplication": "Ví dụ tại đại hội chi bộ Trường Mầm non Sơn Thịnh, sau khi bầu đủ chi ủy, đoàn chủ tịch cần hướng dẫn bầu riêng chức danh bí thư và phó bí thư bằng phiếu, kiểm phiếu theo từng chức danh. Trước khi bỏ phiếu phải thống nhất danh sách, thể lệ và điều kiện hợp lệ; biên bản ghi rõ số phiếu, kết quả và người chứng kiến, để giáo viên hiểu quy trình và tránh suy diễn từ một lá phiếu gộp.",
+      "contextTag": "bầu cử trong Đảng; đại hội chi bộ"
+    },
+    {
+      "questionId": "final-scenario-16",
+      "schoolApplication": "Ví dụ để nâng chất lượng sinh hoạt ở chi bộ Trường Mầm non Sơn Thịnh, bí thư có thể khảo sát trước vấn đề nổi bật như an toàn bán trú, phối hợp phụ huynh, tiếng Việt cho trẻ dân tộc và kỷ luật chuyên môn; gửi đề cương ngắn, dành thời gian cho từng ý kiến. Kết luận cần nêu việc, người phụ trách, hạn hoàn thành và cách kiểm tra; kỳ sau dành vài phút đánh giá kết quả, không chỉ đọc báo cáo.",
+      "contextTag": "chất lượng sinh hoạt chi bộ; giáo dục mầm non"
+    },
+    {
+      "questionId": "final-scenario-17",
+      "schoolApplication": "Ví dụ tại Trường Mầm non Sơn Thịnh, khi chuẩn bị đánh giá đảng viên là giáo viên cuối năm, thư ký cần đối chiếu thời gian kết nạp, thời gian sinh hoạt và tình trạng đình chỉ trước khi lập danh sách bỏ phiếu. Người chưa đủ điều kiện xếp loại hoặc đang bị đình chỉ được xử lý theo quy định, không đưa nhầm vào phiếu; biên bản nên ghi rõ căn cứ, đồng thời vẫn thực hiện các nội dung kiểm điểm, nhận xét được phép.",
+      "contextTag": "đánh giá đảng viên; lập danh sách"
+    },
+    {
+      "questionId": "final-scenario-18",
+      "schoolApplication": "Ví dụ khi đề nghị khen thưởng giáo viên, chi bộ Trường Mầm non Sơn Thịnh cần kiểm tra tình trạng đơn thư với cơ quan có thẩm quyền, không tự coi tranh chấp cá nhân là có lỗi hoặc bỏ qua thông tin chưa được kết luận. Có thể tạm dừng đề nghị, ghi lý do và thời điểm rà soát; khi có kết luận chính thức, đánh giá công bằng theo tiêu chuẩn, bảo đảm quyền giải trình và không gây dư luận trong trường.",
+      "contextTag": "khen thưởng; đơn thư; công bằng"
+    },
+    {
+      "questionId": "final-scenario-19",
+      "schoolApplication": "Ví dụ tại chi bộ Trường Mầm non Sơn Thịnh, thư ký nên đặt lịch nhắc ngay sau kỳ sinh hoạt, dùng mẫu báo cáo thống nhất và phân công người dự phòng để hoàn thiện, gửi kết quả trong thời hạn quy định. Bí thư kiểm tra trước khi gửi, lưu dấu thời gian và báo cấp trên nếu có trở ngại khách quan; việc bận công tác không nên trở thành lý do bỏ quên hạn, mà cần được xử lý bằng bàn giao rõ ràng.",
+      "contextTag": "báo cáo sinh hoạt; trách nhiệm người đứng đầu"
+    },
+    {
+      "questionId": "final-scenario-20",
+      "schoolApplication": "Ví dụ nếu ứng dụng Sổ tay đảng viên điện tử lỗi trước giờ họp chi bộ Trường Mầm non Sơn Thịnh, bí thư không nên hoãn sinh hoạt chỉ vì không điểm danh trực tuyến. Thư ký dùng danh sách giấy, tài liệu đã tải hoặc bản in; cuộc họp, biểu quyết và biên bản vẫn thực hiện đầy đủ. Sau khi hệ thống hoạt động, người được giao cập nhật bù dữ liệu; không gửi tài liệu nhạy cảm qua kênh cá nhân không bảo đảm an toàn.",
+      "contextTag": "chuyển đổi số; dự phòng; sinh hoạt chi bộ"
+    }
+  ]
+}

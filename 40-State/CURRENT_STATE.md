@@ -10,13 +10,14 @@ status: active
 
 - Bản sao DOCX bất biến có SHA-256 `c59a65312d2fbd02ec2fdc85710b435049e02cc5fe314a0777d8f2ad122e3d56` và giữ nguyên dung lượng 138.900 byte.
 - Bộ dữ liệu có đúng 538 câu: 395 trắc nghiệm và 143 vấn đáp, chia thành 5 nhóm nghiệp vụ.
-- Cả 395 câu trắc nghiệm có đáp án, lời giải ngắn, mẹo nhớ và trạng thái đối chiếu nguồn.
-- Cả 143 câu vấn đáp có gợi ý nhẹ, khung trả lời 5 bước và mẹo nhớ theo tình huống.
-- 60 đáp án đã gắn nguồn công khai trực tiếp; 203 câu đã rà nội dung; 132 câu viện dẫn văn bản nội bộ địa phương được gắn nhãn cần đối chiếu thêm.
+- Cả 395 câu trắc nghiệm có đáp án và lời giải nói ngắn 40–70 từ; lời giải nêu đúng chữ cái đáp án, không bị cắt giữa chừng, kèm mẹo nhớ và trạng thái đối chiếu nguồn.
+- Cả 143 câu vấn đáp có gợi ý nhẹ, khung trả lời 5 bước, mẹo nhớ và một đoạn liên hệ thực tế 63–81 từ với Trường Mầm non Sơn Thịnh.
+- Cả 20 tình huống vòng cuối có thêm đoạn liên hệ thực tế 79–90 từ với Trường Mầm non Sơn Thịnh; các đoạn đều ghi rõ là ví dụ vận dụng, không khẳng định một sự việc nội bộ đã xảy ra.
+- 61 đáp án đã gắn nguồn công khai trực tiếp; 202 câu đã rà nội dung; 132 câu viện dẫn văn bản nội bộ địa phương được gắn nhãn cần đối chiếu thêm.
 - Ứng dụng là trang tĩnh, không có máy chủ, không thu thông tin cá nhân và lưu tiến độ trong trình duyệt của người học.
 - Gói triển khai Cloudflare nằm trong `site`; `wrangler.jsonc` trỏ trực tiếp tới thư mục này.
 - Cấu hình Workers dùng tên `mom-s-exam` và chỉ dùng `assets.not_found_handling = single-page-application` cho định tuyến SPA; quy tắc `_redirects` gây vòng lặp đã được loại bỏ ngày 16/08/2026.
-- Cả 5 cổng bắt buộc đều đạt ngày 16/08/2026; kiểm thử trình duyệt thật ở chiều rộng 390 px gần nhất đạt ngày 15/08/2026.
+- Cả 7 cổng bắt buộc đều đạt ngày 19/09/2026. Kiểm thử bằng trình duyệt trong ứng dụng ở khung 390 × 844 đạt cho ba luồng: giải thích trắc nghiệm, liên hệ vấn đáp và liên hệ tình huống; bảng lỗi trình duyệt trống.
 - Mã nguồn đã được đẩy an toàn lên nhánh `main` của `https://github.com/xinchaotamhon/mom-s_exam`; mốc xuất bản đầu tiên chứa đủ ứng dụng và giấy phép là `ab0744b`.
 - Vòng thi cuối được tách riêng: 30 câu trắc nghiệm và 20 tình huống, giữ nguyên bộ 538 câu và khóa localStorage `on-thi-bi-thu-chi-bo-v1`.
 - 30 câu trắc nghiệm vòng cuối là tuyển chọn lại từ 395 câu cũ; focused gate đối chiếu prompt và 4 lựa chọn với ngân hàng cũ. Có 29 đáp án vốn đã khớp; câu trùng về giám sát được hiệu chỉnh về A theo Điều 6 Quy định 21-QĐ/TW ở cả hai bản hiển thị.
@@ -29,13 +30,16 @@ status: active
 
 - Chuyển đổi DOCX, biên tập nội dung, xây giao diện và kiểm thử gói triển khai.
 - Tích hợp khu vực “Vòng thi cuối” trên giao diện điện thoại; trắc nghiệm chấm đáp án, tình huống cho xem đáp án/gợi ý sau khi tự trả lời.
+- Bổ sung nhãn “Giải thích ngắn — trình bày trong khoảng 20–30 giây” sau mỗi câu trắc nghiệm và nút “Liên hệ tại trường” cho mọi câu vấn đáp.
+- Bổ sung nguồn công khai về địa giới hiện hành của xã Văn Chấn và bối cảnh chăm sóc, giáo dục, chuyển đổi số của Trường Mầm non Sơn Thịnh.
 
 ## Điểm chưa biết
 
 - Chưa có bản chính thức của một số Quy định, Đề án và Quy chế nội bộ Tỉnh ủy Lào Cai được câu hỏi viện dẫn; 132 câu liên quan đã được nhận diện rõ trong dữ liệu.
-- Bản sửa lỗi triển khai đã qua kiểm tra cục bộ; còn cần chạy lại Workers Build và kiểm tra URL thật trên điện thoại.
+- Bản nội dung hỗ trợ trình bày ngày 19/09/2026 đã qua kiểm tra cục bộ; còn cần xác nhận Workers Build tự động đã nhận commit mới và kiểm tra URL thật.
 
 ## Bằng chứng
 
 - `50-Evidence/2026-08-15-release-candidate.md`
 - `50-Evidence/2026-09-19-final-round.md`
+- `50-Evidence/2026-09-19-exam-delivery-support.md`

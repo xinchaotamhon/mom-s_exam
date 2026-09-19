@@ -124,13 +124,15 @@ async function main() {
   await waitFor(`document.querySelector('#sectionDialog').open`);
   await evaluate(`document.querySelector('#sectionOptions .section-choice').click()`);
   await waitFor(`!document.querySelector('#oralArea').classList.contains('is-hidden')`);
-  await evaluate(`document.querySelector('#lightHintButton').click(); document.querySelector('#outlineButton').click();`);
+  await evaluate(`document.querySelector('#lightHintButton').click(); document.querySelector('#outlineButton').click(); document.querySelector('#schoolLinkButton').click();`);
   const oralResult = await evaluate(`({
     lightOpen: !document.querySelector('#lightHintPanel').classList.contains('is-hidden'),
     outlineOpen: !document.querySelector('#outlinePanel').classList.contains('is-hidden'),
-    outlineItems: document.querySelectorAll('#outlinePanel li').length
+    outlineItems: document.querySelectorAll('#outlinePanel li').length,
+    schoolOpen: !document.querySelector('#schoolLinkPanel').classList.contains('is-hidden'),
+    schoolText: document.querySelector('#schoolLinkPanel').textContent
   })`);
-  if (!oralResult.lightOpen || !oralResult.outlineOpen || oralResult.outlineItems < 4) {
+  if (!oralResult.lightOpen || !oralResult.outlineOpen || oralResult.outlineItems < 4 || !oralResult.schoolOpen || !oralResult.schoolText.includes('Trường Mầm non Sơn Thịnh')) {
     throw new Error('Oral hint interaction did not complete correctly.');
   }
   const oralShot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: false });
@@ -156,7 +158,7 @@ async function main() {
   if (await evaluate(`document.querySelector('#sectionDialog').open`)) throw new Error('Final-round scenario opened the old section dialog.');
   await evaluate(`document.querySelector('#finalScenarioAnswerButton').click()`);
   const finalScenarioResult = await evaluate(`({ open: !document.querySelector('#finalScenarioAnswerPanel').classList.contains('is-hidden'), text: document.querySelector('#finalScenarioAnswerPanel').textContent, saved: Boolean(JSON.parse(localStorage.getItem('${'on-thi-bi-thu-chi-bo-v1'}')).finalRound.scenarios['final-scenario-1']) })`);
-  if (!finalScenarioResult.open || !finalScenarioResult.text.includes('Đáp án đã đối chiếu văn bản') || !finalScenarioResult.saved) throw new Error('Final-round corrected scenario answer did not open with verified label.');
+  if (!finalScenarioResult.open || !finalScenarioResult.text.includes('Đáp án đã đối chiếu văn bản') || !finalScenarioResult.text.includes('Trường Mầm non Sơn Thịnh') || !finalScenarioResult.saved) throw new Error('Final-round corrected scenario answer did not open with verified label and school application.');
   if (cdp.browserErrors.length) throw new Error(`Browser errors: ${cdp.browserErrors.join(' | ')}`);
 
   console.log(JSON.stringify({

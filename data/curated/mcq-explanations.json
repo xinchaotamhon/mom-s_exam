@@ -1,0 +1,1587 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Mỗi câu nêu ngay đáp án, lý do phân biệt và điểm cần nhớ để người học có thể trình bày rõ trong khoảng 20-30 giây.",
+  "items": [
+    {
+      "questionId": "mcq-van-phong-1",
+      "shortExplanation": "Đáp án A: Thực hiện như đối với đảng viên chính thức. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-2",
+      "shortExplanation": "Đáp án B: 03 tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-3",
+      "shortExplanation": "Đáp án C: Ngân hàng. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-4",
+      "shortExplanation": "Đáp án B: Bằng 1% tiền lương làm căn cứ tính đóng bảo hiểm xã hội bắt buộc của tháng trước liền kề. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-5",
+      "shortExplanation": "Đáp án A: 5.000 đồng/tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-6",
+      "shortExplanation": "Đáp án D: Bằng 0,5% mức lương hưu được hưởng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-7",
+      "shortExplanation": "Đáp án C: Bằng 1% mức trợ cấp ốm đau, thai sản do cơ quan bảo hiểm xã hội chi trả. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-8",
+      "shortExplanation": "Đáp án D: Được miễn gồm ba nhóm: đảng viên đủ 50 năm tuổi Đảng; người hưởng trợ cấp hưu trí xã hội; người đặc biệt khó khăn có đơn đề nghị chi bộ. Quy định liệt kê đủ ba nhóm nên phải chọn phương án tổng hợp, không chọn riêng A, B hoặc C."
+    },
+    {
+      "questionId": "mcq-van-phong-9",
+      "shortExplanation": "Đáp án D: 50 năm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-10",
+      "shortExplanation": "Đáp án D: 12 tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-11",
+      "shortExplanation": "Đáp án A: Không thu. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-12",
+      "shortExplanation": "Đáp án C: 70%. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-13",
+      "shortExplanation": "Đáp án D: 70%. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-14",
+      "shortExplanation": "Đáp án C: 70%. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-15",
+      "shortExplanation": "Đáp án C: Nộp về tổ chức đảng cấp trên trực tiếp. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-16",
+      "shortExplanation": "Đáp án D: Chuyển về tổ chức đảng hình thành sau khi sáp nhập, hợp nhất. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-17",
+      "shortExplanation": "Đáp án B: Báo cáo cấp ủy cấp trên trực tiếp, từ cấp cơ sở trở lên, xem xét và quyết định. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-van-phong-18",
+      "shortExplanation": "Đáp án D: Công văn. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-19",
+      "shortExplanation": "Đáp án D: Đề án, phương án và dự án. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-20",
+      "shortExplanation": "Đáp án B: Văn bản xác định nguyên tắc, trách nhiệm, quyền hạn, chế độ và lề lối làm việc của cấp ủy, tổ chức, cơ quan đảng. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-21",
+      "shortExplanation": "Đáp án D: Nghị quyết. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-22",
+      "shortExplanation": "Đáp án D: Nơi nhận văn bản. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-23",
+      "shortExplanation": "Đáp án D: Người ký văn bản. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-24",
+      "shortExplanation": "Đáp án B: Thống nhất về thể thức và kỹ thuật trình bày. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-25",
+      "shortExplanation": "Đáp án B: CB. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-26",
+      "shortExplanation": "Đáp án C: Số 05-BC/CB. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-27",
+      "shortExplanation": "Đáp án C: Lào Cai, ngày 03 tháng 02 năm 2026. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-28",
+      "shortExplanation": "Đáp án D: Công văn. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-29",
+      "shortExplanation": "Đáp án C: Từ 18 pt đến 22 pt. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-30",
+      "shortExplanation": "Đáp án B: 6 pt. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-31",
+      "shortExplanation": "Đáp án A: 20 mm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-32",
+      "shortExplanation": "Đáp án A: Màu xanh. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-33",
+      "shortExplanation": "Đáp án C: Times New Roman. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-34",
+      "shortExplanation": "Đáp án D: Xác định bí mật nhà nước đối với thông tin không thuộc danh mục; mang tài liệu ra khỏi nơi lưu giữ trái pháp luật; sử dụng trí tuệ nhân tạo hoặc công nghệ mới để xâm phạm bí mật nhà nước. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-van-phong-35",
+      "shortExplanation": "Đáp án B: 03 độ mật. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-36",
+      "shortExplanation": "Đáp án D: Tuyệt mật, Tối mật và Mật. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-37",
+      "shortExplanation": "Đáp án C: 30 năm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-38",
+      "shortExplanation": "Đáp án B: 20 năm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-39",
+      "shortExplanation": "Đáp án A: 10 năm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-40",
+      "shortExplanation": "Đáp án D: Mọi cơ quan, tổ chức, cá nhân. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-41",
+      "shortExplanation": "Đáp án D: Bao gồm đầy đủ các yêu cầu nêu tại phương án A, B và C. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-42",
+      "shortExplanation": "Đáp án B: 15 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-43",
+      "shortExplanation": "Đáp án C: 15 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-44",
+      "shortExplanation": "Đáp án B: 15 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-van-phong-45",
+      "shortExplanation": "Đáp án B: Tổ chức thu hồi tài liệu, vật chứa bí mật nhà nước khi người được phân công quản lý nghỉ hưu. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-van-phong-46",
+      "shortExplanation": "Đáp án D: Bao gồm đầy đủ các trách nhiệm nêu tại phương án A, B và C. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-van-phong-47",
+      "shortExplanation": "Đáp án D: Người tiếp cận bí mật phải đồng thời tuân thủ pháp luật, quy chế; áp dụng biện pháp bảo vệ, sử dụng đúng mục đích; thực hiện hướng dẫn của tổ chức quản lý. Ba trách nhiệm bổ sung nhau nên phương án tổng hợp mới đầy đủ. Cần đối chiếu bản chính quy chế địa phương."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-1",
+      "shortExplanation": "Đáp án D: Ban Tuyên giáo và Dân vận Tỉnh ủy. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-2",
+      "shortExplanation": "Đáp án C: Ban Tuyên giáo và Dân vận Tỉnh ủy. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-3",
+      "shortExplanation": "Đáp án A: Suy thoái về tư tưởng chính trị. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-4",
+      "shortExplanation": "Đáp án C: “Tự diễn biến”, “tự chuyển hóa” trong nội bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-5",
+      "shortExplanation": "Đáp án B: phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của Nhân dân. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-6",
+      "shortExplanation": "Đáp án C: Toàn Đảng, toàn dân đoàn kết phấn đấu, xây dựng nước Việt Nam hòa bình, thống nhất, độc lập, dân chủ, giàu mạnh và góp phần xứng đáng vào sự nghiệp cách mạng thế giới. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-7",
+      "shortExplanation": "Đáp án B: Thực hành dân chủ rộng rãi, thường xuyên và nghiêm chỉnh tự phê bình và phê bình. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-8",
+      "shortExplanation": "Đáp án A: Học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh về thực hành Cần, Kiệm, Liêm, Chính, Chí công vô tư. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-9",
+      "shortExplanation": "Đáp án A: Tiếp tục thực hiện Chỉ thị số 05-CT/TW về đẩy mạnh học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-10",
+      "shortExplanation": "Đáp án C: Là công việc thường xuyên, đồng thời là nghĩa vụ, trách nhiệm và quyền lợi của mỗi tổ chức đảng, cán bộ, đảng viên, công chức, viên chức. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-11",
+      "shortExplanation": "Đáp án C: Sổ nghị quyết của chi bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-12",
+      "shortExplanation": "Đáp án B: Hằng quý. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-13",
+      "shortExplanation": "Đáp án B: Đánh giá, xếp loại cán bộ, đảng viên hằng năm. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-14",
+      "shortExplanation": "Đáp án C: Chức vụ càng cao, càng phải gương mẫu. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-15",
+      "shortExplanation": "Đáp án A: Chủ đề gồm bốn ý: xây dựng Đảng và hệ thống chính trị trong sạch, vững mạnh; phát huy đại đoàn kết; tạo đột phá để Lào Cai thành cực tăng trưởng, trung tâm kết nối giao thương quốc tế; phát triển xanh, hài hòa, bản sắc, hạnh phúc. Các phương án khác thiếu ý."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-16",
+      "shortExplanation": "Đáp án C: Mục tiêu là Lào Cai trở thành cực tăng trưởng, trung tâm kết nối Việt Nam - ASEAN với Tây Nam Trung Quốc; phát triển xanh, hài hòa, bản sắc, hạnh phúc, gắn với năm yêu cầu: giữ biên giới, dân, rừng, nước và môi trường. Cần nhớ đủ cả phát triển và bảo vệ."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-17",
+      "shortExplanation": "Đáp án A: Trở thành trung tâm phát triển phía Bắc của cả nước, trung tâm kết nối giao thương kinh tế giữa Việt Nam và các nước ASEAN với Trung Quốc và châu Âu; hiện thực hóa mục tiêu phát triển xanh, hài hòa, bản sắc, hạnh phúc. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-18",
+      "shortExplanation": "Đáp án D: Khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-19",
+      "shortExplanation": "Đáp án C: Xây dựng và thi hành pháp luật. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-20",
+      "shortExplanation": "Đáp án D: Kinh tế tư nhân. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-21",
+      "shortExplanation": "Đáp án C: An ninh năng lượng. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-22",
+      "shortExplanation": "Đáp án C: Giáo dục. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-23",
+      "shortExplanation": "Đáp án B: Y tế. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-24",
+      "shortExplanation": "Đáp án C: Kinh tế nhà nước. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-25",
+      "shortExplanation": "Đáp án B: Văn hóa. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-26",
+      "shortExplanation": "Đáp án C: Phát triển kinh tế có vốn đầu tư nước ngoài. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-27",
+      "shortExplanation": "Đáp án B: Góp phần xây dựng Nhà nước trong sạch, vững mạnh, gần dân, bảo đảm quyền làm chủ của nhân dân. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-28",
+      "shortExplanation": "Đáp án C: Việc thực hiện công tác dân vận. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Tiêu chuẩn → tập thể → quy trình → hồ sơ → thẩm quyền."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-29",
+      "shortExplanation": "Đáp án C: Là nhiệm vụ quan trọng, chiến lược, lâu dài, đồng thời là nhiệm vụ thường xuyên của hệ thống chính trị. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-30",
+      "shortExplanation": "Đáp án C: Người có uy tín, già làng, trưởng thôn, bản, chức sắc, chức việc tôn giáo. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-31",
+      "shortExplanation": "Đáp án B: Chú trọng xây dựng đội ngũ cán bộ là người dân tộc thiểu số, nhất là cán bộ cơ sở có trình độ, kỹ năng, kinh nghiệm, am hiểu văn hóa, phong tục tập quán. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-32",
+      "shortExplanation": "Đáp án C: Mặt trận Tổ quốc Việt Nam. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Tôn trọng niềm tin → đúng pháp luật → vận động, không ép buộc → giữ đoàn kết."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-33",
+      "shortExplanation": "Đáp án B: Mặt trận Tổ quốc Việt Nam. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Tôn trọng niềm tin → đúng pháp luật → vận động, không ép buộc → giữ đoàn kết."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-34",
+      "shortExplanation": "Đáp án B: Mọi người có quyền tự do tín ngưỡng, tôn giáo, theo hoặc không theo một tôn giáo nào. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Tôn trọng niềm tin → đúng pháp luật → vận động, không ép buộc → giữ đoàn kết."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-35",
+      "shortExplanation": "Đáp án A: Được công nhận, tôn trọng, bảo vệ và bảo đảm quyền, lợi ích hợp pháp trong thực hiện dân chủ ở cơ sở theo quy định của pháp luật. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-36",
+      "shortExplanation": "Đáp án C: 30 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-37",
+      "shortExplanation": "Đáp án D: Nhân dân có thể bàn, quyết định qua họp cộng đồng, phiếu lấy ý kiến từng hộ hoặc biểu quyết trực tuyến khi đã có thống nhất theo quy định. Luật cho phép cả ba hình thức khi đủ điều kiện tổ chức, không loại bỏ một hình thức chỉ vì ít dùng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-38",
+      "shortExplanation": "Đáp án B: Từ hai phần ba tổng số đại diện hộ gia đình trở lên trong thôn, tổ dân phố. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Nghe đủ bên → công khai căn cứ → hòa giải → xử lý đúng thẩm quyền → theo dõi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-39",
+      "shortExplanation": "Đáp án C: Có biện pháp phạt phù hợp nhưng không thay thế các biện pháp xử lý theo quy định của pháp luật. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-40",
+      "shortExplanation": "Đáp án C: Phải có thành viên là già làng, trưởng bản và người biết tiếng dân tộc. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-41",
+      "shortExplanation": "Đáp án B: Trên 50% tổng số đại diện hộ gia đình. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-42",
+      "shortExplanation": "Đáp án B: Đề cao vai trò nêu gương của người đứng đầu, cán bộ lãnh đạo, quản lý, cán bộ, công chức, viên chức, người lao động trong việc thực hiện và phối hợp, hỗ trợ bảo đảm thực hiện hương ước, quy ước. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-43",
+      "shortExplanation": "Đáp án C: Đại diện Ban công tác Mặt trận ở thôn giới thiệu danh sách người ứng cử do Ban công tác Mặt trận đã thống nhất với cấp ủy chi bộ thôn. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-44",
+      "shortExplanation": "Đáp án B: Dự kiến danh sách, báo cáo cấp ủy chi bộ thôn để thống nhất giới thiệu ít nhất 01 người ra ứng cử; sau đó tổ chức cuộc họp Ban công tác Mặt trận khi có ý kiến của chi ủy để quyết định danh sách chính thức. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-45",
+      "shortExplanation": "Đáp án B: Trên không gian mạng, đồng thời phát huy hiệu quả hoạt động của các tổ công nghệ số cộng đồng. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-46",
+      "shortExplanation": "Đáp án B: Trọng dân, gần dân, hiểu dân, học dân và có trách nhiệm với dân. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-47",
+      "shortExplanation": "Đáp án C: Ứng dụng Zalo kết nối Nhân dân. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-48",
+      "shortExplanation": "Đáp án C: Đưa nội dung thực hiện phong trào vào nghị quyết, chương trình, kế hoạch công tác; gắn trách nhiệm của cấp ủy, tổ chức đảng và người đứng đầu với kết quả thực hiện phong trào. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-49",
+      "shortExplanation": "Đáp án A: Không chậm muộn; không gây phiền hà; không tạo rào cản; không ảnh hưởng đầu tư; không đùn đẩy trách nhiệm. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-50",
+      "shortExplanation": "Đáp án A: Rõ người, rõ việc, rõ thời gian, rõ trách nhiệm, rõ sản phẩm, rõ thẩm quyền. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-51",
+      "shortExplanation": "Đáp án B: Trực tiếp chịu trách nhiệm trước cấp có thẩm quyền. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-52",
+      "shortExplanation": "Đáp án B: Hoàn thành tốt nhiệm vụ trở lên. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Nghe đủ bên → công khai căn cứ → hòa giải → xử lý đúng thẩm quyền → theo dõi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-53",
+      "shortExplanation": "Đáp án B: Xã Trấn Yên và phường Lào Cai. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-54",
+      "shortExplanation": "Đáp án A: 01 tập thể và 02 cá nhân. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-55",
+      "shortExplanation": "Đáp án C: 03 cuộc. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-56",
+      "shortExplanation": "Đáp án D: Phân tích, giám sát thông tin; đấu tranh phản bác thông tin xấu, độc; quản lý truyền thông; bảo vệ nền tảng tư tưởng của Đảng. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-57",
+      "shortExplanation": "Đáp án C: Từ 300 đến 350 lượt người. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-58",
+      "shortExplanation": "Đáp án B: Khu dân cư đoàn kết - an toàn - hạnh phúc. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-59",
+      "shortExplanation": "Đáp án B: Nông nghiệp sinh thái, nông thôn hiện đại, nông dân văn minh. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-60",
+      "shortExplanation": "Đáp án C: 55/89 xã đạt chuẩn, trong đó có ít nhất 02 xã nông thôn mới hiện đại. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-61",
+      "shortExplanation": "Đáp án C: 300 sản phẩm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-62",
+      "shortExplanation": "Đáp án A: Du lịch bốn mùa, chất lượng cao và bền vững. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-63",
+      "shortExplanation": "Đáp án D: Văn minh - Nghĩa tình - Năng động - Sáng tạo - Hội nhập. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-64",
+      "shortExplanation": "Đáp án A: 68,3%. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-65",
+      "shortExplanation": "Đáp án D: 75,5 tuổi. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Nghe dân → xác minh → giải thích → xử lý → phản hồi."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-66",
+      "shortExplanation": "Đáp án B: Nhằm xây dựng Lào Cai trở thành cực tăng trưởng, trung tâm kết nối giao thương quốc tế, phát triển theo hướng xanh, hài hòa, bản sắc, hạnh phúc. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-67",
+      "shortExplanation": "Đáp án B: Hợp tác xã, tổ hợp tác và các mô hình kinh tế tập thể dựa trên nguồn vốn của Nhân dân. Lựa chọn này nêu đúng mục tiêu của quy định, giúp lãnh đạo, tổ chức và kiểm tra đi đúng hướng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-68",
+      "shortExplanation": "Đáp án C: Nhân dân làm, Nhà nước hỗ trợ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-tuyen-giao-dan-van-69",
+      "shortExplanation": "Đáp án B: 100% đường giao thông nông thôn được nhựa hóa, bê tông hóa. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-noi-chinh-1",
+      "shortExplanation": "Đáp án D: Nhà nước dân chủ thể hiện ở lợi ích, quyền hạn, công việc đổi mới đều thuộc về và vì dân; kháng chiến, kiến quốc là việc của dân; chính quyền do dân cử và đoàn thể do dân tổ chức. Ba phương án hợp lại mới phản ánh đầy đủ tư tưởng dân là chủ."
+    },
+    {
+      "questionId": "mcq-noi-chinh-2",
+      "shortExplanation": "Đáp án D: Cả ba đều là tiêu cực: làm trái hoặc không làm đầy đủ chủ trương, pháp luật; không thực hiện trách nhiệm nêu gương; quan liêu, xa thực tế, không nắm tình hình. Điểm chung là không làm đúng trách nhiệm, làm suy giảm hiệu lực và niềm tin."
+    },
+    {
+      "questionId": "mcq-noi-chinh-3",
+      "shortExplanation": "Đáp án D: Phát hiện hành vi tham nhũng mà không áp dụng các biện pháp cần thiết để ngăn chặn. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-4",
+      "shortExplanation": "Đáp án C: Là vụ việc do cán bộ, đảng viên, công chức, viên chức thực hiện (ngoài vụ việc tham nhũng), liên quan đến các hành vi tiêu cực, chưa có quyết định khởi tố vụ án hình sự của cơ quan có thẩm quyền. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-noi-chinh-5",
+      "shortExplanation": "Đáp án A: Kiểm soát việc lãnh đạo, chỉ đạo và tổ chức thực hiện chủ trương của Đảng, pháp luật, quy chế, quy trình nghiệp vụ, chuẩn mực đạo đức, quy tắc ứng xử và phòng, chống tham nhũng, tiêu cực trong tố tụng, thi hành án. Phương án này bao quát cả hoạt động liên quan."
+    },
+    {
+      "questionId": "mcq-noi-chinh-6",
+      "shortExplanation": "Đáp án C: 19 hành vi. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-7",
+      "shortExplanation": "Đáp án B: Thành chuyên đề sinh hoạt bắt buộc của các chi bộ và là nội dung kiểm điểm trong sinh hoạt chi bộ. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-8",
+      "shortExplanation": "Đáp án A: Chỉ thị số 04-CT/TW, ngày 02/6/2021. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Phân loại → thẩm quyền → bảo vệ → lưu vết."
+    },
+    {
+      "questionId": "mcq-noi-chinh-9",
+      "shortExplanation": "Đáp án C: Từ 1 tỷ đồng trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-10",
+      "shortExplanation": "Đáp án B: Can thiệp, cản trở, tác động trái quy định của Đảng, pháp luật của Nhà nước vào hoạt động tố tụng, thi hành án và hoạt động kiểm tra, giám sát, thanh tra, kiểm toán. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-11",
+      "shortExplanation": "Đáp án B: Ứng dụng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số là trọng tâm. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-12",
+      "shortExplanation": "Đáp án C: 8 nhóm nhiệm vụ và giải pháp. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-13",
+      "shortExplanation": "Đáp án D: Nghị quyết đồng thời hướng tới ngăn chặn, đẩy lùi tham nhũng, lãng phí, tiêu cực; xây dựng Đảng và hệ thống chính trị trong sạch, củng cố niềm tin; thúc đẩy phát triển kinh tế - xã hội và tăng trưởng. Ba mục tiêu gắn phòng chống vi phạm với xây dựng và phát triển."
+    },
+    {
+      "questionId": "mcq-noi-chinh-14",
+      "shortExplanation": "Đáp án D: Lộ trình gồm ba tầng: tạo khung pháp lý cho nhiệm vụ 2026–2031; đến 2030 có hệ thống pháp luật dân chủ, đồng bộ, minh bạch, khả thi; đến 2045 đạt chất lượng cao, hiện đại, phù hợp thực tiễn và thông lệ quốc tế. Chọn D vì đủ cả trước mắt và dài hạn."
+    },
+    {
+      "questionId": "mcq-noi-chinh-15",
+      "shortExplanation": "Đáp án A: 9 luật và 05 Nghị quyết. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-16",
+      "shortExplanation": "Đáp án C: 08 nhiệm vụ. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-noi-chinh-17",
+      "shortExplanation": "Đáp án D: 10 mục tiêu. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-noi-chinh-18",
+      "shortExplanation": "Đáp án D: Kim khí quý, đá quý, tiền, giấy tờ có giá và tài sản khác mà mỗi loại tài sản có giá trị từ 150 triệu đồng trở lên. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-19",
+      "shortExplanation": "Đáp án A: Ban Nội chính Tỉnh ủy. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-noi-chinh-20",
+      "shortExplanation": "Đáp án D: Chất lượng xây dựng pháp luật phải đồng thời đặt dưới sự lãnh đạo của Đảng; phát huy vai trò Quốc hội, Chính phủ, Mặt trận và cơ quan liên quan; tăng kiểm tra, giám sát, kiểm soát quyền lực và chống lợi ích nhóm. Thiếu một nhóm nhiệm vụ là chưa đầy đủ."
+    },
+    {
+      "questionId": "mcq-noi-chinh-21",
+      "shortExplanation": "Đáp án A: Lãnh đạo, chỉ đạo, tham mưu, ban hành các văn bản về quản lý, sử dụng tài chính công, tài sản công trái chủ trương, quy định của Đảng, pháp luật của Nhà nước, gây lãng phí. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-22",
+      "shortExplanation": "Đáp án C: 5 Quy định. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-23",
+      "shortExplanation": "Đáp án C: 07 nhiệm vụ, giải pháp. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-24",
+      "shortExplanation": "Đáp án C: Trực tiếp chỉ đạo làm rõ nội dung, nguyên nhân, xem xét toàn diện các khía cạnh pháp lý và thực tiễn. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-noi-chinh-25",
+      "shortExplanation": "Đáp án D: Xây dựng cơ chế, chính sách đồng bộ để cán bộ, công chức, đảng viên \"không thể, không dám, không muốn và không cần\" tham nhũng, lãng phí, tiêu cực. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-26",
+      "shortExplanation": "Đáp án A: Lợi dụng việc nắm được thông tin nội bộ để đặt điều kiện, gây sức ép đối với người có thẩm quyền để bổ nhiệm, giới thiệu cho bản thân. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-27",
+      "shortExplanation": "Đáp án B: Lãng phí là quản lý, khai thác hoặc sử dụng tài chính công, tài sản công, bộ máy, lao động, tài nguyên, năng lượng vượt định mức hoặc không hiệu quả, không đạt mục tiêu; gồm cả hành vi gây lãng phí, cản trở phát triển hay làm lỡ thời cơ. Phải nhớ cả “vượt chuẩn” và “không hiệu quả”."
+    },
+    {
+      "questionId": "mcq-noi-chinh-28",
+      "shortExplanation": "Đáp án C: Ít nhất 60 tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-29",
+      "shortExplanation": "Đáp án B: Công dân có quyền phát hiện, tố cáo, báo tin về hành vi tham nhũng; đồng thời có nghĩa vụ hợp tác, cung cấp thông tin, giúp đỡ cơ quan, tổ chức, cá nhân có thẩm quyền trong phòng, chống tham nhũng. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-30",
+      "shortExplanation": "Đáp án B: Phải báo cáo và được sự đồng ý của thường trực cấp ủy cấp trên trực tiếp (hoặc cấp ủy cấp trên trực tiếp đối với những tổ chức đảng không có thường trực cấp ủy). Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-31",
+      "shortExplanation": "Đáp án B: Phòng, chống lãng phí phải bảo đảm góp phần ổn định để phát triển. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-noi-chinh-32",
+      "shortExplanation": "Đáp án A: Văn hóa tự giác trong tiết kiệm, chống lãng phí. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-noi-chinh-33",
+      "shortExplanation": "Đáp án B: Rà soát, điều chuyển vốn từ các dự án chậm sang các dự án có tiến độ tốt. Lựa chọn này nêu đúng mục tiêu của quy định, giúp lãnh đạo, tổ chức và kiểm tra đi đúng hướng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-noi-chinh-34",
+      "shortExplanation": "Đáp án C: Thao túng, ép buộc, lấy lòng hoặc mua chuộc người khác để bỏ phiếu cho nhân sự theo ý mình. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-35",
+      "shortExplanation": "Đáp án B: Thiếu trách nhiệm, né tránh, đùn đẩy trong thực thi công vụ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-36",
+      "shortExplanation": "Đáp án C: Hành vi gây lãng phí trong đầu tư công. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-37",
+      "shortExplanation": "Đáp án D: Thành viên phải thực hiện đúng quyền hạn và chịu trách nhiệm; đấu tranh với hành vi trái quy định; nêu rõ chính kiến, chịu trách nhiệm và được bảo lưu ý kiến. Ba yêu cầu bao quát cả chấp hành, đấu tranh và trách nhiệm cá nhân nên đều phải thực hiện."
+    },
+    {
+      "questionId": "mcq-noi-chinh-38",
+      "shortExplanation": "Đáp án A: Thực hiện đầy đủ, nghiêm túc các nguyên tắc, quy định của Đảng,\npháp luật của Nhà nước đối với nhiệm vụ, quyền hạn được giao trong công tác xây dựng pháp luật. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-39",
+      "shortExplanation": "Đáp án A: Chỉ đạo xây dựng, ban hành và thực hiện chương trình, xác định rõ mục tiêu, chỉ tiêu tiết kiệm và yêu cầu chống lãng phí trong phạm vi được giao. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-40",
+      "shortExplanation": "Đáp án D: Cả ba đều là hành vi tiêu cực: ban hành hoặc tham mưu văn bản trái quy định; không thực hiện hoặc thực hiện không đầy đủ quy định; thiếu trách nhiệm, buông lỏng quản lý để xảy ra lợi dụng. Chúng khác biểu hiện nhưng cùng làm sai lệch hoạt động tố tụng, thi hành án."
+    },
+    {
+      "questionId": "mcq-noi-chinh-41",
+      "shortExplanation": "Đáp án D: Cấp ủy phải đồng thời tham mưu, tổ chức thực hiện quy định; rà soát, hoàn thiện quy chế, quy trình, chuẩn mực; kiểm tra, giám sát, thanh tra và phát huy công tố, kiểm sát tư pháp. Ba nhóm tạo thành chu trình phòng ngừa, thực hiện và kiểm soát."
+    },
+    {
+      "questionId": "mcq-noi-chinh-42",
+      "shortExplanation": "Đáp án D: Quản lý, khai thác, sử dụng tài nguyên không đúng quy hoạch, kế hoạch, quy trình đã được phê duyệt. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-43",
+      "shortExplanation": "Đáp án A: Cơ quan, tổ chức, đơn vị, người có chức vụ, quyền hạn không được sử dụng tài chính công, tài sản công làm quà tặng, trừ trường hợp tặng quà vì mục đích từ thiện, đối ngoại và trong trường hợp cần thiết khác theo quy định của pháp luật. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-noi-chinh-44",
+      "shortExplanation": "Đáp án B: Người đứng đầu cấp ủy đảng hoặc người đứng đầu cơ quan hành chính và người đứng đầu các cơ quan: Nội vụ, thanh tra, tài chính... ở Trung ương hoặc cùng cấp ở một địa phương. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-45",
+      "shortExplanation": "Đáp án A: Là thẩm quyền của tổ chức, cá nhân trong tất cả các khâu liên quan đến công tác cán bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-46",
+      "shortExplanation": "Đáp án B: Hành vi chạy chức, chạy quyền. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-47",
+      "shortExplanation": "Đáp án C: Phản ánh, tố cáo qua các kênh tiếp nhận thông tin theo quy định của pháp luật. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-48",
+      "shortExplanation": "Đáp án B: Báo cáo ngay cho người đứng đầu cơ quan, tổ chức, đơn vị đó; trường hợp người đứng đầu có liên quan thì báo cáo cho người đứng đầu cơ quan cấp trên trực tiếp. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-49",
+      "shortExplanation": "Đáp án B: Kịp thời xử lý theo thẩm quyền hoặc báo cáo cơ quan có thẩm quyền xử lý; áp dụng các biện pháp ngăn chặn, khắc phục hậu quả; đồng thời phối hợp bảo vệ tuyệt đối thông tin, vị trí công tác của người phản ánh, tố giác. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-noi-chinh-50",
+      "shortExplanation": "Đáp án D: Người lao động không được giao thực hiện nhiệm vụ, công vụ và không có thẩm quyền trong khi thực hiện nhiệm vụ, công vụ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-51",
+      "shortExplanation": "Đáp án C: Tiến hành kiểm tra thường xuyên (theo chương trình, kế hoạch) và kiểm tra đột xuất (khi phát hiện có dấu hiệu tham nhũng). Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-52",
+      "shortExplanation": "Đáp án C: 28 hành vi. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-53",
+      "shortExplanation": "Đáp án A: Lãnh đạo, chỉ đạo, tham mưu xây dựng, ban hành, tổ chức thực hiện chủ trương, quy định của Đảng, pháp luật của Nhà nước, quy chế làm việc, quy định, quy trình nghiệp vụ, chuẩn mực đạo đức, quy tắc ứng xử. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-noi-chinh-54",
+      "shortExplanation": "Đáp án B: Bị xử lý nghiêm minh theo quy định của Đảng và pháp luật của Nhà nước, kiên quyết xử lý các hành vi lạm quyền, lộng quyền. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-55",
+      "shortExplanation": "Đáp án B: Chịu trách nhiệm với tư cách người đứng đầu về những hành vi vi phạm, lợi dụng, lạm dụng chức vụ, quyền hạn, lạm quyền, tham nhũng, tiêu cực trong cấp ủy, tổ chức đảng, cơ quan, tổ chức thuộc phạm vi quản lý, phụ trách. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-noi-chinh-56",
+      "shortExplanation": "Đáp án B: Chuyển hồ sơ sang cơ quan chức năng để xử lý theo quy định của pháp luật, nghiêm cấm giữ lại để xử lý nội bộ. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-57",
+      "shortExplanation": "Đáp án B: Là thẩm quyền của cơ quan, đơn vị, tổ chức, cá nhân trong lãnh đạo, chỉ đạo, thực hiện quản lý, sử dụng tài chính, tài sản công theo chủ trương, quy định của Đảng, pháp luật của Nhà nước. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-58",
+      "shortExplanation": "Đáp án A: Những hành vi tham nhũng, tiêu cực trong quản lý, sử dụng tài chính công. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-59",
+      "shortExplanation": "Đáp án B: Kiểm soát các quyết định, hành vi lợi dụng, lạm dụng quyền lực của chủ thể thực hiện quyền lực trong quản lý, sử dụng tài chính, tài sản công để tham nhũng, tiêu cực. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-60",
+      "shortExplanation": "Đáp án B: Mặt trận Tổ quốc và các tổ chức chính trị - xã hội, các phương tiện thông tin đại chúng và Nhân dân. Lựa chọn này nêu đúng mục tiêu của quy định, giúp lãnh đạo, tổ chức và kiểm tra đi đúng hướng. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-61",
+      "shortExplanation": "Đáp án B: Đình chỉ công tác, chức vụ và không bố trí làm công tác tham mưu, nghiệp vụ về quản lý, sử dụng tài chính, tài sản công. Biện pháp này vừa ngăn người có hành vi tham nhũng, tiêu cực tiếp tục tác động vào lĩnh vực rủi ro, vừa hỗ trợ xử lý đúng quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-62",
+      "shortExplanation": "Đáp án A: Phục vụ mục tiêu tăng trưởng kinh tế \"2 con số\" liên tục trong những năm tới. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-63",
+      "shortExplanation": "Đáp án A: Phòng ngừa từ gốc là căn bản, kiểm soát quyền lực là cốt lõi, ứng dụng khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số là trọng tâm. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-64",
+      "shortExplanation": "Đáp án B: 03 trụ cột trọng tâm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-65",
+      "shortExplanation": "Đáp án B: Xử lý nghiêm minh, kịp thời, nhân văn, thuyết phục, không có vùng cấm, không có ngoại lệ; ưu tiên thu hồi tối đa tài sản và khuyến khích chủ động khắc phục hậu quả. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-66",
+      "shortExplanation": "Đáp án B: Sửa đổi Luật Phòng, chống tham nhũng, Luật Đất đai và pháp luật có liên quan. Lựa chọn này nêu đúng mục tiêu của quy định, giúp lãnh đạo, tổ chức và kiểm tra đi đúng hướng. Ghi nhớ: Giữ chứng cứ → báo đúng nơi → không bao che → theo dõi kết quả."
+    },
+    {
+      "questionId": "mcq-noi-chinh-67",
+      "shortExplanation": "Đáp án C: \"Đột phá của đột phá\" trong hoàn thiện thể chế phát triển đất nước trong kỷ nguyên mới. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-68",
+      "shortExplanation": "Đáp án C: Góp phần đưa môi trường đầu tư của Việt Nam nằm trong nhóm 03 nước dẫn đầu ASEAN. Lựa chọn này nêu đúng mục tiêu của quy định, giúp lãnh đạo, tổ chức và kiểm tra đi đúng hướng. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-69",
+      "shortExplanation": "Đáp án C: \"Không quản được thì cấm\". Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-70",
+      "shortExplanation": "Đáp án D: Xây dựng môi trường pháp lý thuận lợi, thông thoáng, minh bạch, an toàn, chi phí tuân thủ thấp. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-71",
+      "shortExplanation": "Đáp án C: \"Đúng, đủ, sạch, sống\", liên thông, dễ khai thác, dễ sử dụng, an toàn thông tin và bí mật nhà nước. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-noi-chinh-72",
+      "shortExplanation": "Đáp án D: Đề án xây dựng cơ sở dữ liệu lớn về pháp luật và Đề án ứng dụng trí tuệ nhân tạo trong công tác xây dựng, kiểm tra, rà soát văn bản quy phạm pháp luật. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-73",
+      "shortExplanation": "Đáp án D: Cơ chế, chính sách đặc biệt tạo đột phá phát triển khoa học, công nghệ, đổi mới sáng tạo và chuyển đổi số quốc gia. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Dừng chia sẻ → kiểm chứng → báo cáo → dùng nguồn chính thống."
+    },
+    {
+      "questionId": "mcq-noi-chinh-74",
+      "shortExplanation": "Đáp án C: Do thiếu trách nhiệm, buông lỏng lãnh đạo, chỉ đạo, quản lý để xảy ra các vụ việc khiếu nại, tố cáo vượt cấp, kéo dài trong phạm vi địa bàn, lĩnh vực trực tiếp quản lý, phụ trách. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-75",
+      "shortExplanation": "Đáp án C: Trọng tâm là các vụ khiếu kiện đông người, phức tạp, kéo dài, nhất là về đất đai, môi trường, dân tộc, tôn giáo, đầu tư, tài chính, lao động và tố tụng tư pháp. Đây là nhóm lĩnh vực nhạy cảm, dễ phát sinh điểm nóng nên phải chủ động nắm, xử lý."
+    },
+    {
+      "questionId": "mcq-noi-chinh-76",
+      "shortExplanation": "Đáp án B: Đồng bộ, kết nối liên thông, khai thác hiệu quả và khắc phục tình trạng chuyển đơn sai thẩm quyền, nhiều lần cùng một nội dung. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-77",
+      "shortExplanation": "Đáp án C: Thực hiện nghiêm trách nhiệm tiếp công dân, đối thoại trực tiếp với công dân, lãnh đạo, chỉ đạo giải quyết kịp thời các khiếu nại, tố cáo, kiến nghị, phản ánh thuộc thẩm quyền ngay từ cơ sở. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-78",
+      "shortExplanation": "Đáp án B: Lãnh đạo, chỉ đạo và tổ chức thực hiện các quy định của Đảng, pháp luật của Nhà nước về giáo dục, thực hành cần, kiệm, liêm, chính, chí công vô tư; gắn với công tác xây dựng, chỉnh đốn Đảng. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-noi-chinh-79",
+      "shortExplanation": "Đáp án C: Phải nêu gương về học tập và thực hành các chuẩn mực đạo đức cách mạng trong giai đoạn mới, nhất là về cần, kiệm, liêm, chính, chí công vô tư. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-1",
+      "shortExplanation": "Đáp án C: Việc thực hiện nghị quyết của chi bộ, nhiệm vụ do chi bộ phân công và quy định về trách nhiệm nêu gương, về những điều đảng viên không được làm. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-2",
+      "shortExplanation": "Đáp án D: 20%. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-3",
+      "shortExplanation": "Đáp án C: Là một nội dung cốt lõi, thường xuyên trong sinh hoạt và lãnh đạo của chi bộ. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-4",
+      "shortExplanation": "Đáp án C: Xây dựng và thực hiện đầy đủ kế hoạch KTGS năm; không có đảng viên bị cấp trên kỷ luật nội dung vi phạm thuộc phạm vi quản lý của chi bộ mà chi bộ không phát hiện được dấu hiệu vi phạm từ trước. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-5",
+      "shortExplanation": "Đáp án C: 02 năm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-6",
+      "shortExplanation": "Đáp án B: 1,5 năm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-7",
+      "shortExplanation": "Đáp án C: 30 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-8",
+      "shortExplanation": "Đáp án B: 05 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-9",
+      "shortExplanation": "Đáp án C: Cùng với hội nghị sinh hoạt định kỳ hằng tháng. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-10",
+      "shortExplanation": "Đáp án D: 45 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-11",
+      "shortExplanation": "Đáp án B: 05 thành viên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-12",
+      "shortExplanation": "Đáp án C: Kiểm tra, giám sát việc thực hiện bảo đảm các nghị quyết, chỉ thị của Đảng, pháp luật của Nhà nước được chấp hành nghiêm chỉnh; kiểm tra, giám sát tổ chức đảng và đảng viên chấp hành Điều lệ Đảng. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-13",
+      "shortExplanation": "Đáp án D: Kiểm tra, giám sát việc thực hiện bảo đảm các nghị quyết, chỉ thị của Đảng, pháp luật của Nhà nước được chấp hành nghiêm chỉnh; kiểm tra, giám sát tổ chức đảng và đảng viên chấp hành Điều lệ Đảng. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-14",
+      "shortExplanation": "Đáp án A: Xây dựng kế hoạch và tổ chức kiểm tra, giám sát theo các quy định, hướng dẫn của Trung ương và của cấp ủy, ủy ban kiểm tra các cấp về công tác kiểm tra, giám sát, thi hành kỷ luật Đảng. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-15",
+      "shortExplanation": "Đáp án C: 06 nhiệm vụ và giải pháp. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-16",
+      "shortExplanation": "Đáp án A: 3 bước. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-17",
+      "shortExplanation": "Đáp án A: Không quá 30 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-18",
+      "shortExplanation": "Đáp án B: Không quá 1/3 thời gian giám sát. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-19",
+      "shortExplanation": "Đáp án D: Tổ giám sát. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-20",
+      "shortExplanation": "Đáp án C: 05 nội dung. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-21",
+      "shortExplanation": "Đáp án A: Đóng dấu của đảng ủy cơ sở vào phía trên, góc trái. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-22",
+      "shortExplanation": "Đáp án A: Chi bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-23",
+      "shortExplanation": "Đáp án A: Việc thực hiện nhiệm vụ đảng viên, thực hiện nhiệm vụ chuyên môn được giao. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-24",
+      "shortExplanation": "Đáp án B: 03 nội dung. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-25",
+      "shortExplanation": "Đáp án A: Tiến hành kiểm tra khi có dấu hiệu vi phạm. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-26",
+      "shortExplanation": "Đáp án D: Giao chi ủy hoặc đảng viên được chi bộ phân công đôn đốc, giám sát đảng viên thực hiện các nội dung theo thông báo kết quả giám sát. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-27",
+      "shortExplanation": "Đáp án C: Khiển trách, cảnh cáo, cách chức (nếu có chức vụ), khai trừ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-28",
+      "shortExplanation": "Đáp án A: Khiển trách, cảnh cáo. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-29",
+      "shortExplanation": "Đáp án D: Nhận khuyết điểm, vi phạm thay người khác. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-30",
+      "shortExplanation": "Đáp án C: Gây thiệt hại về vật chất nhưng đã chủ động khắc phục hậu quả. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-31",
+      "shortExplanation": "Đáp án C: Sử dụng văn bằng, chứng chỉ, chứng nhận không hợp pháp. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-32",
+      "shortExplanation": "Đáp án A: Một lần bằng một hình thức kỷ luật. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-33",
+      "shortExplanation": "Đáp án C: Phân loại, nắm tình hình đơn tố cáo. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-34",
+      "shortExplanation": "Đáp án C: Không xem xét, giải quyết theo quy định về tố cáo trong Đảng. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-35",
+      "shortExplanation": "Đáp án C: Bảo đảm các quyền của đảng viên và tổ chức đảng bị tố cáo. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-36",
+      "shortExplanation": "Đáp án C: Tố cáo sai; tố cáo không có cơ sở, không đủ căn cứ kết luận; tố cáo đúng có khuyết điểm; tố cáo đúng có vi phạm. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-37",
+      "shortExplanation": "Đáp án C: Nắm tình hình để làm cơ sở kiểm tra, giám sát đối với tổ chức đảng, đảng viên bị tố cáo. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-38",
+      "shortExplanation": "Đáp án A: Ban Chấp hành Trung ương. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-39",
+      "shortExplanation": "Đáp án C: Điều 7. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-40",
+      "shortExplanation": "Đáp án B: Tổ chức đảng và đảng viên (bao gồm cả tổ chức đảng đã hết nhiệm kỳ hoạt động, đã giải thể hoặc thay đổi do chia tách, sáp nhập; đảng viên đã chuyển công tác, nghỉ việc, nghỉ hưu). Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-41",
+      "shortExplanation": "Đáp án B: Là việc các tổ chức đảng xem xét, đánh giá, kết luận về ưu điểm, khuyết điểm hoặc vi phạm (nếu có) của cấp ủy, tổ chức đảng cấp dưới và đảng viên. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-42",
+      "shortExplanation": "Đáp án B: Mọi tổ chức đảng và đảng viên đều bình đẳng trước kỷ luật của Đảng và đều phải chịu sự kiểm tra, giám sát, kỷ luật của Đảng, không có ngoại lệ. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-43",
+      "shortExplanation": "Đáp án B: Được sử dụng bằng chứng liên quan để báo cáo, giải trình; bảo lưu ý kiến và đề nghị tổ chức đảng có thẩm quyền xem xét lại kết luận. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-44",
+      "shortExplanation": "Đáp án B: Là thời hạn mà khi hết thời hạn đó, tổ chức đảng, đảng viên có hành vi vi phạm không bị xử lý kỷ luật. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-45",
+      "shortExplanation": "Đáp án B: Khiển trách, Cảnh cáo đảng viên trong chi bộ (kể cả đảng viên thuộc diện cấp ủy trên quản lý) vi phạm phẩm chất chính trị, đạo đức, lối sống... (trừ vi phạm khi thực hiện nhiệm vụ cấp trên giao). Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-46",
+      "shortExplanation": "Đáp án B: Chi bộ thảo luận, biểu quyết đề nghị cấp có thẩm quyền xem xét, quyết định. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-47",
+      "shortExplanation": "Đáp án B: Phải đạt trên 1/2 tổng số đảng viên chính thức của chi bộ đồng ý. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-48",
+      "shortExplanation": "Đáp án B: Kết quả biểu quyết các hình thức kỷ luật cụ thể không có hình thức nào đủ số phiếu theo quy định; thì cộng dồn số phiếu từ mức kỷ luật cao nhất xuống mức thấp hơn liền kề. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-49",
+      "shortExplanation": "Đáp án B: Căn cứ bản án có hiệu lực, báo cáo cấp có thẩm quyền ra quyết định Khai trừ (không phải thực hiện quy trình kiểm tra). Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-kiem-tra-giam-sat-50",
+      "shortExplanation": "Đáp án D: Xóa tên trong danh sách đảng viên. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-1",
+      "shortExplanation": "Đáp án C: Biểu quyết, ứng cử và bầu cử cơ quan lãnh đạo các cấp của Đảng theo quy định của Bộ Chính trị. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-2",
+      "shortExplanation": "Đáp án B: 12 tháng, tính từ ngày chi bộ tổ chức lễ kết nạp. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-3",
+      "shortExplanation": "Đáp án C: Ngày ghi trong quyết định kết nạp. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-4",
+      "shortExplanation": "Đáp án D: Chi bộ xem xét, quyết định. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-5",
+      "shortExplanation": "Đáp án A: Ban chấp hành chi bộ (gọi tắt là cấp ủy). Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-6",
+      "shortExplanation": "Đáp án A: Ngay sau khi được bầu. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-7",
+      "shortExplanation": "Đáp án A: Chi bộ cơ sở, đảng bộ cơ sở. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-8",
+      "shortExplanation": "Đáp án D: Ba đảng viên chính thức trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-9",
+      "shortExplanation": "Đáp án C: Dưới ba mươi đảng viên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-10",
+      "shortExplanation": "Đáp án D: Từ ba mươi đảng viên trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-11",
+      "shortExplanation": "Đáp án B: Năm năm một lần. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-12",
+      "shortExplanation": "Đáp án A: Mỗi tháng một lần. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-13",
+      "shortExplanation": "Đáp án B: Bí thư chi bộ; nếu cần, bầu phó bí thư chi bộ. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-14",
+      "shortExplanation": "Đáp án C: Có chín đảng viên chính thức trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-15",
+      "shortExplanation": "Đáp án A: Phải sinh hoạt. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-16",
+      "shortExplanation": "Đáp án B: Đủ 18 tuổi trở lên (tính theo tháng). Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-17",
+      "shortExplanation": "Đáp án B: Cấp ủy trực thuộc cấp ủy cấp tỉnh. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-18",
+      "shortExplanation": "Đáp án B: Phải hoàn thành chương trình giáo dục bậc trung học cơ sở trở lên. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-19",
+      "shortExplanation": "Đáp án D: Ít nhất mười hai tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-20",
+      "shortExplanation": "Đáp án D: Kết nạp lại đòi hỏi đủ tiêu chuẩn người vào Đảng; đủ thời gian, đơn, văn bản đồng ý và quyết định đúng thẩm quyền; đồng thời làm đủ thủ tục theo Điều lệ. Đây là các điều kiện cộng dồn, không phải chỉ cần chọn một trong A, B hoặc C."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-21",
+      "shortExplanation": "Đáp án D: Không xem xét kết nạp lại đối với cả ba nhóm: tự bỏ sinh hoạt; tự xin ra, trừ hoàn cảnh đặc biệt, hoặc gây mất đoàn kết nghiêm trọng; bị kết án về tham nhũng, lãng phí, tiêu cực hay tội nghiêm trọng trở lên. D bao quát đủ các trường hợp loại trừ."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-22",
+      "shortExplanation": "Đáp án A: Phải trải qua thời gian dự bị mười hai tháng. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-23",
+      "shortExplanation": "Đáp án B: Trong thời hạn 30 ngày làm việc. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-24",
+      "shortExplanation": "Đáp án B: Trong thời hạn 30 ngày làm việc. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-25",
+      "shortExplanation": "Đáp án B: Biểu quyết trong sinh hoạt đảng, trong đại hội đảng các cấp (trừ các trường hợp biểu quyết bằng phiếu kín). Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-26",
+      "shortExplanation": "Đáp án A: 30 ngày làm việc. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-27",
+      "shortExplanation": "Đáp án A: 30 ngày làm việc. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-28",
+      "shortExplanation": "Đáp án A: 30 ngày làm việc. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-29",
+      "shortExplanation": "Đáp án B: 30 ngày làm việc. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-30",
+      "shortExplanation": "Đáp án B: Tính vào đảng số nơi sinh hoạt chính thức và đóng đảng phí tại chi bộ nơi sinh hoạt tạm thời. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng người → đúng mức → đúng chứng từ → đúng thời hạn."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-31",
+      "shortExplanation": "Đáp án D: Đảng viên được miễn sinh hoạt vẫn có quyền dự đại hội, nhận thông tin, xét Huy hiệu và miễn đánh giá; đồng thời phải gương mẫu, vận động gia đình chấp hành và vẫn bị kỷ luật nếu vi phạm. Quy định gồm cả quyền lẫn trách nhiệm nên A, B, C đều đúng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-32",
+      "shortExplanation": "Đáp án D: Xóa tên được xem xét khi đảng viên bỏ sinh hoạt hoặc không đóng phí; tự trả, hủy thẻ; hoặc suy giảm ý chí, vi phạm tư cách, không tiến bộ sau giáo dục hay không bảo đảm tiêu chuẩn chính trị. Các nhóm A, B, C đều là căn cứ nên D đầy đủ nhất."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-33",
+      "shortExplanation": "Đáp án D: Với cấp ủy cấp trên cho đến Ban Bí thư Trung ương Đảng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-34",
+      "shortExplanation": "Đáp án D: Quần chúng trên 60 tuổi chỉ được xem xét khi đồng thời có sức khỏe, uy tín; công tác hoặc cư trú ở nơi thiếu tổ chức, đảng viên hay có yêu cầu đặc biệt; và được cấp có thẩm quyền đồng ý bằng văn bản trước quyết định kết nạp. Đây là điều kiện cộng dồn."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-35",
+      "shortExplanation": "Đáp án C: Nhiệm vụ do tổ chức đảng, chính quyền, cơ quan, đơn vị, Mặt trận Tổ quốc và các tổ chức chính trị - xã hội phân công. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-36",
+      "shortExplanation": "Đáp án A: Thẩm tra người vào Đảng; cha, mẹ đẻ; cha, mẹ vợ (chồng) hoặc người trực tiếp nuôi dưỡng bản thân; vợ hoặc chồng, người trực tiếp nuôi dưỡng vợ (chồng); con đẻ của người vào Đảng có năng lực hành vi dân sự đầy đủ. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-37",
+      "shortExplanation": "Đáp án D: Trong kỳ sinh hoạt chi bộ gần nhất. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-38",
+      "shortExplanation": "Đáp án C: Có hai phần ba đảng viên chính thức trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-39",
+      "shortExplanation": "Đáp án B: Trong 60 tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-40",
+      "shortExplanation": "Đáp án A: Tổ chức đảng nơi cư trú. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-41",
+      "shortExplanation": "Đáp án A: Khi đảng viên đã được công nhận đảng viên chính thức. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-42",
+      "shortExplanation": "Đáp án B: Chi bộ có trách nhiệm thu lại thẻ đảng nộp lên cấp ủy cấp trên trực tiếp. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-43",
+      "shortExplanation": "Đáp án B: Cấp ủy cơ sở nơi đảng viên đang sinh hoạt đảng chính thức hoặc cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng (nơi không có đảng ủy cơ sở). Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-44",
+      "shortExplanation": "Đáp án C: 12 tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-45",
+      "shortExplanation": "Đáp án D: Người bệnh nặng có thể nhận Huy hiệu 30–65 năm sớm tối đa 12 tháng, Huy hiệu 70–95 năm sớm tối đa 24 tháng; người từ trần được truy tặng sớm tối đa 12 tháng. Ba mốc áp dụng cho ba trường hợp khác nhau nên A, B, C đều đúng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-46",
+      "shortExplanation": "Đáp án A: Trong cuộc họp chi bộ gần nhất. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-47",
+      "shortExplanation": "Đáp án A: Định kỳ hằng năm. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-48",
+      "shortExplanation": "Đáp án D: Hồ sơ chuyển sinh hoạt chính thức trong nước gồm phiếu đảng viên khi chuyển khỏi đảng bộ cấp trên trực tiếp; thẻ và hồ sơ đảng viên; bản tự kiểm điểm có nhận xét của chi bộ, cấp ủy nơi giới thiệu. Chọn D vì phải mang đủ ba nhóm tài liệu."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-49",
+      "shortExplanation": "Đáp án B: Cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-50",
+      "shortExplanation": "Đáp án D: Ban thường vụ cấp ủy trực thuộc Trung ương. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-51",
+      "shortExplanation": "Đáp án B: 4 bước. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-52",
+      "shortExplanation": "Đáp án A: Một năm bị xếp loại “Không hoàn thành nhiệm vụ”. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-53",
+      "shortExplanation": "Đáp án A: Từ hai phần ba trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-54",
+      "shortExplanation": "Đáp án B: Nêu cao tinh thần trách nhiệm, tích cực tham gia thảo luận, góp ý xây dựng nghị quyết. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-55",
+      "shortExplanation": "Đáp án B: Thông báo chương trình, nội dung sinh hoạt. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-56",
+      "shortExplanation": "Đáp án B: Chuẩn bị nội dung sinh hoạt chi bộ; trường hợp có chi ủy thì bí thư chi bộ chuẩn bị và trao đổi với chi ủy trước khi sinh hoạt. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-57",
+      "shortExplanation": "Đáp án B: Thể hiện sự lãnh đạo toàn diện nhưng có trọng tâm, trọng điểm và phân công cụ thể trách nhiệm cho từng đảng viên. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-58",
+      "shortExplanation": "Đáp án B: Thường xuyên giữ mối liên hệ với tổ chức đảng và nhân dân nơi cư trú. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-59",
+      "shortExplanation": "Đáp án B: Chủ trương, quy định của Đảng; chính sách, pháp luật của Nhà nước và nội quy, quy chế của cơ quan, đơn vị. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-60",
+      "shortExplanation": "Đáp án C: Bảo đảm cập nhật, lưu trữ, quản lý đầy đủ thông tin, tài liệu sinh hoạt Để đảng viên nghiên cứu, chuẩn bị ý kiến thảo luận, phát huy dân chủ và nâng cao chất lượng sinh hoạt. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-61",
+      "shortExplanation": "Đáp án B: Dân chủ, thẳng thắn, phát huy trí tuệ tập thể. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-62",
+      "shortExplanation": "Đáp án B: Thực hiện tốt nguyên tắc tự phê bình và phê bình. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-63",
+      "shortExplanation": "Đáp án B: Xây dựng kế hoạch triển khai cụ thể. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-64",
+      "shortExplanation": "Đáp án C: Phân công cho từng đảng viên. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-65",
+      "shortExplanation": "Đáp án B: Những nội dung cốt lõi, trọng tâm và cần thiết. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-66",
+      "shortExplanation": "Đáp án D: Lắng nghe, tiếp thu đầy đủ ý kiến, tóm tắt, kết luận và dự thảo nghị quyết của chi bộ. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-67",
+      "shortExplanation": "Đáp án C: Nêu rõ lý do, mục đích, nội dung, chương trình và dự kiến thời gian sinh hoạt. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-68",
+      "shortExplanation": "Đáp án C: Nắm toàn diện, bao quát tình hình thực hiện nghị quyết của chi bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-69",
+      "shortExplanation": "Đáp án B: Ban Chấp hành chi bộ (chi ủy) thôn, tổ dân phố. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-70",
+      "shortExplanation": "Đáp án D: Đối tượng kiểm điểm hằng năm là toàn bộ đảng viên, trừ ba nhóm: mới kết nạp chưa đủ 6 tháng, đang bị đình chỉ sinh hoạt, hoặc được miễn công tác và sinh hoạt. Cách nhớ: nguyên tắc là kiểm điểm toàn bộ, A–C là ngoại lệ. Cần đối chiếu văn bản địa phương."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-71",
+      "shortExplanation": "Đáp án C: 03 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-72",
+      "shortExplanation": "Đáp án B: Có thể chia tổ đảng để kiểm điểm đảng viên, cử cấp ủy viên dự và chỉ đạo, sau đó báo cáo kết quả với chi bộ. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-73",
+      "shortExplanation": "Đáp án B: Kiểm điểm ở chi bộ trước, ở tập thể lãnh đạo, quản lý sau. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-74",
+      "shortExplanation": "Đáp án B: Phân công đồng chí Phó Bí thư chi bộ hoặc Chi ủy viên chủ trì. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-75",
+      "shortExplanation": "Đáp án C: Kết quả thực hiện nhiệm vụ tại chi bộ và kết quả thực hiện nhiệm vụ chính trị được giao. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-76",
+      "shortExplanation": "Đáp án C: Kết quả đạt được, khuyết điểm, hạn chế, yếu kém và nguyên nhân; giải pháp và thời gian khắc phục. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-77",
+      "shortExplanation": "Đáp án C: Thực hiện Quý I, II, III. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-78",
+      "shortExplanation": "Đáp án B: Biểu dương tổ đảng và đảng viên trong chi bộ. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-79",
+      "shortExplanation": "Đáp án B: Chi bộ cơ sở và đảng ủy cơ sở. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-80",
+      "shortExplanation": "Đáp án B: Đảng viên đang được cấp có thẩm quyền kiểm tra khi có dấu hiệu vi phạm hoặc đang giải quyết đơn thư tố cáo chưa được xác minh, kết luận. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-81",
+      "shortExplanation": "Đáp án B: Chi bộ không thực hiện đúng quy trình, hồ sơ theo quy định; chi bộ đang trong thời gian thi hành kỷ luật hoặc đang xem xét thi hành kỷ luật. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-82",
+      "shortExplanation": "Đáp án C: Có 5 năm liên tục được xếp loại chất lượng \"Hoàn thành xuất sắc nhiệm vụ\". Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-83",
+      "shortExplanation": "Đáp án A: 0, 3 lần. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-84",
+      "shortExplanation": "Đáp án A: Là hạt nhân chính trị, lãnh đạo thực hiện nhiệm vụ chính trị, công tác chuyên môn hoặc nhiệm vụ được giao. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-85",
+      "shortExplanation": "Đáp án B: Nắm bắt tình hình tư tưởng của cán bộ, đảng viên và quần chúng; kịp thời định hướng nhận thức, tư tưởng, dư luận trong nội bộ. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-86",
+      "shortExplanation": "Đáp án A: Lãnh đạo cán bộ, đảng viên, công chức, viên chức, người lao động thực hiện tốt chức trách, nhiệm vụ được giao theo chủ trương của Đảng, pháp luật của Nhà nước. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-87",
+      "shortExplanation": "Đáp án B: Chỉ đạo tổ chức lấy ý kiến nhân dân về chủ trương và mức đóng góp xây dựng các công trình phúc lợi công cộng theo quy định. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-88",
+      "shortExplanation": "Đáp án C: Đảng ủy cấp trên trực tiếp. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-89",
+      "shortExplanation": "Đáp án B: Lãnh đạo các tổ chức chính trị - xã hội xây dựng tổ chức vững mạnh, thực hiện đúng chức năng, nhiệm vụ theo quy định của pháp luật và điều lệ của từng tổ chức. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-90",
+      "shortExplanation": "Đáp án C: Thủ trưởng cơ quan, đơn vị quyết định theo thẩm quyền và chịu trách nhiệm về quyết định đó, đồng thời chi ủy và người đứng đầu cơ quan, đơn vị cùng báo cáo lên cấp trên có thẩm quyền xem xét, quyết định. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-91",
+      "shortExplanation": "Đáp án C: 04 mức. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-92",
+      "shortExplanation": "Đáp án D: Từ 90 điểm trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-93",
+      "shortExplanation": "Đáp án A: Dưới 50 điểm. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-94",
+      "shortExplanation": "Đáp án B: Bí thư chi bộ. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-95",
+      "shortExplanation": "Đáp án A: Chi ủy viên hoặc bí thư, phó bí thư chi bộ (đối với nơi không có chi ủy). Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-96",
+      "shortExplanation": "Đáp án B: Phải được ghi rõ trong biên bản hoặc nghị quyết của kỳ sinh hoạt chi bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-97",
+      "shortExplanation": "Đáp án C: 06 tháng và 01 năm. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-98",
+      "shortExplanation": "Đáp án B: Ban Tổ chức Tỉnh ủy. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-99",
+      "shortExplanation": "Đáp án B: Ngày 03 hằng tháng (nếu vào ngày nghỉ hoặc trường hợp đặc biệt sinh hoạt trong tuần đầu tiên của tháng). Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-100",
+      "shortExplanation": "Đáp án B: 90 phút. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-101",
+      "shortExplanation": "Đáp án A: 01 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-102",
+      "shortExplanation": "Đáp án C: Sau sinh hoạt chi bộ 02 ngày. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-103",
+      "shortExplanation": "Đáp án C: Phải thực hiện lần lượt (sinh hoạt thường kỳ trước, sinh hoạt chuyên đề sau hoặc ngược lại) và tổng thời gian tối thiểu là 120 phút. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-104",
+      "shortExplanation": "Đáp án B: Xác định sinh hoạt chi bộ, sinh hoạt đảng là cuộc họp quan trọng nhất. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-105",
+      "shortExplanation": "Đáp án C: Thực hiện điểm danh đảng viên trực tiếp tại cuộc họp hoặc trên ứng dụng Sổ tay đảng viên điện tử. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-106",
+      "shortExplanation": "Đáp án C: Các chi bộ đặc thù trong lực lượng vũ trang. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-107",
+      "shortExplanation": "Đáp án A: Chi bộ tổ chức hội nghị bầu bổ sung phó bí thư và báo cáo cấp ủy cấp trên trực tiếp để chuẩn y. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-108",
+      "shortExplanation": "Đáp án D: Kể từ khi quyết định chuyển công tác có hiệu lực thi hành. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-109",
+      "shortExplanation": "Đáp án C: Ở cấp tỉnh và cấp xã. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-110",
+      "shortExplanation": "Đáp án B: Nữ từ 15% trở lên và có cán bộ nữ trong ban thường vụ; cán bộ trẻ từ 10% trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Tiêu chuẩn → tập thể → quy trình → hồ sơ → thẩm quyền."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-111",
+      "shortExplanation": "Đáp án B: Tập trung dân chủ; bình đẳng, trực tiếp, đa số quá bán. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-112",
+      "shortExplanation": "Đáp án A: Bầu cấp ủy, bầu ban thường vụ, bí thư, phó bí thư cấp ủy. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Chuẩn bị → dân chủ → biểu quyết → phân công → kiểm tra."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-113",
+      "shortExplanation": "Đáp án C: Bầu Đoàn chủ tịch, thư ký, ban thẩm tra tư cách đại biểu, ban kiểm phiếu. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Điều kiện → hồ sơ → chi bộ → cấp ủy → theo dõi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-114",
+      "shortExplanation": "Đáp án B: Thực hiện nghiêm nguyên tắc tập trung dân chủ, tập thể quyết định, đồng thời phát huy trách nhiệm của cấp ủy, tổ chức đảng, tập thể lãnh đạo và cá nhân liên quan. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-115",
+      "shortExplanation": "Đáp án C: Báo cáo lên cấp có thẩm quyền xem xét, quyết định. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-116",
+      "shortExplanation": "Đáp án C: Là quyết định của cấp có thẩm quyền dừng việc thực hiện chức trách, nhiệm vụ được giao của cán bộ trong một thời hạn nhất định. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-117",
+      "shortExplanation": "Đáp án B: Cấp quản lý chức vụ cao nhất. Mấu chốt là xác định đúng chủ thể và thẩm quyền, để thực hiện đúng cấp, đúng trách nhiệm và kiểm tra được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-118",
+      "shortExplanation": "Đáp án B: Không quá 03 cán bộ. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-119",
+      "shortExplanation": "Đáp án B: Không quá 03 chức danh. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-120",
+      "shortExplanation": "Đáp án B: Quy hoạch cho một nhiệm kỳ và định hướng cho nhiệm kỳ kế tiếp. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-121",
+      "shortExplanation": "Đáp án C: Từ ngày cấp có thẩm quyền ký, ban hành quyết định phê duyệt. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-122",
+      "shortExplanation": "Đáp án B: 36 tháng. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-123",
+      "shortExplanation": "Đáp án B: Từ 1,5 đến 2,0 lần so với số lượng theo quy định. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-124",
+      "shortExplanation": "Đáp án B: Từ 15% trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-125",
+      "shortExplanation": "Đáp án C: Từ 25% trở lên. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-126",
+      "shortExplanation": "Đáp án B: Căn cứ tiêu chuẩn, điều kiện, phẩm chất, đạo đức, năng lực, sở trường và uy tín của cán bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-127",
+      "shortExplanation": "Đáp án B: Thẩm quyền của tổ chức, cá nhân trong các khâu liên quan đến công tác cán bộ. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-128",
+      "shortExplanation": "Đáp án B: Là việc sử dụng cơ chế, biện pháp nhằm bảo đảm thực hiện nghiêm nguyên tắc, quy định, quy trình, quy chế, quyết định về công tác cán bộ và phòng ngừa, ngăn chặn, phát hiện, xử lý các hành vi tham nhũng, tiêu cực trong công tác cán bộ. Điểm quyết định là phương án nêu đủ đúng đối tượng, điều kiện và phạm vi."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-129",
+      "shortExplanation": "Đáp án B: Hành vi lợi dụng, lạm dụng chức vụ, quyền hạn. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-130",
+      "shortExplanation": "Đáp án A: Hành vi lợi dụng, lạm dụng chức vụ, quyền hạn. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-131",
+      "shortExplanation": "Đáp án D: Hành vi lợi dụng, lạm dụng chức vụ, quyền hạn. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-132",
+      "shortExplanation": "Đáp án B: Chạy chức, chạy quyền. Lựa chọn này nêu đúng mục tiêu của quy định, giúp lãnh đạo, tổ chức và kiểm tra đi đúng hướng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-133",
+      "shortExplanation": "Đáp án C: Hành vi tiêu cực khác trong công tác cán bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-134",
+      "shortExplanation": "Đáp án A: Yêu cầu của vị trí việc làm; gắn với công tác sử dụng, quản lý cán bộ, công chức, viên chức. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-135",
+      "shortExplanation": "Đáp án B: Là một trong những căn cứ đánh giá, xếp loại chất lượng tập thể, cá nhân; kết quả đào tạo, bồi dưỡng là căn cứ quan trọng khi xem xét quy hoạch, bố trí, sử dụng và bổ nhiệm. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-136",
+      "shortExplanation": "Đáp án C: Tiêu chí định hướng (lĩnh vực ưu tiên, chức vụ, quy hoạch). Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-137",
+      "shortExplanation": "Đáp án B: Không quá 10% tổng số CBCCVC hiện đang làm việc hoặc cử nhiều nhất 01 người đối với cơ quan, đơn vị có dưới 10 biên chế. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-138",
+      "shortExplanation": "Đáp án C: Không cử cán bộ, công chức, viên chức tham gia từ 02 khóa học trở lên trong cùng một thời gian. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-139",
+      "shortExplanation": "Đáp án A: Cấp ủy viên của chi bộ cơ sở, đảng bộ cơ sở trở lên là cán bộ đương chức hoặc quy hoạch. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Cần đối chiếu văn bản địa phương hiện hành trước khi áp dụng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-140",
+      "shortExplanation": "Đáp án B: Nữ từ 28 tuổi, nam từ 30 tuổi trở lên. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Tiêu chuẩn → tập thể → quy trình → hồ sơ → thẩm quyền."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-141",
+      "shortExplanation": "Đáp án A: Ủy viên ban chấp hành đảng bộ trực thuộc Tỉnh ủy trở lên; trưởng phòng tương đương cấp xã trở lên. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Tiêu chuẩn → tập thể → quy trình → hồ sơ → thẩm quyền."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-142",
+      "shortExplanation": "Đáp án C: Nữ từ 33 tuổi, nam từ 35 tuổi trở lên. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Tiêu chuẩn → tập thể → quy trình → hồ sơ → thẩm quyền."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-143",
+      "shortExplanation": "Đáp án B: Bảo vệ cán bộ là áp dụng biện pháp cần thiết, kịp thời, hiệu quả, đúng quy định và phù hợp thực tiễn để bảo đảm quyền, lợi ích hợp pháp của cán bộ cùng cơ quan, tổ chức, cá nhân liên quan. Điểm đủ ý là vừa đúng pháp luật, vừa bảo vệ đúng đối tượng."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-144",
+      "shortExplanation": "Đáp án C: Cán bộ thực hiện đề xuất đổi mới, sáng tạo được cấp ủy, tổ chức đảng, cơ quan, đơn vị sử dụng cán bộ đánh giá là hoàn thành theo quy định. Đây là nội dung đúng trọng tâm; các phương án còn lại làm thiếu, đổi hoặc ghép sai điều kiện của quy định."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-145",
+      "shortExplanation": "Đáp án C: Xây là nhiệm vụ cơ bản, chiến lược, lâu dài; chống là nhiệm vụ quan trọng, cấp bách, thường xuyên. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-146",
+      "shortExplanation": "Đáp án C: 05 nhiệm vụ, giải pháp. Con số hoặc mốc này là điều kiện cụ thể, không được thay bằng mức, thời hạn hay ngưỡng của trường hợp khác. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-147",
+      "shortExplanation": "Đáp án C: Lợi dụng Internet, mạng xã hội để xuyên tạc sự thật, kích động, gây rối, chia rẽ đoàn kết nội bộ. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-148",
+      "shortExplanation": "Đáp án B: Kịp thời miễn nhiệm, cho từ chức, thay thế mà không chờ hết nhiệm kỳ, hết thời hạn bổ nhiệm. Lựa chọn này đủ điều kiện và trình tự câu hỏi nêu; phương án khác thiếu điều kiện hoặc nhầm đối tượng. Ghi nhớ: Tiêu chuẩn → tập thể → quy trình → hồ sơ → thẩm quyền."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-149",
+      "shortExplanation": "Đáp án B: Cơ chế bảo vệ, khuyến khích nhân dân phản ánh, tố giác cán bộ, đảng viên tham nhũng, tiêu cực. Lựa chọn này nêu đúng mục tiêu của quy định, giúp lãnh đạo, tổ chức và kiểm tra đi đúng hướng. Ghi nhớ: Đúng thẩm quyền → đúng quy trình → đủ chứng cứ → khách quan."
+    },
+    {
+      "questionId": "mcq-to-chuc-xay-dung-dang-150",
+      "shortExplanation": "Đáp án C: Dân biết, dân bàn, dân làm, dân kiểm tra, dân giám sát, dân thụ hưởng. Cốt lõi là tuân thủ đúng điều kiện và trình tự, để quyết định có căn cứ, rõ trách nhiệm và theo dõi được. Ghi nhớ: Kết luận → căn cứ → cách làm → phòng ngừa."
+    }
+  ],
+  "reviewNote": "81 câu có phương án đúng dài đã được biên tập để không còn nội dung bị cắt; sáu phương án rất dài được tóm tắt thủ công. Mười chín câu có đáp án tổng hợp như ‘Cả 3 phương án’ được viết lại để nêu rõ các ý thành phần."
+}

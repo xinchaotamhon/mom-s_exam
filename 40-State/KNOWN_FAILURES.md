@@ -33,4 +33,4 @@ status: active
 - Nguyên nhân: quy tắc viết lại thủ công về `index.html` trùng với định tuyến SPA và xung đột với chuẩn hóa URL HTML của Workers Static Assets.
 - Xử lý: đã xóa `site/_redirects`, giữ cơ chế SPA chính thức trong `wrangler.jsonc`, đồng thời đổi tên Worker thành `mom-s-exam` để khớp Workers Build.
 - Cổng hồi quy: `deploy.cloudflare-static-assets-config` từ chối tái xuất hiện quy tắc `/* /index.html 200` và kiểm tra tên Worker cùng cấu hình SPA.
-- Trạng thái: đã sửa cục bộ; chờ xác nhận bằng lần triển khai Cloudflare thành công.
+- Trạng thái: đã đóng; bản sửa đã được đẩy và một lần triển khai Cloudflare thành công đã được xác nhận ngày 19/09/2026. Cổng hồi quy vẫn bắt buộc để ngăn lỗi quay lại.

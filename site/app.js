@@ -117,6 +117,7 @@
     elements.nextButton.addEventListener('click', () => moveQuestion(1));
     elements.lightHintButton.addEventListener('click', toggleLightHint);
     elements.outlineButton.addEventListener('click', toggleOutline);
+    elements.schoolLinkButton.addEventListener('click', toggleSchoolLink);
     elements.finalScenarioAnswerButton.addEventListener('click', revealFinalScenarioAnswer);
     elements.rememberButton.addEventListener('click', () => rateOral('remember'));
     elements.needReviewButton.addEventListener('click', () => rateOral('review'));
@@ -327,10 +328,13 @@
     elements.finalScenarioArea.classList.add('is-hidden');
     elements.lightHintPanel.classList.add('is-hidden');
     elements.outlinePanel.classList.add('is-hidden');
+    elements.schoolLinkPanel.classList.add('is-hidden');
     elements.lightHintButton.setAttribute('aria-expanded', 'false');
     elements.outlineButton.setAttribute('aria-expanded', 'false');
+    elements.schoolLinkButton.setAttribute('aria-expanded', 'false');
     elements.lightHintPanel.replaceChildren();
     elements.outlinePanel.replaceChildren();
+    elements.schoolLinkPanel.replaceChildren();
     const saved = state.oral[question.id];
     elements.rememberButton.classList.toggle('is-selected', saved?.rating === 'remember');
     elements.needReviewButton.classList.toggle('is-selected', saved?.rating === 'review');
@@ -363,6 +367,19 @@
       paragraph.textContent = part;
       panel.append(paragraph);
     });
+    if (question.schoolApplication) {
+      const application = document.createElement('div');
+      application.className = 'scenario-school-link school-link-panel';
+      const applicationHeading = document.createElement('strong');
+      applicationHeading.textContent = 'Liên hệ tại Trường Mầm non Sơn Thịnh';
+      const applicationText = document.createElement('p');
+      applicationText.textContent = question.schoolApplication;
+      const applicationNote = document.createElement('p');
+      applicationNote.className = 'application-note';
+      applicationNote.textContent = 'Đây là ví dụ vận dụng để trình bày, không khẳng định một sự việc đã xảy ra tại trường.';
+      application.append(applicationHeading, applicationText, applicationNote);
+      panel.append(application);
+    }
     panel.classList.remove('is-hidden');
     state.finalRound.scenarios[question.id] = { viewed: true, updatedAt: new Date().toISOString() };
     saveState();
@@ -404,6 +421,23 @@
     elements.outlineButton.setAttribute('aria-expanded', String(willOpen));
   }
 
+  function toggleSchoolLink() {
+    const question = session.queue[session.index];
+    const willOpen = elements.schoolLinkPanel.classList.contains('is-hidden');
+    if (willOpen && !elements.schoolLinkPanel.childNodes.length) {
+      const strong = document.createElement('strong');
+      strong.textContent = 'Liên hệ tại Trường Mầm non Sơn Thịnh';
+      const application = document.createElement('p');
+      application.textContent = question.schoolApplication;
+      const note = document.createElement('p');
+      note.className = 'application-note';
+      note.textContent = 'Đây là ví dụ vận dụng để trình bày, không khẳng định một sự việc đã xảy ra tại trường.';
+      elements.schoolLinkPanel.append(strong, application, note);
+    }
+    elements.schoolLinkPanel.classList.toggle('is-hidden', !willOpen);
+    elements.schoolLinkButton.setAttribute('aria-expanded', String(willOpen));
+  }
+
   function rateOral(rating) {
     if (session?.mode !== 'oral') return;
     const question = session.queue[session.index];
@@ -425,7 +459,11 @@
     const note = document.createElement('p');
     note.textContent = question.verification.note;
     elements.questionSourceContent.append(statusPill, note);
-    const sources = question.verification.sourceIds.map((id) => sourceMap.get(id)).filter(Boolean);
+    const sourceIds = [...new Set([
+      ...(question.verification?.sourceIds || []),
+      ...(question.schoolApplicationSourceIds || [])
+    ])];
+    const sources = sourceIds.map((id) => sourceMap.get(id)).filter(Boolean);
     if (sources.length) {
       const list = document.createElement('ul');
       sources.forEach((source) => {

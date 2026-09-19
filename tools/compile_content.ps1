@@ -1,9 +1,12 @@
-param(
+﻿param(
     [string]$BankPath = 'data/derived/question-bank-base.json',
     [string]$PlanPath = 'data/curated/content-plan.json',
     [string]$SourcesPath = 'data/curated/sources.json',
     [string]$FinalRoundPath = 'data/derived/final-round.json',
     [string]$FinalCorrectionsPath = 'data/curated/final-round-corrections.json',
+    [string]$McqExplanationsPath = 'data/curated/mcq-explanations.json',
+    [string]$OralSchoolLinksPath = 'data/curated/oral-school-links.json',
+    [string]$FinalScenarioSchoolLinksPath = 'data/curated/final-scenario-school-links.json',
     [string]$OutputPath = 'site/data/question-bank.json'
 )
 
@@ -126,11 +129,34 @@ function New-OralSupport {
     }
 }
 
-$bank = Get-Content -Raw -LiteralPath $BankPath | ConvertFrom-Json
-$plan = Get-Content -Raw -LiteralPath $PlanPath | ConvertFrom-Json
-$sourcePayload = Get-Content -Raw -LiteralPath $SourcesPath | ConvertFrom-Json
-$finalRound = Get-Content -Raw -LiteralPath $FinalRoundPath | ConvertFrom-Json
-$finalCorrections = Get-Content -Raw -LiteralPath $FinalCorrectionsPath | ConvertFrom-Json
+function Normalize-QuestionText {
+    param([string]$Value)
+    return ([regex]::Replace($Value.ToLowerInvariant().Replace([char]0xA0, ' ').Trim(), '\s+', ' ')).TrimEnd('.', ' ')
+}
+
+function New-ItemMap {
+    param($Items, [string]$Label)
+    $map = @{}
+    foreach ($item in @($Items)) {
+        $id = [string]$item.questionId
+        if ([string]::IsNullOrWhiteSpace($id)) { throw "$Label contains an item without questionId." }
+        if ($map.ContainsKey($id)) { throw "$Label contains duplicate questionId: $id" }
+        $map[$id] = $item
+    }
+    return $map
+}
+
+$bank = Get-Content -Raw -Encoding UTF8 -LiteralPath $BankPath | ConvertFrom-Json
+$plan = Get-Content -Raw -Encoding UTF8 -LiteralPath $PlanPath | ConvertFrom-Json
+$sourcePayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $SourcesPath | ConvertFrom-Json
+$finalRound = Get-Content -Raw -Encoding UTF8 -LiteralPath $FinalRoundPath | ConvertFrom-Json
+$finalCorrections = Get-Content -Raw -Encoding UTF8 -LiteralPath $FinalCorrectionsPath | ConvertFrom-Json
+$mcqExplanationPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $McqExplanationsPath | ConvertFrom-Json
+$oralSchoolPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $OralSchoolLinksPath | ConvertFrom-Json
+$finalScenarioSchoolPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $FinalScenarioSchoolLinksPath | ConvertFrom-Json
+$mcqExplanationMap = New-ItemMap $mcqExplanationPayload.items 'MCQ explanations'
+$oralSchoolMap = New-ItemMap $oralSchoolPayload.items 'Oral school links'
+$finalScenarioSchoolMap = New-ItemMap $finalScenarioSchoolPayload.items 'Final scenario school links'
 if (@($finalRound.multipleChoice).Count -ne 30 -or @($finalRound.scenarios).Count -ne 20) {
     throw 'Final round must contain exactly 30 multiple-choice questions and 20 scenarios.'
 }
@@ -198,6 +224,42 @@ foreach ($correction in @($finalCorrections.corrections | Where-Object { $_.bank
     $question.verification.note = 'Đáp án đã hiệu chỉnh theo nguồn công khai chính thức; câu hỏi gốc vẫn được giữ nguyên.'
 }
 
+foreach ($question in @($bank.multipleChoice)) {
+    $support = $mcqExplanationMap[$question.id]
+    if ($null -eq $support -or [string]::IsNullOrWhiteSpace($support.shortExplanation)) {
+        throw "Missing concise explanation for $($question.id)."
+    }
+    $question.explanation = [string]$support.shortExplanation
+    $question | Add-Member -NotePropertyName explanationKind -NotePropertyValue 'concise-oral-rationale' -Force
+}
+
+$schoolSourceIds = @('son-thinh-current-locality', 'son-thinh-school-context', 'son-thinh-digital-context')
+foreach ($question in @($bank.oral)) {
+    $support = $oralSchoolMap[$question.id]
+    if ($null -eq $support -or [string]::IsNullOrWhiteSpace($support.schoolApplication)) {
+        throw "Missing school application for $($question.id)."
+    }
+    $question | Add-Member -NotePropertyName schoolApplication -NotePropertyValue ([string]$support.schoolApplication) -Force
+    $question | Add-Member -NotePropertyName schoolApplicationSourceIds -NotePropertyValue $schoolSourceIds -Force
+}
+
+foreach ($scenario in @($finalRound.scenarios)) {
+    $support = $finalScenarioSchoolMap[$scenario.id]
+    if ($null -eq $support -or [string]::IsNullOrWhiteSpace($support.schoolApplication)) {
+        throw "Missing school application for $($scenario.id)."
+    }
+    $scenario | Add-Member -NotePropertyName schoolApplication -NotePropertyValue ([string]$support.schoolApplication) -Force
+    $scenario | Add-Member -NotePropertyName schoolApplicationSourceIds -NotePropertyValue $schoolSourceIds -Force
+}
+
+foreach ($finalQuestion in @($finalRound.multipleChoice)) {
+    $normalizedPrompt = Normalize-QuestionText $finalQuestion.prompt
+    $matches = @($bank.multipleChoice | Where-Object { (Normalize-QuestionText $_.prompt) -eq $normalizedPrompt })
+    if ($matches.Count -ne 1) { throw "Final MCQ $($finalQuestion.id) must match exactly one original question for its concise explanation." }
+    $finalQuestion.explanation = $matches[0].explanation
+    $finalQuestion | Add-Member -NotePropertyName explanationKind -NotePropertyValue 'concise-oral-rationale' -Force
+}
+
 $reviewStats = [ordered]@{}
 foreach ($status in @('publicly-verified', 'cross-checked', 'local-source-needed')) {
     $reviewStats[$status] = @($bank.multipleChoice | Where-Object { $_.verification.status -eq $status }).Count
@@ -221,6 +283,12 @@ $finalSources = @(
 )
 $finalSources += @($finalCorrections.sources)
 $bank | Add-Member -NotePropertyName sources -NotePropertyValue @($sourcePayload.sources) -Force
+$bank | Add-Member -NotePropertyName applicationContext -NotePropertyValue ([ordered]@{
+    schoolName = 'Trường Mầm non Sơn Thịnh'
+    localityLabel = [string]$oralSchoolPayload.localityLabel
+    note = 'Các đoạn liên hệ là ví dụ vận dụng để trình bày, không phải ghi nhận sự việc đã xảy ra tại trường.'
+    sourceIds = $schoolSourceIds
+}) -Force
 $bank | Add-Member -NotePropertyName finalRound -NotePropertyValue ([ordered]@{
     stats = $finalRound.stats
     multipleChoice = @($finalRound.multipleChoice)
