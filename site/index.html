@@ -102,6 +102,33 @@
         </div>
       </section>
 
+      <section class="final-round" aria-labelledby="finalRoundTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">VÒNG THI CUỐI</p>
+            <h2 id="finalRoundTitle">Bộ câu hỏi chốt cuộc thi</h2>
+          </div>
+          <span class="gentle-badge">50 câu</span>
+        </div>
+        <p class="section-note">30 câu trắc nghiệm có chấm đáp án và 20 tình huống để tự trả lời trước khi xem cách xử lý trong tài liệu.</p>
+        <div class="mode-grid final-mode-grid">
+          <button class="mode-card final-card" type="button" data-final-mode="mcq">
+            <span class="mode-number" id="finalMcqProgressText">30 câu</span>
+            <span class="mode-symbol mcq-symbol" aria-hidden="true">✓</span>
+            <strong>Trắc nghiệm chốt</strong>
+            <span>Chọn một đáp án, xem kết quả ngay</span>
+            <em>Bắt đầu vòng cuối <b aria-hidden="true">→</b></em>
+          </button>
+          <button class="mode-card final-card" type="button" data-final-mode="scenario">
+            <span class="mode-number" id="finalScenarioProgressText">20 câu</span>
+            <span class="mode-symbol oral-symbol" aria-hidden="true">✦</span>
+            <strong>Tình huống thực tế</strong>
+            <span>Tự suy nghĩ rồi mở đáp án và gợi ý</span>
+            <em>Bắt đầu vòng cuối <b aria-hidden="true">→</b></em>
+          </button>
+        </div>
+      </section>
+
       <p class="home-note"><span aria-hidden="true">🔒</span> Tiến độ chỉ lưu trên máy đang dùng, không gửi thông tin cá nhân đi đâu.</p>
     </section>
 
@@ -149,6 +176,11 @@
               <button class="rating-button review-button" id="needReviewButton" type="button">↺ Cần ôn lại</button>
             </div>
           </div>
+        </section>
+
+        <section class="final-scenario-area is-hidden" id="finalScenarioArea" aria-label="Đáp án tình huống vòng cuối">
+          <button class="primary-button" id="finalScenarioAnswerButton" type="button">Xem đáp án thực tế</button>
+          <div class="hint-panel is-hidden" id="finalScenarioAnswerPanel" aria-live="polite"></div>
         </section>
 
         <section class="feedback-panel is-hidden" id="feedbackPanel" aria-live="polite">

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'on-thi-chi-bo-2026-08-15-v1';
+const CACHE_NAME = 'on-thi-chi-bo-2026-09-19-final-round';
 const CORE_ASSETS = [
   '/',
   '/index.html',

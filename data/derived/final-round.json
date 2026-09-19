@@ -1,0 +1,1506 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-19",
+  "provenance": {
+    "method": "python-docx and OOXML structure extraction; source documents copied byte-for-byte",
+    "renderStatus": "not-rendered: bundled LibreOffice unavailable on host",
+    "sources": {
+      "final-mcq-source": {
+        "path": "D:/mydata/my-project/my_mother's_exam/data/source/final-30-trac-nghiem.docx",
+        "sha256": "b2578ede8aefaee4f849a851f577b1dd07b508fb7c3d9f4c18bfbf6f991b9fc8",
+        "bytes": 29042,
+        "paragraphs": 188,
+        "tables": 0,
+        "pagesInAppXml": 10
+      },
+      "final-scenario-source": {
+        "path": "D:/mydata/my-project/my_mother's_exam/data/source/final-20-tinh-huong.docx",
+        "sha256": "ab84877e02f300fd79cae48e2e010153825330f21c390338f0e9c369fc4426ba",
+        "bytes": 35415,
+        "paragraphs": 162,
+        "tables": 0,
+        "pagesInAppXml": 12
+      }
+    },
+    "correctionSourceIds": [
+      "final-qd01-roles",
+      "final-qd01-article5",
+      "final-qd21-article6"
+    ],
+    "correctionsSha256": "c9f689d3cf54d107aa9d34592368bc0bd6e11c939c322313c9b0bb89566533af"
+  },
+  "stats": {
+    "multipleChoice": 30,
+    "scenarios": 20,
+    "total": 50
+  },
+  "multipleChoice": [
+    {
+      "id": "final-mcq-1",
+      "number": 1,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "prompt": "Theo Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí: Việc đóng đảng phí đối với đảng viên dự bị được thực hiện như thế nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thực hiện như đối với đảng viên chính thức."
+        },
+        {
+          "id": "B",
+          "text": "Chỉ thực hiện sau khi được công nhận là đảng viên chính thức."
+        },
+        {
+          "id": "C",
+          "text": "Thực hiện bằng một nửa mức đóng của đảng viên chính thức."
+        },
+        {
+          "id": "D",
+          "text": "Do đảng viên dự bị tự nguyện lựa chọn."
+        }
+      ],
+      "answerReference": "Điểm 1.1. khoản 1, điều 2",
+      "correctOption": "A",
+      "explanation": "Đáp án A. Thực hiện như đối với đảng viên chính thức.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-2",
+      "number": 2,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "prompt": "Theo Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí: Nếu không có lý do chính đáng, đảng viên không đóng đảng phí trong bao nhiêu tháng của một năm thì chi bộ xem xét, đề nghị cấp ủy có thẩm quyền quyết định xóa tên trong danh sách đảng viên?",
+      "options": [
+        {
+          "id": "A",
+          "text": "02 tháng."
+        },
+        {
+          "id": "B",
+          "text": "03 tháng."
+        },
+        {
+          "id": "C",
+          "text": "04 tháng."
+        },
+        {
+          "id": "D",
+          "text": "05 tháng."
+        }
+      ],
+      "answerReference": "(Điểm 1.4, khoản 1, Điều 2",
+      "correctOption": "B",
+      "explanation": "Đáp án B. 03 tháng.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-3",
+      "number": 3,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "prompt": "Theo Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí: Chi bộ cơ sở được để lại bao nhiêu phần trăm số đảng phí còn lại sau khi trừ số đã để lại cho các tổ chức đảng cấp dưới?",
+      "options": [
+        {
+          "id": "A",
+          "text": "30%."
+        },
+        {
+          "id": "B",
+          "text": "50%."
+        },
+        {
+          "id": "C",
+          "text": "70%."
+        },
+        {
+          "id": "D",
+          "text": "90%."
+        }
+      ],
+      "answerReference": "Điểm 1.3, khoản 1, điều 6",
+      "correctOption": "C",
+      "explanation": "Đáp án C. 70%.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-4",
+      "number": 4,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "prompt": "Theo Quy định số 399-QĐ/TW ngày 09/01/2026 của Ban Bí thư về thể loại, thẩm quyền ban hành và thể thức văn bản của Đảng: Chi bộ có thẩm quyền ban hành đồng thời cả ba thể loại văn bản nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đề án, hướng dẫn và dự án."
+        },
+        {
+          "id": "B",
+          "text": "Phương án, chỉ thị và dự án."
+        },
+        {
+          "id": "C",
+          "text": "Đề án, thông cáo và phương án."
+        },
+        {
+          "id": "D",
+          "text": "Đề án, phương án và dự án."
+        }
+      ],
+      "answerReference": "Điển n, khoản 4, điều 11",
+      "correctOption": "D",
+      "explanation": "Đáp án D. Đề án, phương án và dự án.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-5",
+      "number": 5,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "prompt": "Theo Hướng dẫn số 05-HD/VPTW ngày 27/5/2026 của Văn phòng Trung ương Đảng về thể thức và kỹ thuật trình bày văn bản của Đảng: Cách ghi số và ký hiệu văn bản nào sau đây đúng?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Số 5-BC/CB."
+        },
+        {
+          "id": "B",
+          "text": "Số 5 BC/CB."
+        },
+        {
+          "id": "C",
+          "text": "Số 05-BC/CB."
+        },
+        {
+          "id": "D",
+          "text": "Số 05/BC-CB."
+        }
+      ],
+      "answerReference": "Điển 3.2.2, tiểu mục 3, Mục I, phần II",
+      "correctOption": "C",
+      "explanation": "Đáp án C. Số 05-BC/CB.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-6",
+      "number": 6,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "prompt": "Theo Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10/12/2025: Bí mật nhà nước được phân loại thành bao nhiêu độ mật?",
+      "options": [
+        {
+          "id": "A",
+          "text": "02 độ mật."
+        },
+        {
+          "id": "B",
+          "text": "03 độ mật."
+        },
+        {
+          "id": "C",
+          "text": "04 độ mật."
+        },
+        {
+          "id": "D",
+          "text": "05 độ mật."
+        }
+      ],
+      "answerReference": "Điều 8",
+      "correctOption": "B",
+      "explanation": "Đáp án B. 03 độ mật.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-7",
+      "number": 7,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "prompt": "Theo Nghị quyết số 04-NQ/TW ngày 30/10/2016 của Ban Chấp hành Trung ương Đảng khóa XII về tăng cường xây dựng, chỉnh đốn Đảng; ngăn chặn, đẩy lùi sự suy thoái về tư tưởng chính trị, đạo đức, lối sống, những biểu hiện “tự diễn biến”, “tự chuyển hóa” trong nội bộ: Biểu hiện “nói và viết không đúng quan điểm, đường lối của Đảng; nói không đi đôi với làm; nói và làm không nhất quán…” thuộc nhóm nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Suy thoái về tư tưởng chính trị."
+        },
+        {
+          "id": "B",
+          "text": "Suy thoái về đạo đức, lối sống."
+        },
+        {
+          "id": "C",
+          "text": "“Tự diễn biến”, “tự chuyển hóa” trong nội bộ."
+        },
+        {
+          "id": "D",
+          "text": "Vi phạm nguyên tắc tổ chức và sinh hoạt đảng."
+        }
+      ],
+      "answerReference": "Mục 1, Phần II",
+      "correctOption": "A",
+      "explanation": "Đáp án A. Suy thoái về tư tưởng chính trị.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-8",
+      "number": 8,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "prompt": "Theo Di chúc của Chủ tịch Hồ Chí Minh, bản viết ngày 10/5/1969: Nội dung nào còn thiếu trong lời căn dặn “Phải giữ gìn Đảng ta thật trong sạch, ...”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "giữ gìn sự đoàn kết nhất trí như giữ gìn con ngươi của mắt mình."
+        },
+        {
+          "id": "B",
+          "text": "phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của Nhân dân."
+        },
+        {
+          "id": "C",
+          "text": "thường xuyên chăm lo bồi dưỡng thế hệ cách mạng cho đời sau."
+        },
+        {
+          "id": "D",
+          "text": "phải có kế hoạch thật tốt để phát triển kinh tế và văn hóa."
+        }
+      ],
+      "answerReference": "Nội dung di chúc",
+      "correctOption": "B",
+      "explanation": "Đáp án B. phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của Nhân dân.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-9",
+      "number": 9,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "prompt": "Theo Quy định số 18-QĐ/TU ngày 22/7/2025 của Ban Thường vụ Tỉnh ủy Lào Cai về học tập, làm theo và nêu gương theo tư tưởng, đạo đức, phong cách Hồ Chí Minh trên địa bàn tỉnh Lào Cai: Việc học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh được xác định như thế nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Là phong trào thi đua tổ chức theo từng đợt."
+        },
+        {
+          "id": "B",
+          "text": "Là nhiệm vụ chủ yếu của cán bộ lãnh đạo, quản lý."
+        },
+        {
+          "id": "C",
+          "text": "Là công việc thường xuyên, đồng thời là nghĩa vụ, trách nhiệm và quyền lợi của mỗi tổ chức đảng, cán bộ, đảng viên, công chức, viên chức."
+        },
+        {
+          "id": "D",
+          "text": "Là nội dung khuyến khích thực hiện tùy điều kiện từng cơ quan, đơn vị."
+        }
+      ],
+      "answerReference": "9 Khoản 1, Điều 2",
+      "correctOption": "C",
+      "explanation": "Đáp án C. Là công việc thường xuyên, đồng thời là nghĩa vụ, trách nhiệm và quyền lợi của mỗi tổ chức đảng, cán bộ, đảng viên, công chức, viên chức.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-10",
+      "number": 10,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "prompt": "Theo Báo cáo chính trị của Ban Chấp hành Đảng bộ tỉnh Lào Cai nhiệm kỳ 2020 - 2025 trình Đại hội đại biểu Đảng bộ tỉnh Lào Cai lần thứ I, nhiệm kỳ 2025 - 2030: Phương án nào nêu đầy đủ chủ đề Đại hội đại biểu Đảng bộ tỉnh Lào Cai lần thứ I, nhiệm kỳ 2025 - 2030?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Xây dựng Đảng, hệ thống chính trị trong sạch, vững mạnh toàn diện; phát huy sức mạnh đại đoàn kết toàn dân; tạo bước đột phá xây dựng tỉnh Lào Cai trở thành cực tăng trưởng, trung tâm kết nối giao thương kinh tế quốc tế, phát triển theo hướng xanh, hài hòa, bản sắc, hạnh phúc."
+        },
+        {
+          "id": "B",
+          "text": "Xây dựng Đảng, hệ thống chính trị trong sạch, vững mạnh toàn diện; phát huy sức mạnh đại đoàn kết toàn dân; tạo bước đột phá xây dựng tỉnh Lào Cai trở thành trung tâm kết nối vùng Tây Bắc, phát triển theo hướng xanh, hài hòa, bản sắc, hạnh phúc."
+        },
+        {
+          "id": "C",
+          "text": "Xây dựng Đảng, hệ thống chính trị trong sạch, vững mạnh toàn diện; phát huy sức mạnh đại đoàn kết toàn dân; tạo bước đột phá xây dựng tỉnh Lào Cai trở thành tỉnh đứng đầu cả nước về thu hút FDI, phát triển theo hướng xanh, hài hòa, bản sắc, hạnh phúc."
+        },
+        {
+          "id": "D",
+          "text": "Xây dựng Đảng, hệ thống chính trị trong sạch, vững mạnh toàn diện; phát huy sức mạnh đại đoàn kết toàn dân; tạo bước đột phá xây dựng tỉnh Lào Cai trở thành tỉnh cực tăng trưởng của khu vực Tây Bắc, phát triển theo hướng xanh, hài hòa, bản sắc, hạnh phúc."
+        }
+      ],
+      "answerReference": "Báo cáo chính trị tại Đại hội đại biểu Đảng bộ tỉnh Lào Cai, nhiệm kỳ 2025 - 2030",
+      "correctOption": "A",
+      "explanation": "Đáp án A. Xây dựng Đảng, hệ thống chính trị trong sạch, vững mạnh toàn diện; phát huy sức mạnh đại đoàn kết toàn dân; tạo bước đột phá xây dựng tỉnh Lào Cai trở thành cực tăng trưởng, trung tâm kết nối giao thương kinh tế quốc tế, phát triển theo hướng xanh, hài hòa, bản sắc, hạnh phúc.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-11",
+      "number": 11,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "prompt": "Theo Kết luận số 114-KL/TW ngày 14/7/2015 của Ban Bí thư về nâng cao hiệu quả công tác dân vận của cơ quan nhà nước các cấp: Mục tiêu cao nhất của công tác dân vận chính quyền đối với người dân là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quản lý chặt chẽ mọi hoạt động của người dân."
+        },
+        {
+          "id": "B",
+          "text": "Góp phần xây dựng Nhà nước trong sạch, vững mạnh, gần dân, bảo đảm quyền làm chủ của nhân dân."
+        },
+        {
+          "id": "C",
+          "text": "Tăng cường thu ngân sách từ các hoạt động dịch vụ công."
+        },
+        {
+          "id": "D",
+          "text": "Giảm thiểu các cuộc khiếu kiện của dân lên cấp trên."
+        }
+      ],
+      "answerReference": "Mục 2",
+      "correctOption": "B",
+      "explanation": "Đáp án B. Góp phần xây dựng Nhà nước trong sạch, vững mạnh, gần dân, bảo đảm quyền làm chủ của nhân dân.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-12",
+      "number": 12,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "prompt": "Theo Nghị định số 61/2023/NĐ-CP ngày 16/8/2023 của Chính phủ về xây dựng và thực hiện hương ước, quy ước của cộng đồng dân cư: Nội dung nào sau đây được lựa chọn đưa vào phạm vi nội dung của hương ước, quy ước?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Được quy định các biện pháp xử phạt thay thế các hình thức xử lý của pháp luật."
+        },
+        {
+          "id": "B",
+          "text": "Không được quy định các biện pháp phạt tiền hoặc hiện vật dưới mọi hình thức."
+        },
+        {
+          "id": "C",
+          "text": "Có biện pháp phạt phù hợp nhưng không thay thế các biện pháp xử lý theo quy định của pháp luật."
+        },
+        {
+          "id": "D",
+          "text": "Cộng đồng dân cư có quyền tự ý quyết định mức phạt mà không cần căn cứ vào pháp luật."
+        }
+      ],
+      "answerReference": "Khoản 4, Điều 5",
+      "correctOption": "C",
+      "explanation": "Đáp án C. Có biện pháp phạt phù hợp nhưng không thay thế các biện pháp xử lý theo quy định của pháp luật.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-13",
+      "number": 13,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "prompt": "Theo Hướng dẫn số 25-HD/BCĐTW ngày 01/8/2022 của Ban Chỉ đạo Trung ương về phòng, chống tham nhũng, lãng phí, tiêu cực: Đâu là hành vi tiêu cực?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nói, viết, thực hiện không đúng hoặc không thực hiện, thực hiện không đầy đủ chủ trương, đường lối, quy định của Đảng, pháp luật của Nhà nước."
+        },
+        {
+          "id": "B",
+          "text": "Không thực hiện hoặc thực hiện không đầy đủ trách nhiệm nêu gương theo quy định của Đảng."
+        },
+        {
+          "id": "C",
+          "text": "Quan liêu, xa rời thực tế, không sâu sát công việc, không nắm chắc tình hình trong cơ quan, tổ chức, địa phương, đơn vị."
+        },
+        {
+          "id": "D",
+          "text": "Cả 3 phương án trên."
+        }
+      ],
+      "answerReference": "Phần III Hường dẫn số 25- HD/BCĐTW",
+      "correctOption": "D",
+      "explanation": "Đáp án D. Cả 3 phương án trên.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-14",
+      "number": 14,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "prompt": "Theo Quy định số 132-QĐ/TW ngày 27/10/2023 của Bộ Chính trị về kiểm soát quyền lực, phòng, chống tham nhũng, tiêu cực trong hoạt động điều tra, truy tố, xét xử, thi hành án: Nội dung nào sau đây thuộc phạm vi kiểm soát quyền lực, phòng, chống tham nhũng, tiêu cực trong hoạt động tố tụng, thi hành án?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Kiểm soát việc lãnh đạo, chỉ đạo, tổ chức thực hiện chủ trương, quy định của Đảng, pháp luật của Nhà nước, quy chế làm việc, quy định, quy trình nghiệp vụ, chuẩn mực đạo đức, quy tắc ứng xử, công tác phòng, chống tham nhũng, tiêu cực trong hoạt động tố tụng, thi hành án và các hoạt động khác có liên quan."
+        },
+        {
+          "id": "B",
+          "text": "Hoạt động kiểm soát quyền lực giữa các cơ quan, tổ chức, cá nhân có thẩm quyền thông qua việc thực hiện các quy trình, thủ tục trong công tác xây dựng pháp luật."
+        },
+        {
+          "id": "C",
+          "text": "Hoạt động kiểm tra nội bộ của các cơ quan nhà nước có thẩm quyền trong công tác xây dựng pháp luật."
+        },
+        {
+          "id": "D",
+          "text": "Xử lý hành vi vi phạm quy chế làm việc của cơ quan, đơn vị."
+        }
+      ],
+      "answerReference": "Khoản 1, Điều 4",
+      "correctOption": "A",
+      "explanation": "Đáp án A. Kiểm soát việc lãnh đạo, chỉ đạo, tổ chức thực hiện chủ trương, quy định của Đảng, pháp luật của Nhà nước, quy chế làm việc, quy định, quy trình nghiệp vụ, chuẩn mực đạo đức, quy tắc ứng xử, công tác phòng, chống tham nhũng, tiêu cực trong hoạt động tố tụng, thi hành án và các hoạt động khác có liên quan.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-15",
+      "number": 15,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "prompt": "Tại Kỳ họp thứ nhất, Quốc hội khóa XVI đã thông qua bao nhiêu luật và nghị quyết quy phạm pháp luật nhằm thể chế hóa kịp thời Nghị quyết Đại hội Đại biểu toàn quốc lần thứ XIV?",
+      "options": [
+        {
+          "id": "A",
+          "text": "9 luật và 05 Nghị quyết."
+        },
+        {
+          "id": "B",
+          "text": "8 luật và 04 Nghị quyết."
+        },
+        {
+          "id": "C",
+          "text": "7 luật và 05 Nghị quyết."
+        },
+        {
+          "id": "D",
+          "text": "6 luật và 03 Nghị quyết."
+        }
+      ],
+      "answerReference": "Mục 1, Nghị quyết số 31/2026/QH16 ngày 24/4/2026",
+      "correctOption": "A",
+      "explanation": "Đáp án A. 9 luật và 05 Nghị quyết.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-16",
+      "number": 16,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "prompt": "Theo Đề án số 04-ĐA/TU ngày 29/12/2025 của Ban Chấp hành Đảng bộ tỉnh về tăng cường sự lãnh đạo của Đảng trong công tác phòng, chống lãng phí trên địa bàn tỉnh Lào Cai giai đoạn 2025 – 2030: Có bao nhiêu mục tiêu?",
+      "options": [
+        {
+          "id": "A",
+          "text": "06 mục tiêu."
+        },
+        {
+          "id": "B",
+          "text": "07 mục tiêu."
+        },
+        {
+          "id": "C",
+          "text": "08 mục tiêu."
+        },
+        {
+          "id": "D",
+          "text": "10 mục tiêu."
+        }
+      ],
+      "answerReference": "khoản 2, Mục II",
+      "correctOption": "D",
+      "explanation": "Đáp án D. 10 mục tiêu.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-17",
+      "number": 17,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "prompt": "Theo Luật Tiết kiệm, chống lãng phí số 110/2025/QH15 (có hiệu lực thi hành từ ngày 01/7/2026): \"Lãng phí\" được định nghĩa như thế nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Là hành vi tham ô, chiếm đoạt tài sản công hoặc sử dụng nguồn lực nhà nước sai mục đích nhằm trục lợi cá nhân."
+        },
+        {
+          "id": "B",
+          "text": "Là việc quản lý, khai thác, sử dụng tài chính công, tài sản công, tổ chức bộ máy và quản lý, sử dụng lao động trong khu vực nhà nước, tài nguyên, năng lượng vượt định mức, tiêu chuẩn, chế độ do cơ quan nhà nước có thẩm quyền ban hành hoặc việc quản lý, sử dụng không hiệu quả, không đạt được mục tiêu đã định hoặc là việc thực hiện các hành vi gây lãng phí quy định tại Luật này, tạo rào cản phát triển kinh tế - xã hội, bỏ lỡ thời cơ phát triển của đất nước."
+        },
+        {
+          "id": "C",
+          "text": "Là việc chi tiêu, sử dụng ngân sách nhà nước vượt quá dự toán được cơ quan có thẩm quyền phê duyệt hằng năm."
+        },
+        {
+          "id": "D",
+          "text": "Là việc mua sắm tài sản công đắt tiền, vượt quá nhu cầu thực tế của cơ quan, tổ chức, đơn vị nhưng vẫn mang lại hiệu quả công việc cao."
+        }
+      ],
+      "answerReference": "theo khoản 2, Điều 3",
+      "correctOption": "B",
+      "explanation": "Đáp án B. Là việc quản lý, khai thác, sử dụng tài chính công, tài sản công, tổ chức bộ máy và quản lý, sử dụng lao động trong khu vực nhà nước, tài nguyên, năng lượng vượt định mức, tiêu chuẩn, chế độ do cơ quan nhà nước có thẩm quyền ban hành hoặc việc quản lý, sử dụng không hiệu quả, không đạt được mục tiêu đã định hoặc là việc thực hiện các hành vi gây lãng phí quy định tại Luật này, tạo rào cản phát triển kinh tế - xã hội, bỏ lỡ thời cơ phát triển của đất nước.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-18",
+      "number": 18,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "prompt": "Theo Đề án số 04-ĐA/TU ngày 29/12/2025 của Ban Chấp hành Đảng bộ tỉnh Lào Cai về “Tăng cường sự lãnh đạo của Đảng trong công tác phòng, chống lãng phí trên địa bàn tỉnh Lào Cai giai đoạn 2025 - 2030”: Phương châm thực hiện công tác phòng, chống lãng phí được xác định là gì?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Phòng, chống lãng phí phải lấy xử lý vi phạm làm trọng tâm."
+        },
+        {
+          "id": "B",
+          "text": "Phòng, chống lãng phí phải bảo đảm góp phần ổn định để phát triển."
+        },
+        {
+          "id": "C",
+          "text": "Phòng, chống lãng phí phải tập trung vào tiết kiệm chi thường xuyên."
+        },
+        {
+          "id": "D",
+          "text": "Phòng, chống lãng phí phải ưu tiên thanh tra các dự án đầu tư công."
+        }
+      ],
+      "answerReference": "Mục 1, khoản 1, Đề án số 04 – ĐA/TTU",
+      "correctOption": "B",
+      "explanation": "Đáp án B. Phòng, chống lãng phí phải bảo đảm góp phần ổn định để phát triển.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-19",
+      "number": 19,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "prompt": "Theo Quy định số 21-QĐ/TW ngày 11/4/2026 của Ban Chấp hành Trung ương quy định về công tác kiểm tra, giám sát và kỷ luật của Đảng: Chi bộ xây dựng kế hoạch và tiến hành kiểm tra, giám sát đảng viên trong chi bộ; trong đó tập trung kiểm tra những nội dung nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Việc chấp hành các nguyên tắc tổ chức và hoạt động của Đảng, giữ gìn đoàn kết nội bộ, quy chế làm việc, chế độ công tác, thực hiện dân chủ trong Đảng."
+        },
+        {
+          "id": "B",
+          "text": "Tiêu chuẩn đảng viên, tiêu chuẩn cấp ủy viên và việc thực hiện nhiệm vụ đảng viên."
+        },
+        {
+          "id": "C",
+          "text": "Việc thực hiện nghị quyết của chi bộ, nhiệm vụ do chi bộ phân công và quy định về trách nhiệm nêu gương, về những điều đảng viên không được làm."
+        },
+        {
+          "id": "D",
+          "text": "Việc thực hiện chức năng, nhiệm vụ, quyền hạn thuộc lĩnh vực phụ trách và những nội dung do cấp ủy giao."
+        }
+      ],
+      "answerReference": "Khoản 1, Điều 6",
+      "correctOption": "C",
+      "explanation": "Đáp án C. Việc thực hiện nghị quyết của chi bộ, nhiệm vụ do chi bộ phân công và quy định về trách nhiệm nêu gương, về những điều đảng viên không được làm.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-20",
+      "number": 20,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "prompt": "Theo nhiệm vụ, giải pháp của Đề án số 03-ĐA/TU ngày 29/12/2025 của Tỉnh ủy về nâng cao chất lượng, hiệu lực, hiệu quả công tác kiểm tra, giám sát và kỷ luật của Đảng, nhiệm kỳ 2025-2030; về nội dung: Chi bộ chỉ được xếp loại “Hoàn thành tốt nhiệm vụ” trở lên khi đáp ứng các điều kiện nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Xây dựng và thực hiện đầy đủ kế hoạch KTGS năm."
+        },
+        {
+          "id": "B",
+          "text": "Xây dựng và thực hiện đầy đủ kế hoạch KTGS năm; không có đảng viên bị cấp trên kỷ luật nội dung vi phạm thuộc phạm vi quản lý của chi bộ mà chi bộ đã phát hiện được dấu hiệu vi phạm từ trước."
+        },
+        {
+          "id": "C",
+          "text": "Xây dựng và thực hiện đầy đủ kế hoạch KTGS năm; không có đảng viên bị cấp trên kỷ luật nội dung vi phạm thuộc phạm vi quản lý của chi bộ mà chi bộ không phát hiện được dấu hiệu vi phạm từ trước."
+        },
+        {
+          "id": "D",
+          "text": "Có trên 70% các vụ việc vi phạm của chi bộ, đảng viên được phát hiện, xem xét, xử lý (hoặc đề nghị xử lý) ngay từ cấp cơ sở, không để kéo dài, phức tạp."
+        }
+      ],
+      "answerReference": "điểm 1.4. tiểu mục 1, mục II, phần II Đề án số 03- ĐA/TU",
+      "correctOption": "C",
+      "explanation": "Đáp án C. Xây dựng và thực hiện đầy đủ kế hoạch KTGS năm; không có đảng viên bị cấp trên kỷ luật nội dung vi phạm thuộc phạm vi quản lý của chi bộ mà chi bộ không phát hiện được dấu hiệu vi phạm từ trước.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-21",
+      "number": 21,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "prompt": "Theo Quyết định số 299-QĐ/TU ngày 26/8/2025 của Ban Thường vụ Tỉnh ủy về ban hành quy trình kiểm tra, giám sát chuyên đề, kiểm tra khi có dấu hiệu vi phạm, giải quyết tố cáo, thi hành kỷ luật đảng của chi bộ: Thời gian giám sát chuyên đề là bao nhiêu ngày?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Không quá 30 ngày."
+        },
+        {
+          "id": "B",
+          "text": "Không quá 40 ngày."
+        },
+        {
+          "id": "C",
+          "text": "Không quá 50 ngày."
+        },
+        {
+          "id": "D",
+          "text": "Không quá 60 ngày."
+        }
+      ],
+      "answerReference": "điểm 2, mục I, Quy trình giám sát chuyên đề",
+      "correctOption": "A",
+      "explanation": "Đáp án A. Không quá 30 ngày.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-22",
+      "number": 22,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "prompt": "Theo Quy định số 21-QĐ/TW ngày 11/4/2026 của Ban Chấp hành Trung ương Đảng về công tác kiểm tra, giám sát và kỷ luật của Đảng, giám sát thường xuyên, giám sát chuyên đề đối với đảng viên: Chi bộ thực hiện việc giám sát thường xuyên, giám sát chuyên đề đối với đảng viên gồm những nội dung nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Việc thực hiện nhiệm vụ đảng viên, thực hiện nhiệm vụ chuyên môn được giao."
+        },
+        {
+          "id": "B",
+          "text": "Việc thực hiện nghị quyết của chi bộ, nhiệm vụ do chi bộ phân công."
+        },
+        {
+          "id": "C",
+          "text": "Việc thực hiện nghị quyết của chi bộ về những điều đảng viên không được làm."
+        },
+        {
+          "id": "D",
+          "text": "Việc thực hiện nhiệm vụ đảng viên về trách nhiệm nêu gương."
+        }
+      ],
+      "answerReference": "Khoản 1, Điều 6",
+      "correctOption": "A",
+      "explanation": "Đáp án A. Việc thực hiện nhiệm vụ đảng viên, thực hiện nhiệm vụ chuyên môn được giao.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "publicly-verified",
+        "sourceIds": [
+          "final-mcq-source",
+          "final-qd21-article6"
+        ],
+        "note": "Đáp án đã đối chiếu với văn bản công khai chính thức; bản gốc trong tài liệu vẫn được lưu để đối chiếu."
+      },
+      "sourceAnswer": "A",
+      "correction": {
+        "note": "Câu 22 của DOCX vòng cuối trùng nội dung với câu mcq-kiem-tra-giam-sat-23 trong bộ 395 câu, nhưng đáp án cũ B nhầm nội dung kiểm tra với nội dung giám sát. Điều 6 Quy định 21-QĐ/TW xác định giám sát thường xuyên, giám sát chuyên đề đối với đảng viên gồm việc thực hiện nhiệm vụ đảng viên và nhiệm vụ chuyên môn được giao, tương ứng phương án A.",
+        "sourceIds": [
+          "final-qd21-article6"
+        ],
+        "status": "publicly-verified"
+      }
+    },
+    {
+      "id": "final-mcq-23",
+      "number": 23,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "prompt": "Theo Quy định số 69-QĐ/TW ngày 06/7/2022 của Bộ Chính trị về kỷ luật tổ chức đảng, đảng viên: Trường hợp nào không áp dụng thời hiệu kỷ luật đảng viên vi phạm?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vi phạm đạo đức, lối sống."
+        },
+        {
+          "id": "B",
+          "text": "Vi phạm gây hậu quả nghiêm trọng."
+        },
+        {
+          "id": "C",
+          "text": "Sử dụng văn bằng, chứng chỉ, chứng nhận không hợp pháp."
+        },
+        {
+          "id": "D",
+          "text": "Thực hiện nhiệm vụ chi bộ giao."
+        }
+      ],
+      "answerReference": "điểm B, khoản 2, Điều 4",
+      "correctOption": "C",
+      "explanation": "Đáp án C. Sử dụng văn bằng, chứng chỉ, chứng nhận không hợp pháp.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-24",
+      "number": 24,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "prompt": "Theo Quy định số 21-QĐ/TW ngày 11/4/2026 của Ban Chấp hành Trung ương quy định về công tác kiểm tra, giám sát và kỷ luật của Đảng: \"Kiểm tra của Đảng\" được định nghĩa như thế nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Là việc theo dõi, nắm bắt tình hình hoạt động của đảng viên để uốn nắn kịp thời."
+        },
+        {
+          "id": "B",
+          "text": "Là việc các tổ chức đảng xem xét, đánh giá, kết luận về ưu điểm, khuyết điểm hoặc vi phạm (nếu có) của cấp ủy, tổ chức đảng cấp dưới và đảng viên."
+        },
+        {
+          "id": "C",
+          "text": "Là hoạt động của Ủy ban Kiểm tra nhằm xử lý kỷ luật đảng viên vi phạm."
+        },
+        {
+          "id": "D",
+          "text": "Là việc thanh tra các hoạt động tài chính và công tác cán bộ tại chi bộ."
+        }
+      ],
+      "answerReference": "Căn cứ khoản 3, Điều 3",
+      "correctOption": "B",
+      "explanation": "Đáp án B. Là việc các tổ chức đảng xem xét, đánh giá, kết luận về ưu điểm, khuyết điểm hoặc vi phạm (nếu có) của cấp ủy, tổ chức đảng cấp dưới và đảng viên.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-25",
+      "number": 25,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "prompt": "Theo Điều lệ Đảng Cộng sản Việt Nam hiện hành: Đảng viên dự bị không có quyền nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Được thông tin và thảo luận các vấn đề về Cương lĩnh chính trị, Điều lệ Đảng, chính sách của Đảng."
+        },
+        {
+          "id": "B",
+          "text": "Phê bình, chất vấn về hoạt động của tổ chức đảng và đảng viên ở mọi cấp trong phạm vi tổ chức."
+        },
+        {
+          "id": "C",
+          "text": "Biểu quyết, ứng cử và bầu cử cơ quan lãnh đạo các cấp của Đảng theo quy định của Bộ Chính trị"
+        },
+        {
+          "id": "D",
+          "text": "Trình bày ý kiến khi tổ chức đảng nhận xét, quyết định công tác hoặc thi hành kỷ luật đối với mình."
+        }
+      ],
+      "answerReference": "Điều 3",
+      "correctOption": "C",
+      "explanation": "Đáp án C. Biểu quyết, ứng cử và bầu cử cơ quan lãnh đạo các cấp của Đảng theo quy định của Bộ Chính trị",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-26",
+      "number": 26,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "prompt": "Theo Điều lệ Đảng Cộng sản Việt Nam hiện hành: Sau khi được bầu, cấp ủy khóa mới được điều hành công việc khi nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ngay sau khi được bầu."
+        },
+        {
+          "id": "B",
+          "text": "Ngay sau khi trình cấp có thẩm quyền xem xét, quyết định."
+        },
+        {
+          "id": "C",
+          "text": "Ngay sau khi công bố quyết định chuẩn y của cấp có thẩm quyền."
+        },
+        {
+          "id": "D",
+          "text": "Ngay sau khi kết thúc đại hội."
+        }
+      ],
+      "answerReference": "Khoản 1, điều 13",
+      "correctOption": "A",
+      "explanation": "Đáp án A. Ngay sau khi được bầu.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-27",
+      "number": 27,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "prompt": "Theo Quy định số 208-QĐ/TW ngày 26/7/2026 của Ban Chấp hành Trung ương thi hành Điều lệ Đảng: Tại thời điểm chi bộ xét kết nạp, người vào Đảng Cộng sản Việt Nam phải có điều kiện tuổi đời như thế nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Đủ 20 tuổi trở lên (tính theo tháng)."
+        },
+        {
+          "id": "B",
+          "text": "Đủ 18 tuổi trở lên (tính theo tháng)."
+        },
+        {
+          "id": "C",
+          "text": "Đủ 19 tuổi trở lên (tính theo tháng)."
+        },
+        {
+          "id": "D",
+          "text": "Đủ 17 tuổi trở lên (tính theo tháng)."
+        }
+      ],
+      "answerReference": "Điểm 1.1.1, khoản 1.1, Mục 1, Chương III",
+      "correctOption": "B",
+      "explanation": "Đáp án B. Đủ 18 tuổi trở lên (tính theo tháng).",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-28",
+      "number": 28,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "prompt": "Theo Hướng dẫn số 01-HD/TW ngày 19/5/2026 của Ban Bí thư về một số vấn đề cụ thể thi hành Điều lệ Đảng: Sau khi có quyết định của cấp có thẩm quyền công nhận đảng viên chính thức, chi ủy công bố quyết định khi nào?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trong kỳ sinh hoạt chi ủy gần nhất."
+        },
+        {
+          "id": "B",
+          "text": "Trong hội nghị toàn thể cơ quan gần nhất."
+        },
+        {
+          "id": "C",
+          "text": "Trong hội nghị giao ban lãnh đạo cơ quan gần nhất."
+        },
+        {
+          "id": "D",
+          "text": "Trong kỳ sinh hoạt chi bộ gần nhất."
+        }
+      ],
+      "answerReference": "Tiết b, điểm 4.5",
+      "correctOption": "D",
+      "explanation": "Đáp án D. Trong kỳ sinh hoạt chi bộ gần nhất.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-29",
+      "number": 29,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "prompt": "Theo Hướng dẫn số 38-HD/BTCTW ngày 29/9/2025 của Ban Tổ chức Trung ương về nghiệp vụ công tác đảng viên: Khi chuyển giao chi bộ trực thuộc đảng ủy cơ sở ra ngoài phạm vi đảng bộ cơ sở, thì cấp ủy cấp nào ra quyết định chuyển giao tổ chức đảng và đảng viên?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cấp ủy cơ sở."
+        },
+        {
+          "id": "B",
+          "text": "Cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng."
+        },
+        {
+          "id": "C",
+          "text": "Cấp ủy cấp tỉnh."
+        },
+        {
+          "id": "D",
+          "text": "Cấp ủy trực thuộc cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng."
+        }
+      ],
+      "answerReference": "Điểm 4.3.3, Mục II",
+      "correctOption": "B",
+      "explanation": "Đáp án B. Cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    },
+    {
+      "id": "final-mcq-30",
+      "number": 30,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "prompt": "Theo Quy định số 08-QĐ/TU ngày 28/11/2025 của Ban Thường vụ Tỉnh ủy về trách nhiệm của đảng viên trong việc chấp hành chế độ sinh hoạt đảng và thực hiện nhiệm vụ được chi bộ phân công; trách nhiệm của chi ủy, bí thư chi bộ trong việc duy trì và nâng cao chất lượng sinh hoạt chi bộ: Khi tham gia sinh hoạt chi bộ, đảng viên phải thực hiện nội dung nào sau đây?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chỉ nghe và tiếp thu nghị quyết."
+        },
+        {
+          "id": "B",
+          "text": "Nêu cao tinh thần trách nhiệm, tích cực tham gia thảo luận, góp ý xây dựng nghị quyết."
+        },
+        {
+          "id": "C",
+          "text": "Chỉ phát biểu khi được bí thư yêu cầu."
+        },
+        {
+          "id": "D",
+          "text": "Chỉ tham gia biểu quyết."
+        }
+      ],
+      "answerReference": "khoản 3, điều 2",
+      "correctOption": "B",
+      "explanation": "Đáp án B. Nêu cao tinh thần trách nhiệm, tích cực tham gia thảo luận, góp ý xây dựng nghị quyết.",
+      "memoryCue": "Đọc kỹ căn cứ trong câu hỏi → đối chiếu 4 phương án → chọn phương án đúng theo tài liệu.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-mcq-source"
+        ],
+        "note": "Đáp án và căn cứ được chép theo tài liệu trắc nghiệm cuối vòng; chưa tự xác minh độc lập."
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "final-scenario-1",
+      "number": 1,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "answerKind": "answer",
+      "prompt": "Tại buổi sinh hoạt định kỳ, Chi bộ A dự kiến phân công đảng viên B, người thành thạo công nghệ thông tin, trực tiếp thu đảng phí bằng tiền mặt và theo dõi, đôn đốc đảng viên đóng đảng phí bằng hình thức không dùng tiền mặt. Trong chi bộ có hai quan điểm:\n\nQuan điểm 1: Phải phân công một đồng chí trong chi ủy thực hiện nhiệm vụ này.\n\nQuan điểm 2: Có thể phân công đảng viên B vì quy định chỉ ưu tiên bố trí bí thư, phó bí thư hoặc chi ủy viên, không bắt buộc người thực hiện phải là chi ủy viên; đồng thời, đảng viên B có kỹ năng phù hợp để triển khai thu, nộp đảng phí trên Cổng Dịch vụ công Quốc gia.",
+      "answer": "Quan điểm 2 đúng. Quy định phân biệt hai việc: chi bộ phân công một đồng chí (bí thư, phó bí thư chi bộ hoặc chi ủy viên) chỉ đạo thường xuyên công tác thu, nộp đảng phí và xét duyệt số phải đóng của từng đảng viên; đồng thời chi bộ phân công một người trực tiếp thu tiền mặt và theo dõi, đôn đốc việc đóng không dùng tiền mặt, trong đó chỉ ưu tiên bố trí các chức danh nêu trên. Vì vậy, dữ kiện không bắt buộc người trực tiếp thu và đôn đốc phải là chi ủy viên; có thể phân công đảng viên B theo quyết định của chi bộ, còn nhiệm vụ chỉ đạo thường xuyên và xét duyệt phải được giao đúng người theo quy định.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "publicly-verified",
+        "sourceIds": [
+          "final-scenario-source",
+          "final-qd01-roles"
+        ],
+        "note": "Lời giải hiển thị đã hiệu chỉnh theo văn bản công khai chính thức; bản gốc trong tài liệu vẫn được lưu để đối chiếu."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Tại Khoản 4, điều 7 Quy định số 01-QĐ/TW ngày 03/2/2026, quy định “chi bộ phân công bí thư, phó bí thư hoặc chi ủy viên (nơi có chi ủy) trực tiếp thu đảng phí và theo dõi đảng viên đóng đảng phí. Tuy nhiên, quy định chỉ mang tính \"ưu tiên\", không bắt buộc. Trường hợp đặc biệt có thể phân công đảng viên khác (như đảng viên B) nếu có năng lực, phẩm chất phù hợp và được chi bộ đồng ý, nhưng phải bảo đảm các nguyên tắc quản lý, sử dụng đảng phí đúng quy định.",
+      "correction": {
+        "note": "DOCX đã gộp nhầm vai trò chỉ đạo thường xuyên/xét duyệt với vai trò trực tiếp thu và đôn đốc. Nguồn công khai tách hai vai trò và chỉ nói ưu tiên chức danh bí thư, phó bí thư, chi ủy viên cho nhiệm vụ trực tiếp.",
+        "sourceIds": [
+          "final-qd01-roles"
+        ],
+        "status": "publicly-verified"
+      }
+    },
+    {
+      "id": "final-scenario-2",
+      "number": 2,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "answerKind": "answer",
+      "prompt": "Đảng viên X thuộc Chi bộ cơ sở A, có hoàn cảnh đặc biệt khó khăn và thuộc hộ cận nghèo theo quy định của Chính phủ, có đơn đề nghị miễn đóng đảng phí. Chi bộ A họp, biểu quyết và quyết định miễn đóng đảng phí cho đảng viên X trong thời gian 06 tháng.",
+      "answer": "Chưa đủ căn cứ kết luận cách xử lý của Chi bộ A là sai chỉ vì quyết định thời hạn 06 tháng. Theo khoản 1(c) Điều 5, đảng viên có hoàn cảnh đặc biệt khó khăn thuộc hộ nghèo hoặc hộ cận nghèo và có đơn gửi chi bộ đề nghị thì thuộc trường hợp được miễn đóng đảng phí. Khoản 2 áp dụng cho trường hợp khó khăn ngoài khoản 1 và quy định thời gian mỗi lần xem xét miễn, giảm là tối đa 12 tháng, không bắt buộc mọi quyết định phải đủ 12 tháng. Cần kiểm tra đơn, điều kiện hộ cận nghèo và thẩm quyền; chi bộ cơ sở xem xét, quyết định đối với đảng viên thuộc chi bộ cơ sở. Vì vậy, với dữ kiện đã nêu, thời hạn 06 tháng tự nó không làm quyết định sai.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "publicly-verified",
+        "sourceIds": [
+          "final-scenario-source",
+          "final-qd01-article5"
+        ],
+        "note": "Lời giải hiển thị đã hiệu chỉnh theo văn bản công khai chính thức; bản gốc trong tài liệu vẫn được lưu để đối chiếu."
+      },
+      "sourceAnswer": "Cách xử lý của Chi bộ A là sai.\n\nGiải thích: Theo điểm c, khoản 1, điều 5, Quy định số 01-QĐ/TW, quy định miễn đống đảng phí đối với đảng viên “Đảng viên có hoàn cảnh đặc biệt khó khăn (thuộc hộ nghèo, hộ cận nghèo theo quy định của Chính phủ; người mắc bệnh hiểm nghèo theo danh mục bệnh hiểm nghèo cảu Bộ y tế quy định), có đơn gửi chi bộ đề nghị miễn đống đảng phí”\n\nKhoản 2, Điều 5, Quy định số 01-QĐ/TW quy định “Đảng viên có hoàn cảnh khó khăn trong các trường hợp ngoài quy định tại khoản 1, Điều này có đơn đề nghị thì được chi bộ xem xét miễn giảm 30%, 50%, 70% mức đóng đảng phí theo quy định, tuỳ trường hợp cụ thể. Mỗi lần xem xét miễn giảm đóng đảng phí thời gian tối đa là 12 tháng’.\n\nNhư vậy chi bộ cơ sở A, có thẩm quyền quyết định miễn đóng đảng phí cho đảng viên X, Tuy nhiên phải điều chỉnh thời gian miễn giảm lên 12 tháng để phù hợp với quy định.",
+      "correction": {
+        "note": "DOCX đã áp dụng giới hạn tối đa 12 tháng của khoản 2 vào trường hợp hộ cận nghèo thuộc khoản 1(c), đồng thời kết luận 06 tháng là sai mà chưa có căn cứ. Hiệu chỉnh này giữ cách kết luận thận trọng và yêu cầu kiểm tra hồ sơ, điều kiện, thẩm quyền.",
+        "sourceIds": [
+          "final-qd01-article5"
+        ],
+        "status": "publicly-verified"
+      }
+    },
+    {
+      "id": "final-scenario-3",
+      "number": 3,
+      "sectionId": "van-phong",
+      "section": "Công tác văn phòng",
+      "answerKind": "answer",
+      "prompt": "Tại cuộc họp chi bộ quán triệt văn bản có nội dung bí mật nhà nước, đảng viên được phân công làm thư ký tự ý dùng điện thoại di động chưa được kiểm tra, bảo đảm an ninh, an toàn thông tin để ghi âm toàn bộ cuộc họp phục vụ việc ghi biên bản.",
+      "answer": "Việc làm của thư ký là sai.\n\nGiải thích: Tại Khoản 8 Điều 5 Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10/12/2025 quy định nghiêm cấm: “Sử dụng máy tính, thiết bị khác để soạn thảo, lưu giữ tài liệu bí mật nhà nước khi chưa bảo đảm an ninh, an toàn, phòng, chống xâm phạm bí mật nhà nước\".\n\n- Khoản 9 Điều 5 Luật Bảo vệ bí mật nhà nước quy định nghiêm cấm: “Sửdụng thiết bị có tính năng thu, phát tín hiệu, ghi âm, ghi hình trong hội nghị, hội người có thẩm quyền cho phép”. thảo, cuộc họp có nội dung bí mật nhà nước dưới mọi hình thức khi chưa được\n\n- Việc thư ký tự ý dùng điện thoại chưa được kiểm tra an ninh, an toàn để ghi âm cuộc họp có nội dung bí mật nhà nước là không đúng quy định. Bí thư chi bộ phải yêu cầu dừng ngay việc ghi âm và xử lý theo quy định về bảo vệ bí mật nhà nước.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Việc làm của thư ký là sai.\n\nGiải thích: Tại Khoản 8 Điều 5 Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10/12/2025 quy định nghiêm cấm: “Sử dụng máy tính, thiết bị khác để soạn thảo, lưu giữ tài liệu bí mật nhà nước khi chưa bảo đảm an ninh, an toàn, phòng, chống xâm phạm bí mật nhà nước\".\n\n- Khoản 9 Điều 5 Luật Bảo vệ bí mật nhà nước quy định nghiêm cấm: “Sửdụng thiết bị có tính năng thu, phát tín hiệu, ghi âm, ghi hình trong hội nghị, hội người có thẩm quyền cho phép”. thảo, cuộc họp có nội dung bí mật nhà nước dưới mọi hình thức khi chưa được\n\n- Việc thư ký tự ý dùng điện thoại chưa được kiểm tra an ninh, an toàn để ghi âm cuộc họp có nội dung bí mật nhà nước là không đúng quy định. Bí thư chi bộ phải yêu cầu dừng ngay việc ghi âm và xử lý theo quy định về bảo vệ bí mật nhà nước."
+    },
+    {
+      "id": "final-scenario-4",
+      "number": 4,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "answerKind": "answer",
+      "prompt": "Một số học viên lớp bồi dưỡng nhận thức về Đảng tranh luận về sự cần thiết của việc học tập chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh. Có hai quan điểm:\n\nQuan điểm 1: Cán bộ, đảng viên, việc nghiên cứu, học tập chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là rất cần thiết, vừa là trách nhiệm, bổn phận của mỗi đảng viên. Lười học tập chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh cũng chính là biểu hiện của suy thoái về tư tưởng chính trị.\n\nQuan điểm 2: Học chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh hiện nay không quá quan trọng, quan trọng là giỏi chuyên môn là được, lười học chủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh không phải là biểu hiện của suy thoái về tư tưởng chính trị.",
+      "answer": "Quan điểm 1 đúng.\n\nGiải thích: Theo Nghị quyết số 04-NQ/TW và các văn bản chỉ đạo của Đảng:\n\nChủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng.\n\nLười học tập lý luận chính trị là biểu hiện của suy thoái về tư tưởng chính trị, vì đảng viên mất đi sự giác ngộ về lý tưởng, mục tiêu của Đảng.\n\nĐảng viên phải thường xuyên học tập, rèn luyện để nâng cao bản lĩnh chính trị, không thể chỉ dựa vào chuyên môn.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 1 đúng.\n\nGiải thích: Theo Nghị quyết số 04-NQ/TW và các văn bản chỉ đạo của Đảng:\n\nChủ nghĩa Mác - Lênin, tư tưởng Hồ Chí Minh là nền tảng tư tưởng, kim chỉ nam cho hành động của Đảng.\n\nLười học tập lý luận chính trị là biểu hiện của suy thoái về tư tưởng chính trị, vì đảng viên mất đi sự giác ngộ về lý tưởng, mục tiêu của Đảng.\n\nĐảng viên phải thường xuyên học tập, rèn luyện để nâng cao bản lĩnh chính trị, không thể chỉ dựa vào chuyên môn."
+    },
+    {
+      "id": "final-scenario-5",
+      "number": 5,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "answerKind": "answer",
+      "prompt": "Chi bộ đang thực hiện quy trình xét kết nạp quần chúng A vào Đảng. Qua kiểm tra lý lịch, cha đẻ và mẹ đẻ của quần chúng A đều là đảng viên đang sinh hoạt tại một chi bộ khác trong cùng Đảng bộ xã. Trong bản khai lý lịch, quần chúng A đã khai đầy đủ thông tin về cha mẹ và có xác nhận của cấp ủy quản lý hồ sơ đảng viên của cha mẹ. Trong chi bộ có 02 quan điểm:\n\nQuan điểm 1: Cấp ủy vẫn phải cử đảng viên về quê quán để thẩm tra trực tiếp nội dung lịch sử chính trị và hiện tại của cha mẹ quần chúng A nhằm bảo đảm tính khách quan và đúng quy trình kết nạp.\n\nQuan điểm 2: Cấp ủy không phải thẩm tra vì bản khai lý lịch, quần chúng A đã khai đầy đủ thông tin về cha mẹ và có xác nhận của cấp ủy quản lý hồ sơ đảng viên của cha mẹ.",
+      "answer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Điểm C, tiểu mục 3.4, Mục 3, Hướng dẫn số 01-HD/TW ngày 19/5/2026 của Ban Bí thư:\n\nĐối với người thân là đảng viên đang sinh hoạt tại tổ chức đảng khác, cấp ủy chỉ cần lấy xác nhận của cấp ủy quản lý đảng viên đó là đủ.\n\nKhông cần cử người về tận nơi thẩm tra nếu các thông tin đã được xác nhận đầy đủ bởi cấp ủy có thẩm quyền.\n\nĐiều này giúp tiết kiệm thời gian, nguồn lực nhưng vẫn bảo đảm tính chính xác, khách quan.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Điểm C, tiểu mục 3.4, Mục 3, Hướng dẫn số 01-HD/TW ngày 19/5/2026 của Ban Bí thư:\n\nĐối với người thân là đảng viên đang sinh hoạt tại tổ chức đảng khác, cấp ủy chỉ cần lấy xác nhận của cấp ủy quản lý đảng viên đó là đủ.\n\nKhông cần cử người về tận nơi thẩm tra nếu các thông tin đã được xác nhận đầy đủ bởi cấp ủy có thẩm quyền.\n\nĐiều này giúp tiết kiệm thời gian, nguồn lực nhưng vẫn bảo đảm tính chính xác, khách quan."
+    },
+    {
+      "id": "final-scenario-6",
+      "number": 6,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "answerKind": "practical-guidance",
+      "prompt": "Trong thôn A có chủ trương mở rộng đường giao thông nông thôn từ 3m lên 6m để ô tô đi lại thuận lợi. Gia đình ông B đồng thuận và tự nguyện lùi tường rào, hiến 50m² đất. Tuy nhiên, gia đình ông C kiên quyết không đồng ý với lý do mất đất thổ cư và tường rào mới xây, gây chậm tiến độ chung của xóm.",
+      "answer": "Với vai trò Bí thư chi bộ, cần:\n\nViệc hiến đất, đóng góp tiền, vật chất hoặc ngày công phải bảo đảm nguyên tắc tự nguyện, công khai, dân chủ; không vận động theo hướng áp đặt hoặc số đồng thuận để buộc hộ gia đình phải thực hiện.\n\n-Đối với hộ nghèo, cận nghèo, gia đình chính sách: Đề xuất thôn/(tổ dân phố) đưa ra mức đóng góp linh hoạt (chia nhỏ đóng nhiều lần, hoặc cho phép đóng góp bằng ngày công lao động), đồng thời vận động nguồn xã hội hóa từ các nhà hảo tâm để hỗ trợ các hộ này.\n\n-Đối với hộ khá giả: Giải thích rõ nguyên tắc \"Nhà nước và nhân dân cùng làm\", việc đóng góp không chỉ là nghĩa vụ mà còn là quyền lợi vì công trình phục vụ trực tiếp đời sống văn hóa của chính gia đình họ. Vận động những hộ này nêu gương, đóng góp cao hơn mức chung nếu có điều kiện.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Với vai trò Bí thư chi bộ, cần:\n\nViệc hiến đất, đóng góp tiền, vật chất hoặc ngày công phải bảo đảm nguyên tắc tự nguyện, công khai, dân chủ; không vận động theo hướng áp đặt hoặc số đồng thuận để buộc hộ gia đình phải thực hiện.\n\n-Đối với hộ nghèo, cận nghèo, gia đình chính sách: Đề xuất thôn/(tổ dân phố) đưa ra mức đóng góp linh hoạt (chia nhỏ đóng nhiều lần, hoặc cho phép đóng góp bằng ngày công lao động), đồng thời vận động nguồn xã hội hóa từ các nhà hảo tâm để hỗ trợ các hộ này.\n\n-Đối với hộ khá giả: Giải thích rõ nguyên tắc \"Nhà nước và nhân dân cùng làm\", việc đóng góp không chỉ là nghĩa vụ mà còn là quyền lợi vì công trình phục vụ trực tiếp đời sống văn hóa của chính gia đình họ. Vận động những hộ này nêu gương, đóng góp cao hơn mức chung nếu có điều kiện."
+    },
+    {
+      "id": "final-scenario-7",
+      "number": 7,
+      "sectionId": "tuyen-giao-dan-van",
+      "section": "Công tác tuyên giáo và dân vận",
+      "answerKind": "practical-guidance",
+      "prompt": "Khi trên địa bàn thôn có dấu hiệu một số quần chúng bị kẻ xấu lợi dụng kích động về chính sách đền bù, tái định cư, không nhận tiền đền bù, không bàn giao mặt bằng, chuẩn bị kéo lên xã gây áp lực với Đảng ủy, UBND xã gây mất an ninh trật tự... là Bí thư chi bộ bạn xử lý như thế nào?",
+      "answer": "Trên cương vị Bí thư chi bộ, cần:\n\n- Chủ động nắm tình hình, Chỉ đạo Ban Công tác Mặt trận, các đoàn thể phân công các đồng chí phó chủ tịch hoặc chi hội trưởng, phó trực tiếp tiếp xúc các đối tượng để tìm hiểu thêm nguyên nhân, vận động mọi người không nên để bị kích động, lôi kéo.\n\n- Xác định kẻ xấu kích động..., đứng sau, nguyên nhân sự việc.\n\n- Phối hợp với chính quyền, Mặt trận Tổ quốc tổ chức các buổi đối thoại trực tiếp, giải thích rõ chính sách, pháp luật về đền bù, tái định cư.\n\n- Báo cáo kịp thời với Đảng ủy xã, đề xuất giải pháp hỗ trợ, bảo vệ quyền lợi hợp pháp của người dân.\n\nTăng cường công tác tuyên truyền qua loa phát thanh, các nhóm Zalo, họp thôn để cung cấp thông tin chính thống, định hướng dư luận.\n\n* Yêu cầu chính quyền, cơ quan chức năng xem xét lại chế độ, việc đền đền bù có đúng chính sách không?\n\n- Nếu đúng: Vận động nhân dân chấp hành.\n\n- Nếu sai: Yêu cầu tạm dừng và thực hiện phúc đáp, xin lỗi nhân dân kịp thời.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Trên cương vị Bí thư chi bộ, cần:\n\n- Chủ động nắm tình hình, Chỉ đạo Ban Công tác Mặt trận, các đoàn thể phân công các đồng chí phó chủ tịch hoặc chi hội trưởng, phó trực tiếp tiếp xúc các đối tượng để tìm hiểu thêm nguyên nhân, vận động mọi người không nên để bị kích động, lôi kéo.\n\n- Xác định kẻ xấu kích động..., đứng sau, nguyên nhân sự việc.\n\n- Phối hợp với chính quyền, Mặt trận Tổ quốc tổ chức các buổi đối thoại trực tiếp, giải thích rõ chính sách, pháp luật về đền bù, tái định cư.\n\n- Báo cáo kịp thời với Đảng ủy xã, đề xuất giải pháp hỗ trợ, bảo vệ quyền lợi hợp pháp của người dân.\n\nTăng cường công tác tuyên truyền qua loa phát thanh, các nhóm Zalo, họp thôn để cung cấp thông tin chính thống, định hướng dư luận.\n\n* Yêu cầu chính quyền, cơ quan chức năng xem xét lại chế độ, việc đền đền bù có đúng chính sách không?\n\n- Nếu đúng: Vận động nhân dân chấp hành.\n\n- Nếu sai: Yêu cầu tạm dừng và thực hiện phúc đáp, xin lỗi nhân dân kịp thời."
+    },
+    {
+      "id": "final-scenario-8",
+      "number": 8,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "answerKind": "answer",
+      "prompt": "Ông B là Giám đốc một sở ngành, vào ngày chủ nhật, ông B đã chỉ đạo tài xế cơ quan dùng xe biển xanh đưa gia đình ông đi dự tiệc cưới tại tỉnh khác, cách cơ quan 100 km.\n\nQuan điểm 1: Ông B đi việc riêng nhưng có trả lại tiền xăng cho tài xế tự đổ, không dùng tiền cơ quan mua xăng nên không gây lãng phí ngân sách.\n\nQuan điểm 2: Đây là hành vi sử dụng tài sản công sai mục đích, vi phạm quy định của đảng, pháp luật của Nhà nước.",
+      "answer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Luật Phòng, chống tham nhũng và Luật Tiết kiệm, chống lãng phí: Xe ô tô công là tài sản công và việc trang bị, sử dụng phải căn cứ vào tiêu chuẩn, định mức do cơ quan có thẩm quyền ban hành.\n\nQuy định số 37-QĐ/TW ngày 25/10/2021 của Ban chấp hành Trung ương về những điều dâng viên không được làm: Điều 16: Không thực hành tiết kiệm, để xảy ra thất thoát, lãng phí trong việc quản lý, sử dụng tài chính, tài sản công, mua sắm, quản lý, sử dụng tài sản công trái quy định.\n\nXử lý kỷ luật theo Quy định số 69-QĐ/TW ngày 06/7/2022 của Bộ Chính trị về kỷ luật tổ chức đảng, đảng viên vi phạm, quy định tại Điều 39: Vi phạm quy định phòng, chống tham nhũng, tiêu cực.\n\nPháp luật yêu cầu xe công chỉ được sử dụng để thực hiện nhiệm vụ công đúng đối tượng và đúng tiêu chuẩn. Mọi hành vi sử dụng xe công vào việc riêng hoặc vượt tiêu chuẩn đều là vi phạm và có thể bị xử lý hành chính, kỷ luật hoặc truy cứu trách nhiệm hình sự tùy theo tính chất, mức độ vi phạm.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Luật Phòng, chống tham nhũng và Luật Tiết kiệm, chống lãng phí: Xe ô tô công là tài sản công và việc trang bị, sử dụng phải căn cứ vào tiêu chuẩn, định mức do cơ quan có thẩm quyền ban hành.\n\nQuy định số 37-QĐ/TW ngày 25/10/2021 của Ban chấp hành Trung ương về những điều dâng viên không được làm: Điều 16: Không thực hành tiết kiệm, để xảy ra thất thoát, lãng phí trong việc quản lý, sử dụng tài chính, tài sản công, mua sắm, quản lý, sử dụng tài sản công trái quy định.\n\nXử lý kỷ luật theo Quy định số 69-QĐ/TW ngày 06/7/2022 của Bộ Chính trị về kỷ luật tổ chức đảng, đảng viên vi phạm, quy định tại Điều 39: Vi phạm quy định phòng, chống tham nhũng, tiêu cực.\n\nPháp luật yêu cầu xe công chỉ được sử dụng để thực hiện nhiệm vụ công đúng đối tượng và đúng tiêu chuẩn. Mọi hành vi sử dụng xe công vào việc riêng hoặc vượt tiêu chuẩn đều là vi phạm và có thể bị xử lý hành chính, kỷ luật hoặc truy cứu trách nhiệm hình sự tùy theo tính chất, mức độ vi phạm."
+    },
+    {
+      "id": "final-scenario-9",
+      "number": 9,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "answerKind": "answer",
+      "prompt": "Phó Bí thư tỉnh A gọi điện riêng cho Trưởng Ban Tổ chức để tác động, giới thiệu mong muốn tạo điều kiện cho con trai mình được quy hoạch vào vị trí lãnh đạo cấp phòng.\n\nQuan điểm 1: Chỉ là giới thiệu người tài và hỏi thăm thông thường, chưa có hành vi đưa hối lộ nên không vi phạm.\n\nQuan điểm 2: Đây là hành vi can thiệp, tác động trái quy định vào công tác cán bộ, cần báo cáo, xử lý theo quy định về kiểm soát quyền lực.",
+      "answer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quy định số 114-QĐ/TW ngày 11/7/2023 và Quy định số 40-QĐ/TU của Ban Thường vụ Tỉnh ủy Lào Cai:\n\nHành vi lợi dụng chức vụ, quyền hạn để tác động, gây áp lực với người có thẩm quyền nhằm mục đích cho người thân được bổ nhiệm, quy hoạch là vi phạm nghiêm trọng nguyên tắc công tác cán bộ.\n\nDù chưa có hành vi nhận hối lộ, đây là hành vi \"chạy chức, chạy quyền\" cần được xử lý kỷ luật theo đúng quy định.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quy định số 114-QĐ/TW ngày 11/7/2023 và Quy định số 40-QĐ/TU của Ban Thường vụ Tỉnh ủy Lào Cai:\n\nHành vi lợi dụng chức vụ, quyền hạn để tác động, gây áp lực với người có thẩm quyền nhằm mục đích cho người thân được bổ nhiệm, quy hoạch là vi phạm nghiêm trọng nguyên tắc công tác cán bộ.\n\nDù chưa có hành vi nhận hối lộ, đây là hành vi \"chạy chức, chạy quyền\" cần được xử lý kỷ luật theo đúng quy định."
+    },
+    {
+      "id": "final-scenario-10",
+      "number": 10,
+      "sectionId": "noi-chinh",
+      "section": "Công tác nội chính",
+      "answerKind": "answer",
+      "prompt": "Trưởng phòng H xây dựng tiêu chí kỹ thuật cho gói thầu mua sắm máy tính cơ quan sao cho chỉ có công ty của người quen mới đáp ứng được, nhằm mục đích giúp công ty này trúng thầu.\n\nQuan điểm 1: Thiết bị mua về vẫn phục vụ cho cơ quan, giá cả nằm trong khung phê duyệt nên không gây thiệt hại.\n\nQuan điểm 2: Đây là hành vi có dấu hiệu xây dựng tiêu chí hạn chế cạnh tranh, vi phạm quy định về đấu thầu và xung đột lợi ích.",
+      "answer": "Quan điểm 2 đúng.\n\nGiải thích: Hành vi xây dựng tiêu chỉ hạn chế cạnh tranh để tạo lợi thể hợp pháp cho công ty người quen của Trưởng phòng H là hành vi can thiệp trái pháp luật vào hoạt động đấu thầu, vi phạm quy định về xung đột lợi ích.\n\nQuy định số 69-QĐ/TW ngày 06/7/2022 của Bộ Chính trị về kỷ luật tổ chức đảng, đảng viên vi phạm: Điều 40 (Vi phạm quy định đầu tư, xây dựng): Đảng viên có hành vi can thiệp trái pháp luật vào hoạt động đấu thầu, cấu kết với nhà thầu để trục lợi sẽ bị kỷ luật từ hình thức Khiển trách, Cảnh cáo đến Khai trừ ra khỏi Đảng. Kiểm soát quyền lực: Quy định xử lý nghiêm các biểu hiện của \"nhóm lợi ích\", lợi dụng chức vụ để áp đặt tiêu chỉ kỹ thuật nhằm ưu ái doanh nghiệp thân quen.\n\nQuy định số 37-QĐ/TW ngày 25/10/2021 của Ban Chấp hành Trung ương về những điều Đảng viên không được làm: Điều 10: Thực hiện không đúng quy định trong quản lý đầu tư, xây dựng, sử dụng nhà, đất, tài nguyên, tài chính, tài sản của Đảng, Nhà nước.\n\nLuật Phòng, chống tham nhũng (Luật số 36/2018/QH14 và Luật sửa đổi năm 2025): Quy định về Kiểm soát xung đột lợi ích (Điều 23): Người có chức vụ, quyền hạn khi thực hiện nhiệm vụ công vụ nếu phát hiện có quan hệ gia đình, quen biết thân thiết có thể làm ảnh hưởng đến tính khách quan, minh bạch của công việc thì phải báo cáo và né tránh tham gia quy trình. Việc cố tình xây dựng \"tiêu chí độc quyền\" để giúp đỡ người quen là biểu hiện rõ nét của xung đột lợi ích nhằm mục đích tiêu cực.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Hành vi xây dựng tiêu chỉ hạn chế cạnh tranh để tạo lợi thể hợp pháp cho công ty người quen của Trưởng phòng H là hành vi can thiệp trái pháp luật vào hoạt động đấu thầu, vi phạm quy định về xung đột lợi ích.\n\nQuy định số 69-QĐ/TW ngày 06/7/2022 của Bộ Chính trị về kỷ luật tổ chức đảng, đảng viên vi phạm: Điều 40 (Vi phạm quy định đầu tư, xây dựng): Đảng viên có hành vi can thiệp trái pháp luật vào hoạt động đấu thầu, cấu kết với nhà thầu để trục lợi sẽ bị kỷ luật từ hình thức Khiển trách, Cảnh cáo đến Khai trừ ra khỏi Đảng. Kiểm soát quyền lực: Quy định xử lý nghiêm các biểu hiện của \"nhóm lợi ích\", lợi dụng chức vụ để áp đặt tiêu chỉ kỹ thuật nhằm ưu ái doanh nghiệp thân quen.\n\nQuy định số 37-QĐ/TW ngày 25/10/2021 của Ban Chấp hành Trung ương về những điều Đảng viên không được làm: Điều 10: Thực hiện không đúng quy định trong quản lý đầu tư, xây dựng, sử dụng nhà, đất, tài nguyên, tài chính, tài sản của Đảng, Nhà nước.\n\nLuật Phòng, chống tham nhũng (Luật số 36/2018/QH14 và Luật sửa đổi năm 2025): Quy định về Kiểm soát xung đột lợi ích (Điều 23): Người có chức vụ, quyền hạn khi thực hiện nhiệm vụ công vụ nếu phát hiện có quan hệ gia đình, quen biết thân thiết có thể làm ảnh hưởng đến tính khách quan, minh bạch của công việc thì phải báo cáo và né tránh tham gia quy trình. Việc cố tình xây dựng \"tiêu chí độc quyền\" để giúp đỡ người quen là biểu hiện rõ nét của xung đột lợi ích nhằm mục đích tiêu cực."
+    },
+    {
+      "id": "final-scenario-11",
+      "number": 11,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "answerKind": "answer",
+      "prompt": "Chi bộ A phát hiện đồng chí B (là Phó Chủ tịch UBND xã, cấp ủy viên cấp trên, sinh hoạt tại chi bộ) có dấu hiệu vi phạm trong quản lý đất đai. Chi bộ A có tiến hành kiểm tra khi có dấu hiệu vi phạm đối với đồng chí B không? Hiện có 02 quan điểm:\n\nQuan điểm 1: Chi bộ được kiểm tra khi có dấu hiệu vi phạm đối với đồng chí B trong quản lý đất đai, vì Chi bộ có quyền kiểm tra tất cả đảng viên đang sinh hoạt tại chi bộ khi có dấu hiệu vi phạm.\n\nQuan điểm 2: Chi bộ không được kiểm tra khi có dấu hiệu vi phạm đối với đồng chí B trong quản lý đất đai, phải báo cáo cấp có thẩm quyền.",
+      "answer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quy định số 21-QĐ/TW ngày 11/4/2026 và Quyết định số 299-QĐ/TU:\n\nChi bộ có quyền kiểm tra đảng viên khi có dấu hiệu vi phạm, nhưng quyền này không áp dụng đối với đảng viên thuộc diện cấp ủy cấp trên quản lý (như đồng chí B - cấp ủy viên cấp trên).\n\nĐối với trường hợp này, chi bộ phải báo cáo bằng văn bản cho cấp ủy có thẩm quyền để thực hiện kiểm tra, không được tự ý tiến hành.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quy định số 21-QĐ/TW ngày 11/4/2026 và Quyết định số 299-QĐ/TU:\n\nChi bộ có quyền kiểm tra đảng viên khi có dấu hiệu vi phạm, nhưng quyền này không áp dụng đối với đảng viên thuộc diện cấp ủy cấp trên quản lý (như đồng chí B - cấp ủy viên cấp trên).\n\nĐối với trường hợp này, chi bộ phải báo cáo bằng văn bản cho cấp ủy có thẩm quyền để thực hiện kiểm tra, không được tự ý tiến hành."
+    },
+    {
+      "id": "final-scenario-12",
+      "number": 12,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "answerKind": "answer",
+      "prompt": "Trong quá trình thẩm tra, xác minh dấu hiệu vi phạm của đảng viên H, Tổ kiểm tra của Chi bộ M nhận thấy đồng chí H có ý định xáo trộn một số tài liệu, sổ sách liên quan. Tổ trưởng Tổ kiểm tra yêu cầu đồng chí H giữ nguyên hiện trạng số tài liệu này. Đồng chí H phản ứng và cho rằng Tổ kiểm tra của chi bộ không có thẩm quyền này. Hiện có 2 quan điểm:\n\nQuan điểm 1: Đồng chí H đúng. Tổ kiểm tra của chi bộ không có thẩm quyền yêu cầu giữ nguyên hiện trạng tài liệu mà phải báo cáo cơ quan có thẩm quyền cấp trên.\n\nQuan điểm 2: Tổ kiểm tra của chi bộ hoàn toàn có quyền yêu cầu đối tượng kiểm tra giữ nguyên hiện trạng tài liệu để phục vụ thẩm tra, xác minh.",
+      "answer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quyết định số 299-QĐ/TU và Quy định số 21-QĐ/TW:\n\nTổ kiểm tra có thẩm quyền yêu cầu đối tượng kiểm tra (và các tổ chức, cá nhân liên quan) cung cấp thông tin, tài liệu và giữ nguyên hiện trạng tài liệu để phục vụ công tác kiểm tra.\n\nĐây là biện pháp cần thiết để bảo đảm tính khách quan, toàn diện của cuộc kiểm tra, tránh tiêu hủy hoặc làm sai lệch chứng cứ.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quyết định số 299-QĐ/TU và Quy định số 21-QĐ/TW:\n\nTổ kiểm tra có thẩm quyền yêu cầu đối tượng kiểm tra (và các tổ chức, cá nhân liên quan) cung cấp thông tin, tài liệu và giữ nguyên hiện trạng tài liệu để phục vụ công tác kiểm tra.\n\nĐây là biện pháp cần thiết để bảo đảm tính khách quan, toàn diện của cuộc kiểm tra, tránh tiêu hủy hoặc làm sai lệch chứng cứ."
+    },
+    {
+      "id": "final-scenario-13",
+      "number": 13,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "answerKind": "answer",
+      "prompt": "Đảng viên A sinh hoạt tạm thời tại Chi bộ X và có hành vi đánh người gây thương tích tại đây. Chi bộ X có quyền kỷ luật đối với đảng viên A không? Hiện có 2 quan điểm:\n\nQuan điểm 1: Chi bộ X không có thẩm quyền kỷ luật đối với đồng chí A, vì đồng chí A là đảng viên sinh hoạt tạm thời tại chi bộ X.\n\nQuan điểm 2: Chi bộ X có thẩm quyền kỷ luật đối với đồng chí A.",
+      "answer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quy định số 21-QĐ/TW:\n\nĐảng viên sinh hoạt tạm thời vẫn phải chấp hành mọi quy định của tổ chức đảng nơi mình sinh hoạt, bao gồm cả việc chịu sự kiểm tra, giám sát và kỷ luật.\n\nNếu đảng viên A có hành vi vi phạm tại nơi sinh hoạt tạm thời (Chi bộ X), chi bộ X có quyền xem xét, đề nghị hoặc quyết định kỷ luật đến mức cảnh cáo (theo thẩm quyền) và thông báo cho chi bộ chính thức nơi đảng viên A sinh hoạt.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Quan điểm 2 đúng.\n\nGiải thích: Theo Quy định số 21-QĐ/TW:\n\nĐảng viên sinh hoạt tạm thời vẫn phải chấp hành mọi quy định của tổ chức đảng nơi mình sinh hoạt, bao gồm cả việc chịu sự kiểm tra, giám sát và kỷ luật.\n\nNếu đảng viên A có hành vi vi phạm tại nơi sinh hoạt tạm thời (Chi bộ X), chi bộ X có quyền xem xét, đề nghị hoặc quyết định kỷ luật đến mức cảnh cáo (theo thẩm quyền) và thông báo cho chi bộ chính thức nơi đảng viên A sinh hoạt."
+    },
+    {
+      "id": "final-scenario-14",
+      "number": 14,
+      "sectionId": "kiem-tra-giam-sat",
+      "section": "Công tác kiểm tra, giám sát, thi hành kỷ luật Đảng",
+      "answerKind": "answer",
+      "prompt": "Trong quá trình giải quyết tố cáo đối với đảng viên A, Bí thư chi bộ đã thông báo cho đảng viên A biết họ tên người tố cáo để thuận lợi cho việc đối chất, giải trình.",
+      "answer": "Việc làm trên là sai.\n\nGiải thích: Theo Quy định số 21-QĐ/TW:\n\nTổ chức đảng có trách nhiệm bảo vệ bí mật danh tính người tố cáo để tránh bị trả thù, trù dập hoặc gây áp lực.\n\nChỉ được công khai tên người tố cáo khi có sự đồng ý của họ hoặc khi pháp luật có quy định khác. Việc Bí thư chi bộ tự ý tiết lộ danh tính là sai quy trình, cần phê bình và rút kinh nghiệm.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Việc làm trên là sai.\n\nGiải thích: Theo Quy định số 21-QĐ/TW:\n\nTổ chức đảng có trách nhiệm bảo vệ bí mật danh tính người tố cáo để tránh bị trả thù, trù dập hoặc gây áp lực.\n\nChỉ được công khai tên người tố cáo khi có sự đồng ý của họ hoặc khi pháp luật có quy định khác. Việc Bí thư chi bộ tự ý tiết lộ danh tính là sai quy trình, cần phê bình và rút kinh nghiệm."
+    },
+    {
+      "id": "final-scenario-15",
+      "number": 15,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "answerKind": "answer",
+      "prompt": "Đại hội chi bộ X đã bầu chi ủy gồm 03 đồng chí. Khi đề cử và biểu quyết danh sách bầu bí thư, phó bí thư chi bộ có hai ý kiến:\n\nÝ kiến thứ nhất: Chi bộ bầu chức danh bí thư và phó bí thư trong số chi ủy viên trên cùng một lá phiếu. Khi kiểm phiếu đồng chí nào được số phiếu cao hơn trong cột bí thư thì làm bí thư, ai có số phiếu cao trong cột phó bí thư thì làm phó bí thư.\n\nÝ kiến thứ hai: Chi bộ bầu riêng từng chức danh bí thư, phó bí thư trong số chi ủy viên, không bầu chung chức danh bí thư và phó bí thư trên cùng một lá phiếu.",
+      "answer": "Ý kiến thứ hai đúng.\n\nGiải thích: Theo Quy chế bầu cử trong Đảng (ban hành kèm Quyết định 190-QĐ/TW) và Hướng dẫn 01-HD/TW:\n\nViệc bầu chức danh bí thư và phó bí thư phải được bầu riêng từng chức danh để bảo đảm dân chủ và chính xác.\n\nKhông được bầu gộp hai chức danh trên cùng một phiếu vì có thể dẫn đến nhầm lẫn, khó xác định kết quả và không đúng quy trình.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Ý kiến thứ hai đúng.\n\nGiải thích: Theo Quy chế bầu cử trong Đảng (ban hành kèm Quyết định 190-QĐ/TW) và Hướng dẫn 01-HD/TW:\n\nViệc bầu chức danh bí thư và phó bí thư phải được bầu riêng từng chức danh để bảo đảm dân chủ và chính xác.\n\nKhông được bầu gộp hai chức danh trên cùng một phiếu vì có thể dẫn đến nhầm lẫn, khó xác định kết quả và không đúng quy trình."
+    },
+    {
+      "id": "final-scenario-16",
+      "number": 16,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "answerKind": "practical-guidance",
+      "prompt": "Nhiều kỳ sinh hoạt của chi bộ diễn ra ngắn, nội dung chưa phong phú, đảng viên ít phát biểu, thảo luận chưa đi vào trọng tâm; nghị quyết còn chung chung, chưa xác định rõ nhiệm vụ, giải pháp và trách nhiệm thực hiện. Là Bí thư chi bộ bạn có làm gì để nâng cao chất lượng sinh hoạt chi bộ?",
+      "answer": "Với cương vị Bí thư chi bộ, theo Quy định số 08-QĐ/TU, cần thực hiện:\n\nChuẩn bị kỹ nội dung: Chi ủy họp trước ít nhất 03 ngày để xác định trọng tâm, trọng điểm; phân công đảng viên chuẩn bị ý kiến tham luận.\n\nĐăng tải tài liệu lên Sổ tay đảng viên điện tử trước sinh hoạt để đảng viên nghiên cứu, chuẩn bị ý kiến.\n\nĐổi mới hình thức sinh hoạt: Xen kẽ các chuyên đề, hỏi - đáp, thảo luận nhóm nhỏ để khuyến khích đảng viên phát biểu.\n\nNghị quyết phải cụ thể: Xác định rõ nhiệm vụ, giải pháp, thời gian, người phụ trách và tiến độ kiểm tra.\n\nKiểm tra, giám sát thực hiện nghị quyết: Giao cho chi ủy theo dõi, đôn đốc; báo cáo kết quả trong kỳ họp tiếp theo.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Với cương vị Bí thư chi bộ, theo Quy định số 08-QĐ/TU, cần thực hiện:\n\nChuẩn bị kỹ nội dung: Chi ủy họp trước ít nhất 03 ngày để xác định trọng tâm, trọng điểm; phân công đảng viên chuẩn bị ý kiến tham luận.\n\nĐăng tải tài liệu lên Sổ tay đảng viên điện tử trước sinh hoạt để đảng viên nghiên cứu, chuẩn bị ý kiến.\n\nĐổi mới hình thức sinh hoạt: Xen kẽ các chuyên đề, hỏi - đáp, thảo luận nhóm nhỏ để khuyến khích đảng viên phát biểu.\n\nNghị quyết phải cụ thể: Xác định rõ nhiệm vụ, giải pháp, thời gian, người phụ trách và tiến độ kiểm tra.\n\nKiểm tra, giám sát thực hiện nghị quyết: Giao cho chi ủy theo dõi, đôn đốc; báo cáo kết quả trong kỳ họp tiếp theo."
+    },
+    {
+      "id": "final-scenario-17",
+      "number": 17,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "answerKind": "answer",
+      "prompt": "Tại cuộc họp chuẩn bị kiểm điểm cuối năm của chi bộ B, đồng chí thư ký liệt kê danh sách tất cả 25 đảng viên trong chi bộ để chuẩn bị bỏ phiếu đánh giá, xếp loại đảng viên cuối năm. Lúc này, đồng chí Bí thư chi bộ lưu ý có 02 trường hợp đặc biệt:\n\n(1) Đảng viên X: Vừa mới được kết nạp vào Đảng được 04 tháng.\n\n(2) Đảng viên Y: Là đảng viên chính thức, bị đình chỉ sinh hoạt đảng từ tháng trước do liên quan đến sai phạm kinh tế.\n\nĐồng chí thư ký lúng túng không biết 02 đảng viên này có phải đưa vào danh sách chi bộ bỏ phiếu đánh giá, xếp loại không.",
+      "answer": "Hướng dẫn theo khoản 1, Điều 7, Quy định số 09-QĐ/TU:\n\nĐảng viên X (mới kết nạp 04 tháng): Không đưa vào danh sách bỏ phiếu xếp loại vì chưa đủ 06 tháng sinh hoạt đảng trong năm. Đảng viên này chỉ tham gia kiểm điểm và được nhận xét, không xếp loại.\n\nĐảng viên Y (bị đình chỉ sinh hoạt đảng): Cũng không đưa vào danh sách bỏ phiếu vì trong thời gian bị đình chỉ, đảng viên không được thực hiện các quyền và nghĩa vụ, bao gồm việc tham gia bỏ phiếu xếp loại.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Hướng dẫn theo khoản 1, Điều 7, Quy định số 09-QĐ/TU:\n\nĐảng viên X (mới kết nạp 04 tháng): Không đưa vào danh sách bỏ phiếu xếp loại vì chưa đủ 06 tháng sinh hoạt đảng trong năm. Đảng viên này chỉ tham gia kiểm điểm và được nhận xét, không xếp loại.\n\nĐảng viên Y (bị đình chỉ sinh hoạt đảng): Cũng không đưa vào danh sách bỏ phiếu vì trong thời gian bị đình chỉ, đảng viên không được thực hiện các quyền và nghĩa vụ, bao gồm việc tham gia bỏ phiếu xếp loại."
+    },
+    {
+      "id": "final-scenario-18",
+      "number": 18,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "answerKind": "answer",
+      "prompt": "Đồng chí là Bí thư chi bộ cơ quan X. Tại hội nghị chi bộ tổng kết cuối năm, chi ủy họp và thống nhất dự kiến đề nghị cấp trên tặng Giấy khen cho đảng viên Nguyễn Văn A đạt danh hiệu \"Hoàn thành xuất sắc nhiệm vụ\". Khi đưa ra thảo luận trước hội nghị chi bộ, đảng viên B phát biểu ý kiến: \"Đồng chí A đang có đơn thư khiếu nại chưa được cơ quan thẩm quyền giải quyết xong liên quan đến việc tranh chấp ranh giới đất đai ở quê. Theo tôi, chi bộ chưa nên xét khen thưởng cho đồng chí A tại thời điểm này\". Đồng chí A giải trình rằng đây là việc dân sự cá nhân ở quê, không liên quan đến công tác tại cơ quan nên vẫn đề nghị chi bộ bỏ phiếu khen thưởng.",
+      "answer": "Theo Quy định số 07-QĐ/TU, “chưa xét khen thường hoặc đề nghị cấp trên khen thưởng đối với tập thể, các nhân đang giải quyết tố cáo, khiếu nại kỷ luật đảng hoặc có đơn thư khiếu nại, tố cáo chưa được xác minh, kết luận”. Bí thư chi bộ cần:\n\nGiải thích: Theo quy định, một trong những trường hợp chưa được xét khen thưởng là \"đang được cấp có thẩm quyền kiểm tra khi có dấu hiệu vi phạm hoặc đang giải quyết đơn thư tố cáo chưa được xác minh, kết luận\".\n\nDù việc tranh chấp đất đai là vụ việc dân sự tại quê, nhưng vẫn có thể ảnh hưởng đến uy tín của đảng viên. Vì vậy, chi bộ chưa thể kết luận đồng chí A đáp ứng đủ tiêu chuẩn khen thưởng cho đến khi vụ việc được giải quyết dứt điểm.\n\nQuyết định: Tạm dừng xét khen thưởng đối với đồng chí A, chờ kết quả giải quyết của cơ quan có thẩm quyền.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Theo Quy định số 07-QĐ/TU, “chưa xét khen thường hoặc đề nghị cấp trên khen thưởng đối với tập thể, các nhân đang giải quyết tố cáo, khiếu nại kỷ luật đảng hoặc có đơn thư khiếu nại, tố cáo chưa được xác minh, kết luận”. Bí thư chi bộ cần:\n\nGiải thích: Theo quy định, một trong những trường hợp chưa được xét khen thưởng là \"đang được cấp có thẩm quyền kiểm tra khi có dấu hiệu vi phạm hoặc đang giải quyết đơn thư tố cáo chưa được xác minh, kết luận\".\n\nDù việc tranh chấp đất đai là vụ việc dân sự tại quê, nhưng vẫn có thể ảnh hưởng đến uy tín của đảng viên. Vì vậy, chi bộ chưa thể kết luận đồng chí A đáp ứng đủ tiêu chuẩn khen thưởng cho đến khi vụ việc được giải quyết dứt điểm.\n\nQuyết định: Tạm dừng xét khen thưởng đối với đồng chí A, chờ kết quả giải quyết của cơ quan có thẩm quyền."
+    },
+    {
+      "id": "final-scenario-19",
+      "number": 19,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "answerKind": "answer",
+      "prompt": "Kỳ sinh hoạt chi bộ tháng 5 của chi bộ A kết thúc vào ngày thứ Sáu. Sang tuần sau, do đồng chí Bí thư chi bộ bận đi công tác giải quyết việc gấp của cơ quan nên đến ngày thứ Năm tuần kế tiếp mới chỉ đạo thư ký hoàn thiện hồ sơ và gửi báo cáo kết quả tự chấm điểm sinh hoạt chi bộ lên cấp ủy cấp trên (sau 04 ngày làm việc kể từ ngày họp). Đảng ủy cấp trên nhắc nhở chi bộ đã nộp báo cáo chậm so với quy định. Đồng chí Bí thư chi bộ giải thích do bận việc và chỉ chậm hơn 1 ngày nên mong cấp trên thông cảm bỏ qua.",
+      "answer": "Lời giải thích của Bí thư chi bộ là sai.\n\nGiải thích: Theo Quy định số 29-QĐ/TU ngày 26/01/2026:\n\nThời hạn nộp báo cáo kết quả tự chấm điểm và xếp loại chất lượng sinh hoạt chi bộ hằng tháng lên cấp ủy cấp trên là trong vòng 03 ngày làm việc, kể từ ngày tổ chức sinh hoạt chi bộ.\n\nViệc chậm 01 ngày (04 ngày làm việc) đã vi phạm quy định. Dù lý do bận công tác, đây là trách nhiệm của người đứng đầu trong chỉ đạo, đôn đốc công việc. Chi bộ cần rút kinh nghiệm và bảo đảm thời gian quy định ở những kỳ sinh hoạt sau.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Lời giải thích của Bí thư chi bộ là sai.\n\nGiải thích: Theo Quy định số 29-QĐ/TU ngày 26/01/2026:\n\nThời hạn nộp báo cáo kết quả tự chấm điểm và xếp loại chất lượng sinh hoạt chi bộ hằng tháng lên cấp ủy cấp trên là trong vòng 03 ngày làm việc, kể từ ngày tổ chức sinh hoạt chi bộ.\n\nViệc chậm 01 ngày (04 ngày làm việc) đã vi phạm quy định. Dù lý do bận công tác, đây là trách nhiệm của người đứng đầu trong chỉ đạo, đôn đốc công việc. Chi bộ cần rút kinh nghiệm và bảo đảm thời gian quy định ở những kỳ sinh hoạt sau."
+    },
+    {
+      "id": "final-scenario-20",
+      "number": 20,
+      "sectionId": "to-chuc-xay-dung-dang",
+      "section": "Công tác tổ chức xây dựng Đảng",
+      "answerKind": "answer",
+      "prompt": "Theo kế hoạch, 14h00 phút chiều nay chi bộ A sẽ tiến hành sinh hoạt chi bộ định kỳ tháng. Cấp ủy đã đăng tải đầy đủ tài liệu lên ứng dụng Sổ tay đảng viên điện tử từ ngày hôm trước. Tuy nhiên, đến 13h30 phút, hệ thống Sổ tay đảng viên điện tử toàn tỉnh bất ngờ gặp sự cố kỹ thuật, phần mềm bị lỗi không thể truy cập, đảng viên không thể vào ứng dụng để điểm danh trực tuyến cũng như không xem được tài liệu họp đã gửi trên đó. Nhiều đảng viên tỏ ra lúng túng và hỏi Bí thư chi bộ xử lý thế nào.",
+      "answer": "Theo Hướng dẫn số 42-HD/BTCTW, Bí thư chi bộ cần xử lý:\n\nKhông hoãn cuộc họp chỉ bộ. Ứng dụng Sổ tay đảng viên điện tử là công cụ hỗ trợ, nên nếp sinh hoạt trực tiếp của chi bộ vẫn phải được bảo đảm giữ vững.\n\nthống\" một cách linh hoạt, bình tĩnh. Chuyển trạng thái điều hành từ \"công nghệ số\" sang \"phương pháp truyền\n\nCác bước xử lý cụ thể theo Hướng dẫn 42:\n\nBước 1 (Điểm danh): Do không điểm danh được trên Sổ tay đảng viên điện tử, Bí thư giao cho đồng chí Thư ký chỉ bộ lập tức dùng số biên bản giấy để điểm danh trực tiếp từng đảng viên có mặt, ghi rõ số lượng đảng viên vắng mặt, có lý do, không có lý do theo quy trình truyền thống.\n\nBước 2 (Tài liệu sinh hoạt): Do đảng viên không thể mở tài liệu trên ứng dụng để theo dõi, Bí thư chi bộ sử dụng tệp tài liệu (Word/PDF) đã chuẩn bị sẵn để trình chiếu lên máy chiếu của phòng họp (nếu có), hoặc chia sẻ nhanh tệp tài liệu qua nhóm Zalo nội bộ bảo mật của chi bộ để đảng viên theo dõi tạm thời trên điện thoại. Trường hợp không có thiết bị, bí thư chi ủy viên sẽ chịu trách nhiệm đọc tóm tắt kỹ lưỡng các nội dung trọng tâm để đảng viên nắm bắt.\n\nBước 3 (Tiến hành họp và ghi biên bản): Cuộc họp vẫn diễn ra đầy đủ các bước thông tin thời sự, đánh giá công tác, thảo luận, biểu quyết) và bảo đảm thời lượng tối thiểu 90 phút. Mọi diễn biến đều ghi nhận đầy đủ vào số biên bản giấy.\n\nBước 4 (Cập nhật sau cuộc họp): Sau khi cuộc họp kết thúc và trong vòng 02 ngày tiếp theo, khi hệ thống Sổ tay đảng viên điện tử được khắc phục xong, bí thư/chi ủy viên phụ trách dữ liệu sẽ thực hiện cập nhật bù (nhập dữ liệu điểm danh, nội dung nghị quyết kết luận) lên hệ thống để bảo đảm tính liên tục của dữ liệu theo đúng quy định tại Hướng dẫn 42.",
+      "memoryCue": "Kết luận trước → nêu căn cứ → việc cần làm ngay → báo cáo, theo dõi và phòng ngừa.",
+      "verification": {
+        "status": "source-provided",
+        "sourceIds": [
+          "final-scenario-source"
+        ],
+        "note": "Đáp án hoặc gợi ý xử lý được chép theo tài liệu tình huống cuối vòng; chưa tự xác minh độc lập."
+      },
+      "sourceAnswer": "Theo Hướng dẫn số 42-HD/BTCTW, Bí thư chi bộ cần xử lý:\n\nKhông hoãn cuộc họp chỉ bộ. Ứng dụng Sổ tay đảng viên điện tử là công cụ hỗ trợ, nên nếp sinh hoạt trực tiếp của chi bộ vẫn phải được bảo đảm giữ vững.\n\nthống\" một cách linh hoạt, bình tĩnh. Chuyển trạng thái điều hành từ \"công nghệ số\" sang \"phương pháp truyền\n\nCác bước xử lý cụ thể theo Hướng dẫn 42:\n\nBước 1 (Điểm danh): Do không điểm danh được trên Sổ tay đảng viên điện tử, Bí thư giao cho đồng chí Thư ký chỉ bộ lập tức dùng số biên bản giấy để điểm danh trực tiếp từng đảng viên có mặt, ghi rõ số lượng đảng viên vắng mặt, có lý do, không có lý do theo quy trình truyền thống.\n\nBước 2 (Tài liệu sinh hoạt): Do đảng viên không thể mở tài liệu trên ứng dụng để theo dõi, Bí thư chi bộ sử dụng tệp tài liệu (Word/PDF) đã chuẩn bị sẵn để trình chiếu lên máy chiếu của phòng họp (nếu có), hoặc chia sẻ nhanh tệp tài liệu qua nhóm Zalo nội bộ bảo mật của chi bộ để đảng viên theo dõi tạm thời trên điện thoại. Trường hợp không có thiết bị, bí thư chi ủy viên sẽ chịu trách nhiệm đọc tóm tắt kỹ lưỡng các nội dung trọng tâm để đảng viên nắm bắt.\n\nBước 3 (Tiến hành họp và ghi biên bản): Cuộc họp vẫn diễn ra đầy đủ các bước thông tin thời sự, đánh giá công tác, thảo luận, biểu quyết) và bảo đảm thời lượng tối thiểu 90 phút. Mọi diễn biến đều ghi nhận đầy đủ vào số biên bản giấy.\n\nBước 4 (Cập nhật sau cuộc họp): Sau khi cuộc họp kết thúc và trong vòng 02 ngày tiếp theo, khi hệ thống Sổ tay đảng viên điện tử được khắc phục xong, bí thư/chi ủy viên phụ trách dữ liệu sẽ thực hiện cập nhật bù (nhập dữ liệu điểm danh, nội dung nghị quyết kết luận) lên hệ thống để bảo đảm tính liên tục của dữ liệu theo đúng quy định tại Hướng dẫn 42."
+    }
+  ]
+}

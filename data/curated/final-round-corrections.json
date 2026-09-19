@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "note": "Các hiệu chỉnh này chỉ áp dụng cho phần answer hiển thị của hai tình huống; sourceAnswer vẫn giữ nguyên văn bản DOCX.",
+  "sources": [
+    {
+      "id": "final-qd01-roles",
+      "title": "Quy định của Bộ Chính trị về chế độ đảng phí — phân biệt người chỉ đạo và người trực tiếp thu",
+      "url": "https://tulieuvankien.dangcongsan.vn/tin-hoat-dong/quy-dinh-cua-bo-chinh-tri-ve-che-do-dang-phi.html?categoryId=102000107",
+      "kind": "official-party-publication",
+      "note": "Đoạn công khai mô tả riêng người được phân công chỉ đạo thường xuyên, xét duyệt và người trực tiếp thu tiền mặt, theo dõi, đôn đốc; các chức danh bí thư, phó bí thư, chi ủy viên chỉ được ưu tiên cho nhiệm vụ trực tiếp."
+    },
+    {
+      "id": "final-qd01-article5",
+      "title": "Toàn văn Quy định 01-QĐ/TW về chế độ đảng phí — Điều 5",
+      "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-quy-dinh-so-01-qd-tw-cua-bo-chinh-tri-ve-che-do-dang-phi-119260208105647584.htm",
+      "kind": "official-government-publication",
+      "note": "Khoản 1(c) Điều 5 nêu trường hợp hộ nghèo, hộ cận nghèo có đơn; khoản 2 dùng giới hạn tối đa 12 tháng cho trường hợp ngoài khoản 1; Điều 5 cũng nêu thẩm quyền của chi bộ cơ sở."
+    },
+    {
+      "id": "final-qd21-article6",
+      "title": "Quy định 21-QĐ/TW — Điều 6 về nhiệm vụ kiểm tra, giám sát của chi bộ",
+      "url": "https://ubkttw.vn/upload/104764/fck/adminkttu/quy-dinh-so-21.pdf",
+      "kind": "official-party-document",
+      "note": "Điều 6 phân biệt nội dung tập trung kiểm tra với nội dung giám sát thường xuyên, giám sát chuyên đề; giám sát đối với đảng viên gồm việc thực hiện nhiệm vụ đảng viên và nhiệm vụ chuyên môn được giao."
+    }
+  ],
+  "corrections": [
+    {
+      "questionId": "final-scenario-1",
+      "correctedAnswer": "Quan điểm 2 đúng. Quy định phân biệt hai việc: chi bộ phân công một đồng chí (bí thư, phó bí thư chi bộ hoặc chi ủy viên) chỉ đạo thường xuyên công tác thu, nộp đảng phí và xét duyệt số phải đóng của từng đảng viên; đồng thời chi bộ phân công một người trực tiếp thu tiền mặt và theo dõi, đôn đốc việc đóng không dùng tiền mặt, trong đó chỉ ưu tiên bố trí các chức danh nêu trên. Vì vậy, dữ kiện không bắt buộc người trực tiếp thu và đôn đốc phải là chi ủy viên; có thể phân công đảng viên B theo quyết định của chi bộ, còn nhiệm vụ chỉ đạo thường xuyên và xét duyệt phải được giao đúng người theo quy định.",
+      "correctionNote": "DOCX đã gộp nhầm vai trò chỉ đạo thường xuyên/xét duyệt với vai trò trực tiếp thu và đôn đốc. Nguồn công khai tách hai vai trò và chỉ nói ưu tiên chức danh bí thư, phó bí thư, chi ủy viên cho nhiệm vụ trực tiếp.",
+      "sourceIds": ["final-qd01-roles"]
+    },
+    {
+      "questionId": "final-scenario-2",
+      "correctedAnswer": "Chưa đủ căn cứ kết luận cách xử lý của Chi bộ A là sai chỉ vì quyết định thời hạn 06 tháng. Theo khoản 1(c) Điều 5, đảng viên có hoàn cảnh đặc biệt khó khăn thuộc hộ nghèo hoặc hộ cận nghèo và có đơn gửi chi bộ đề nghị thì thuộc trường hợp được miễn đóng đảng phí. Khoản 2 áp dụng cho trường hợp khó khăn ngoài khoản 1 và quy định thời gian mỗi lần xem xét miễn, giảm là tối đa 12 tháng, không bắt buộc mọi quyết định phải đủ 12 tháng. Cần kiểm tra đơn, điều kiện hộ cận nghèo và thẩm quyền; chi bộ cơ sở xem xét, quyết định đối với đảng viên thuộc chi bộ cơ sở. Vì vậy, với dữ kiện đã nêu, thời hạn 06 tháng tự nó không làm quyết định sai.",
+      "correctionNote": "DOCX đã áp dụng giới hạn tối đa 12 tháng của khoản 2 vào trường hợp hộ cận nghèo thuộc khoản 1(c), đồng thời kết luận 06 tháng là sai mà chưa có căn cứ. Hiệu chỉnh này giữ cách kết luận thận trọng và yêu cầu kiểm tra hồ sơ, điều kiện, thẩm quyền.",
+      "sourceIds": ["final-qd01-article5"]
+    },
+    {
+      "questionId": "final-mcq-22",
+      "bankQuestionId": "mcq-kiem-tra-giam-sat-23",
+      "correctedOption": "A",
+      "correctionNote": "Câu 22 của DOCX vòng cuối trùng nội dung với câu mcq-kiem-tra-giam-sat-23 trong bộ 395 câu, nhưng đáp án cũ B nhầm nội dung kiểm tra với nội dung giám sát. Điều 6 Quy định 21-QĐ/TW xác định giám sát thường xuyên, giám sát chuyên đề đối với đảng viên gồm việc thực hiện nhiệm vụ đảng viên và nhiệm vụ chuyên môn được giao, tương ứng phương án A.",
+      "sourceIds": ["final-qd21-article6"]
+    }
+  ]
+}

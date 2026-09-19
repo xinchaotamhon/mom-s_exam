@@ -42,6 +42,19 @@
       "invariant": "Không có câu trắc nghiệm thiếu đáp án hoặc câu vấn đáp thiếu gợi ý"
     },
     {
+      "id": "content.final-round-complete",
+      "description": "Vòng thi cuối có đủ 30 trắc nghiệm, 20 tình huống và provenance bất biến",
+      "tier": "smoke",
+      "command": ["pwsh", "-File", "tests/test_final_round.ps1"],
+      "cwd": ".",
+      "timeout_seconds": 60,
+      "expected_exit_code": 0,
+      "required": true,
+      "enabled": true,
+      "introduced_by": "final-round-docx-ingestion",
+      "invariant": "Bộ câu hỏi cũ không đổi; vòng cuối tách riêng và mọi đáp án có nguồn DOCX"
+    },
+    {
       "id": "site.static-integrity",
       "description": "Trang tĩnh đủ tệp, dữ liệu hợp lệ và mã giao diện đúng cú pháp",
       "tier": "smoke",

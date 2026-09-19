@@ -88,10 +88,12 @@ async function main() {
     width: innerWidth,
     scrollWidth: document.documentElement.scrollWidth,
     h1: document.querySelector('#homeTitle').textContent,
-    modeCards: document.querySelectorAll('.mode-card').length
+    modeCards: document.querySelectorAll('[data-mode]').length,
+    finalRoundCards: document.querySelectorAll('[data-final-mode]').length
   })`);
   if (layout.title !== 'Ôn thi Bí thư chi bộ') throw new Error('Unexpected page title.');
   if (layout.modeCards !== 2) throw new Error('Expected two study modes.');
+  if (layout.finalRoundCards !== 2) throw new Error('Expected two final-round study modes.');
   if (layout.scrollWidth > layout.width + 1) throw new Error(`Mobile page overflows horizontally: ${layout.scrollWidth}/${layout.width}.`);
 
   const mobileShot = await send('Page.captureScreenshot', { format: 'png', captureBeyondViewport: false });
@@ -136,6 +138,25 @@ async function main() {
   await evaluate(`document.querySelector('#needReviewButton').click()`);
   const oralSaved = await evaluate(`Boolean(Object.keys(JSON.parse(localStorage.getItem('${'on-thi-bi-thu-chi-bo-v1'}')).oral).length)`);
   if (!oralSaved) throw new Error('Oral review status was not saved.');
+
+  await evaluate(`document.querySelector('#brandButton').click()`);
+  await waitFor(`!document.querySelector('#homeView').classList.contains('is-hidden')`);
+  await evaluate(`document.querySelector('[data-final-mode="mcq"]').click()`);
+  await waitFor(`!document.querySelector('#practiceView').classList.contains('is-hidden') && document.querySelectorAll('#optionList input').length === 4`);
+  if (await evaluate(`document.querySelector('#sectionDialog').open`)) throw new Error('Final-round MCQ opened the old section dialog.');
+  await evaluate(`(() => { const input = document.querySelector('#optionList input[value="A"]'); input.checked = true; input.dispatchEvent(new Event('change', { bubbles: true })); document.querySelector('#mcqForm').requestSubmit(); })()`);
+  await waitFor(`!document.querySelector('#feedbackPanel').classList.contains('is-hidden')`);
+  const finalMcqSaved = await evaluate(`Boolean(JSON.parse(localStorage.getItem('${'on-thi-bi-thu-chi-bo-v1'}')).finalRound.mcq['final-mcq-1'])`);
+  if (!finalMcqSaved) throw new Error('Final-round MCQ answer was not saved.');
+
+  await evaluate(`document.querySelector('#brandButton').click()`);
+  await waitFor(`!document.querySelector('#homeView').classList.contains('is-hidden')`);
+  await evaluate(`document.querySelector('[data-final-mode="scenario"]').click()`);
+  await waitFor(`!document.querySelector('#finalScenarioArea').classList.contains('is-hidden')`);
+  if (await evaluate(`document.querySelector('#sectionDialog').open`)) throw new Error('Final-round scenario opened the old section dialog.');
+  await evaluate(`document.querySelector('#finalScenarioAnswerButton').click()`);
+  const finalScenarioResult = await evaluate(`({ open: !document.querySelector('#finalScenarioAnswerPanel').classList.contains('is-hidden'), text: document.querySelector('#finalScenarioAnswerPanel').textContent, saved: Boolean(JSON.parse(localStorage.getItem('${'on-thi-bi-thu-chi-bo-v1'}')).finalRound.scenarios['final-scenario-1']) })`);
+  if (!finalScenarioResult.open || !finalScenarioResult.text.includes('Đáp án đã đối chiếu văn bản') || !finalScenarioResult.saved) throw new Error('Final-round corrected scenario answer did not open with verified label.');
   if (cdp.browserErrors.length) throw new Error(`Browser errors: ${cdp.browserErrors.join(' | ')}`);
 
   console.log(JSON.stringify({
@@ -144,6 +165,7 @@ async function main() {
     horizontalOverflow: false,
     mcq: 'passed',
     oralHints: 'passed',
+    finalRound: 'passed',
     persistence: 'passed'
   }, null, 2));
   await send('Browser.close');

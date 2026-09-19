@@ -13,7 +13,8 @@
     'publicly-verified': 'Đã đối chiếu nguồn công khai',
     'cross-checked': 'Đã rà soát nội dung',
     'local-source-needed': 'Nên đối chiếu thêm văn bản nội bộ',
-    'editorial-support': 'Gợi ý luyện trình bày'
+    'editorial-support': 'Gợi ý luyện trình bày',
+    'source-provided': 'Theo tài liệu vòng thi cuối cung cấp'
   };
 
   const elements = {};
@@ -28,6 +29,7 @@
     return {
       mcq: {},
       oral: {},
+      finalRound: { mcq: {}, scenarios: {} },
       daily: { date: todayKey(), ids: [] },
       preferences: { fontScale: 1.08 },
       lastSession: null
@@ -53,6 +55,10 @@
         ...saved,
         mcq: saved.mcq || {},
         oral: saved.oral || {},
+        finalRound: {
+          mcq: saved.finalRound?.mcq || {},
+          scenarios: saved.finalRound?.scenarios || {}
+        },
         preferences: { ...fallback.preferences, ...(saved.preferences || {}) },
         daily: saved.daily?.date === todayKey() ? saved.daily : fallback.daily
       };
@@ -92,8 +98,11 @@
   }
 
   function bindEvents() {
-    document.querySelectorAll('.mode-card').forEach((button) => {
+    document.querySelectorAll('.mode-card[data-mode]').forEach((button) => {
       button.addEventListener('click', () => openSectionDialog(button.dataset.mode));
+    });
+    document.querySelectorAll('[data-final-mode]').forEach((button) => {
+      button.addEventListener('click', () => startFinalSession(button.dataset.finalMode));
     });
     elements.brandButton.addEventListener('click', leavePractice);
     elements.backButton.addEventListener('click', leavePractice);
@@ -108,6 +117,7 @@
     elements.nextButton.addEventListener('click', () => moveQuestion(1));
     elements.lightHintButton.addEventListener('click', toggleLightHint);
     elements.outlineButton.addEventListener('click', toggleOutline);
+    elements.finalScenarioAnswerButton.addEventListener('click', revealFinalScenarioAnswer);
     elements.rememberButton.addEventListener('click', () => rateOral('remember'));
     elements.needReviewButton.addEventListener('click', () => rateOral('review'));
     elements.resetProgressButton.addEventListener('click', resetProgress);
@@ -151,8 +161,17 @@
     elements.sectionOptions.append(button);
   }
 
+  function startFinalSession(finalMode) {
+    const mode = finalMode === 'scenario' ? 'final-scenario' : 'final-mcq';
+    startSession(mode, 'all', { shuffle: false });
+  }
+
   function questionsForMode(mode) {
-    return mode === 'mcq' ? bank.multipleChoice : bank.oral;
+    if (mode === 'mcq') return bank.multipleChoice;
+    if (mode === 'oral') return bank.oral;
+    if (mode === 'final-mcq') return bank.finalRound.multipleChoice;
+    if (mode === 'final-scenario') return bank.finalRound.scenarios;
+    return [];
   }
 
   function startSession(mode, sectionId = 'all', options = {}) {
@@ -216,9 +235,11 @@
     session.checked = false;
     elements.questionTitle.textContent = question.prompt;
     elements.sectionLabel.textContent = friendlySection(question.section);
-    elements.typeBadge.textContent = session.mode === 'mcq' ? 'TRẮC NGHIỆM' : 'VẤN ĐÁP';
-    elements.typeBadge.style.background = session.mode === 'mcq' ? '' : 'var(--gold-soft)';
-    elements.typeBadge.style.color = session.mode === 'mcq' ? '' : 'var(--gold)';
+    const isMcq = session.mode === 'mcq' || session.mode === 'final-mcq';
+    const isFinal = session.mode.startsWith('final-');
+    elements.typeBadge.textContent = isFinal ? 'VÒNG THI CUỐI' : (isMcq ? 'TRẮC NGHIỆM' : 'VẤN ĐÁP');
+    elements.typeBadge.style.background = isMcq ? '' : 'var(--gold-soft)';
+    elements.typeBadge.style.color = isMcq ? '' : 'var(--gold)';
     elements.sessionProgressText.textContent = `Câu ${session.index + 1} / ${session.queue.length}`;
     elements.sessionProgressBar.style.width = `${((session.index + 1) / session.queue.length) * 100}%`;
     elements.previousButton.disabled = session.index === 0;
@@ -228,7 +249,8 @@
     elements.feedbackPanel.classList.add('is-hidden');
     elements.feedbackPanel.classList.remove('is-incorrect');
     elements.questionSources.open = false;
-    if (session.mode === 'mcq') renderMcq(question);
+    if (isMcq) renderMcq(question);
+    else if (session.mode === 'final-scenario') renderFinalScenario(question);
     else renderOral(question);
     renderQuestionSources(question);
     persistSession();
@@ -239,6 +261,7 @@
   function renderMcq(question) {
     elements.mcqForm.classList.remove('is-hidden');
     elements.oralArea.classList.add('is-hidden');
+    elements.finalScenarioArea.classList.add('is-hidden');
     elements.optionList.replaceChildren();
     elements.checkButton.disabled = true;
     elements.checkButton.textContent = 'Kiểm tra đáp án';
@@ -264,7 +287,7 @@
 
   function checkMcqAnswer(event) {
     event.preventDefault();
-    if (session?.mode !== 'mcq' || session.checked) return;
+    if (!['mcq', 'final-mcq'].includes(session?.mode) || session.checked) return;
     const question = session.queue[session.index];
     const selectedInput = elements.mcqForm.querySelector('input[name="answer"]:checked');
     if (!selectedInput) return;
@@ -285,8 +308,9 @@
     elements.memoryText.textContent = question.memoryCue;
     elements.feedbackPanel.classList.toggle('is-incorrect', !correct);
     elements.feedbackPanel.classList.remove('is-hidden');
-    const previous = state.mcq[question.id];
-    state.mcq[question.id] = {
+    const target = session.mode === 'final-mcq' ? state.finalRound.mcq : state.mcq;
+    const previous = target[question.id];
+    target[question.id] = {
       selected,
       correct,
       attempts: (previous?.attempts || 0) + 1,
@@ -300,6 +324,7 @@
   function renderOral(question) {
     elements.mcqForm.classList.add('is-hidden');
     elements.oralArea.classList.remove('is-hidden');
+    elements.finalScenarioArea.classList.add('is-hidden');
     elements.lightHintPanel.classList.add('is-hidden');
     elements.outlinePanel.classList.add('is-hidden');
     elements.lightHintButton.setAttribute('aria-expanded', 'false');
@@ -309,6 +334,40 @@
     const saved = state.oral[question.id];
     elements.rememberButton.classList.toggle('is-selected', saved?.rating === 'remember');
     elements.needReviewButton.classList.toggle('is-selected', saved?.rating === 'review');
+  }
+
+  function renderFinalScenario(question) {
+    elements.mcqForm.classList.add('is-hidden');
+    elements.oralArea.classList.add('is-hidden');
+    elements.finalScenarioArea.classList.remove('is-hidden');
+    elements.finalScenarioAnswerPanel.replaceChildren();
+    elements.finalScenarioAnswerPanel.classList.add('is-hidden');
+    elements.finalScenarioAnswerButton.textContent = state.finalRound.scenarios[question.id]
+      ? 'Đã mở đáp án — xem lại'
+      : 'Xem đáp án thực tế';
+  }
+
+  function revealFinalScenarioAnswer() {
+    if (session?.mode !== 'final-scenario') return;
+    const question = session.queue[session.index];
+    const panel = elements.finalScenarioAnswerPanel;
+    panel.replaceChildren();
+    const heading = document.createElement('strong');
+    const verified = question.verification?.status === 'publicly-verified';
+    heading.textContent = verified
+      ? 'Đáp án đã đối chiếu văn bản'
+      : (question.answerKind === 'answer' ? 'Đáp án theo tài liệu' : 'Gợi ý xử lý theo tài liệu');
+    panel.append(heading);
+    question.answer.split(/\n\n+/).forEach((part) => {
+      const paragraph = document.createElement('p');
+      paragraph.textContent = part;
+      panel.append(paragraph);
+    });
+    panel.classList.remove('is-hidden');
+    state.finalRound.scenarios[question.id] = { viewed: true, updatedAt: new Date().toISOString() };
+    saveState();
+    elements.finalScenarioAnswerButton.textContent = 'Đã mở đáp án — xem lại';
+    renderHome();
   }
 
   function toggleLightHint() {
@@ -434,11 +493,15 @@
     const oralDone = Object.keys(state.oral).length;
     const wrong = Object.values(state.mcq).filter((result) => !result.correct).length;
     const oralReview = Object.values(state.oral).filter((result) => result.rating === 'review').length;
+    const finalMcqDone = Object.keys(state.finalRound.mcq).length;
+    const finalScenarioDone = Object.keys(state.finalRound.scenarios).length;
     elements.mcqProgressText.textContent = `${mcqDone} / ${bank.stats.multipleChoice}`;
     elements.oralProgressText.textContent = `${oralDone} / ${bank.stats.oral}`;
     elements.todayCount.textContent = `${state.daily.ids.length} câu`;
     elements.wrongCount.textContent = wrong;
     elements.oralReviewCount.textContent = oralReview;
+    elements.finalMcqProgressText.textContent = `${finalMcqDone} / ${bank.finalRound.stats.multipleChoice}`;
+    elements.finalScenarioProgressText.textContent = `${finalScenarioDone} / ${bank.finalRound.stats.scenarios}`;
     elements.reviewWrongButton.disabled = wrong === 0;
     elements.reviewOralButton.disabled = oralReview === 0;
     elements.resumeButton.classList.toggle('is-hidden', !canResume());

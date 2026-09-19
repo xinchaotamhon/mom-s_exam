@@ -1,5 +1,5 @@
 ---
-last_verified: 2026-08-16
+last_verified: 2026-09-19
 verified_by: Codex
 status: active
 ---
@@ -18,10 +18,17 @@ status: active
 - Cấu hình Workers dùng tên `mom-s-exam` và chỉ dùng `assets.not_found_handling = single-page-application` cho định tuyến SPA; quy tắc `_redirects` gây vòng lặp đã được loại bỏ ngày 16/08/2026.
 - Cả 5 cổng bắt buộc đều đạt ngày 16/08/2026; kiểm thử trình duyệt thật ở chiều rộng 390 px gần nhất đạt ngày 15/08/2026.
 - Mã nguồn đã được đẩy an toàn lên nhánh `main` của `https://github.com/xinchaotamhon/mom-s_exam`; mốc xuất bản đầu tiên chứa đủ ứng dụng và giấy phép là `ab0744b`.
+- Vòng thi cuối được tách riêng: 30 câu trắc nghiệm và 20 tình huống, giữ nguyên bộ 538 câu và khóa localStorage `on-thi-bi-thu-chi-bo-v1`.
+- 30 câu trắc nghiệm vòng cuối là tuyển chọn lại từ 395 câu cũ; focused gate đối chiếu prompt và 4 lựa chọn với ngân hàng cũ. Có 29 đáp án vốn đã khớp; câu trùng về giám sát được hiệu chỉnh về A theo Điều 6 Quy định 21-QĐ/TW ở cả hai bản hiển thị.
+- Có 3 câu vòng cuối publicly-verified (2 tình huống đảng phí và 1 MCQ giám sát), 47 câu còn lại giữ trạng thái source-provided. Các hiệu chỉnh lặp lại được lưu trong `data/curated/final-round-corrections.json`.
+- Pipeline vòng cuối ghi hash corrections vào derived data và gate phát hiện dữ liệu dẫn xuất cũ; tình huống 10 đã loại số trang `11` bị dính khỏi dòng đáp án bằng quy tắc hẹp.
+- Hai DOCX vòng cuối được sao chép bất biến vào `data/source`, có SHA-256 trong `FINAL_ROUND_PROVENANCE.md`; dữ liệu dẫn xuất nằm ở `data/derived/final-round.json` và trường `finalRound` trong gói site.
+- Host không có LibreOffice bundled, nên nguồn được kiểm tra đầy đủ bằng python-docx/OOXML; trạng thái render chưa thực hiện được đã được ghi trong provenance.
 
 ## Đã hoàn tất
 
 - Chuyển đổi DOCX, biên tập nội dung, xây giao diện và kiểm thử gói triển khai.
+- Tích hợp khu vực “Vòng thi cuối” trên giao diện điện thoại; trắc nghiệm chấm đáp án, tình huống cho xem đáp án/gợi ý sau khi tự trả lời.
 
 ## Điểm chưa biết
 
@@ -31,3 +38,4 @@ status: active
 ## Bằng chứng
 
 - `50-Evidence/2026-08-15-release-candidate.md`
+- `50-Evidence/2026-09-19-final-round.md`

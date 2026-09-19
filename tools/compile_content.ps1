@@ -2,6 +2,8 @@ param(
     [string]$BankPath = 'data/derived/question-bank-base.json',
     [string]$PlanPath = 'data/curated/content-plan.json',
     [string]$SourcesPath = 'data/curated/sources.json',
+    [string]$FinalRoundPath = 'data/derived/final-round.json',
+    [string]$FinalCorrectionsPath = 'data/curated/final-round-corrections.json',
     [string]$OutputPath = 'site/data/question-bank.json'
 )
 
@@ -127,6 +129,11 @@ function New-OralSupport {
 $bank = Get-Content -Raw -LiteralPath $BankPath | ConvertFrom-Json
 $plan = Get-Content -Raw -LiteralPath $PlanPath | ConvertFrom-Json
 $sourcePayload = Get-Content -Raw -LiteralPath $SourcesPath | ConvertFrom-Json
+$finalRound = Get-Content -Raw -LiteralPath $FinalRoundPath | ConvertFrom-Json
+$finalCorrections = Get-Content -Raw -LiteralPath $FinalCorrectionsPath | ConvertFrom-Json
+if (@($finalRound.multipleChoice).Count -ne 30 -or @($finalRound.scenarios).Count -ne 20) {
+    throw 'Final round must contain exactly 30 multiple-choice questions and 20 scenarios.'
+}
 $publicRanges = @($plan.reviewPolicy.publiclyVerified)
 
 foreach ($sectionProperty in $plan.answerSequences.PSObject.Properties) {
@@ -174,12 +181,54 @@ foreach ($question in @($bank.oral)) {
     $question.verification | Add-Member -NotePropertyName note -NotePropertyValue 'Khung gợi ý do biên tập viên soạn để luyện cách trình bày; không phải đáp án mẫu chính thức của Ban Tổ chức.' -Force
 }
 
+foreach ($correction in @($finalCorrections.corrections | Where-Object { $_.bankQuestionId -and $_.correctedOption })) {
+    $question = $bank.multipleChoice | Where-Object id -eq $correction.bankQuestionId | Select-Object -First 1
+    if ($null -eq $question) { throw "Final-round correction target not found: $($correction.bankQuestionId)" }
+    $question | Add-Member -NotePropertyName sourceAnswer -NotePropertyValue $question.correctOption -Force
+    $question.correctOption = [string]$correction.correctedOption
+    $selected = $question.options | Where-Object id -eq $question.correctOption | Select-Object -First 1
+    $question.explanation = "Đáp án $($question.correctOption). $($selected.text)"
+    $question | Add-Member -NotePropertyName correction -NotePropertyValue ([ordered]@{
+        note = $correction.correctionNote
+        sourceIds = @('original-document', 'final-mcq-source') + @($correction.sourceIds)
+        status = 'publicly-verified'
+    }) -Force
+    $question.verification.status = 'publicly-verified'
+    $question.verification.sourceIds = @('original-document', 'final-mcq-source') + @($correction.sourceIds)
+    $question.verification.note = 'Đáp án đã hiệu chỉnh theo nguồn công khai chính thức; câu hỏi gốc vẫn được giữ nguyên.'
+}
+
 $reviewStats = [ordered]@{}
 foreach ($status in @('publicly-verified', 'cross-checked', 'local-source-needed')) {
     $reviewStats[$status] = @($bank.multipleChoice | Where-Object { $_.verification.status -eq $status }).Count
 }
 $bank | Add-Member -NotePropertyName reviewStats -NotePropertyValue $reviewStats -Force
+$finalSources = @(
+    [ordered]@{
+        id = 'final-mcq-source'
+        title = '30 trắc nghiệm vòng thi cuối (tài liệu DOCX cung cấp)'
+        url = $null
+        kind = 'source-document'
+        note = "Bản sao bất biến: $($finalRound.provenance.sources.'final-mcq-source'.sha256)."
+    }
+    [ordered]@{
+        id = 'final-scenario-source'
+        title = '20 tình huống kèm đáp án vòng thi cuối (tài liệu DOCX cung cấp)'
+        url = $null
+        kind = 'source-document'
+        note = "Bản sao bất biến: $($finalRound.provenance.sources.'final-scenario-source'.sha256)."
+    }
+)
+$finalSources += @($finalCorrections.sources)
 $bank | Add-Member -NotePropertyName sources -NotePropertyValue @($sourcePayload.sources) -Force
+$bank | Add-Member -NotePropertyName finalRound -NotePropertyValue ([ordered]@{
+    stats = $finalRound.stats
+    multipleChoice = @($finalRound.multipleChoice)
+    scenarios = @($finalRound.scenarios)
+    provenance = $finalRound.provenance
+    corrections = @($finalCorrections.corrections | ForEach-Object { $_.questionId })
+}) -Force
+$bank.sources = @($bank.sources) + $finalSources
 $bank | Add-Member -NotePropertyName contentNotice -NotePropertyValue 'Ứng dụng hỗ trợ ôn tập. Khi đáp án liên quan văn bản nội bộ hoặc văn bản vừa được sửa đổi, hãy ưu tiên tài liệu chính thức của Ban Tổ chức.' -Force
 
 $resolvedOutput = [IO.Path]::GetFullPath((Join-Path (Get-Location) $OutputPath))
