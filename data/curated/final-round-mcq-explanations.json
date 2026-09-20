@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Bộ 30 lời giải ngắn cụ thể, chuẩn xác cho 30 câu trắc nghiệm Vòng thi cuối; trả lời rõ tại sao đúng và phương án nhiễu sai ở đâu; trình bày trong khoảng 20-30 giây.",
+  "items": [
+    {
+      "questionId": "final-mcq-1",
+      "shortExplanation": "Đáp án A: Thực hiện như đối với đảng viên chính thức. Theo Điểm 1.1 Điều 2 Quy định 01, đảng viên dự bị đóng đảng phí như đảng viên chính thức ngay khi kết nạp. Phương án B sai vì không được hoãn, C sai vì không có mức một nửa, còn D sai do đảng phí bắt buộc, không tự chọn.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "qd-01-2026",
+        "Điểm 1.1, khoản 1, Điều 2, Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-2",
+      "shortExplanation": "Đáp án B: 03 tháng. Theo Điểm 1.4 Điều 2 Quy định 01, đảng viên không đóng đảng phí 03 tháng trong năm không lý do chính đáng sẽ bị chi bộ đề nghị cấp ủy xóa tên. Các phương án A 02 tháng, C 04 tháng và D 05 tháng đều sai lệch mốc thời hạn xem xét xóa tên.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "qd-01-2026",
+        "Điểm 1.4, khoản 1, Điều 2, Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-3",
+      "shortExplanation": "Đáp án C: 70%. Theo Điểm 1.3 Điều 6 Quy định 01, chi bộ cơ sở được giữ lại 70% số đảng phí còn lại để chi hoạt động công tác đảng. Phương án A 30% sai vì là phần phải nộp lên cấp ủy cấp trên, còn mức 50% ở B và 90% ở D đều không có trong quy định.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "qd-01-2026",
+        "Điểm 1.3, khoản 1, Điều 6, Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-4",
+      "shortExplanation": "Đáp án D: Đề án, phương án và dự án. Điểm n Điều 11 Quy định 399 quy định chi bộ được ban hành cả ba thể loại văn bản chuyên môn này. Phương án A sai vì chi bộ không có thẩm quyền ban hành hướng dẫn, B sai do không được ra chỉ thị, và C sai vì không có thẩm quyền ban hành thông cáo.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "qd-399-2026",
+        "Điểm n, khoản 4, Điều 11, Quy định số 399-QĐ/TW ngày 09/01/2026 của Ban Bí thư về thể loại, thẩm quyền ban hành và thể thức văn bản của Đảng"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-5",
+      "shortExplanation": "Đáp án C: Số 05-BC/CB. Hướng dẫn 05 quy định số văn bản nhỏ hơn 10 phải thêm chữ số 0 phía trước, dùng dấu gạch nối với tên thể loại và dấu gạch chéo với cơ quan ban hành. Phương án A và B sai vì viết số 5 đơn lẻ, còn D sai do đảo lộn giữa dấu gạch chéo và dấu gạch nối.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "hd-05-2026",
+        "Điểm 3.2.2, tiểu mục 3, Mục I, Phần II, Hướng dẫn số 05-HD/VPTW ngày 27/5/2026 của Văn phòng Trung ương Đảng về thể thức và kỹ thuật trình bày văn bản của Đảng"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-6",
+      "shortExplanation": "Đáp án B: 03 độ mật. Điều 8 Luật Bảo vệ bí mật nhà nước quy định bí mật nhà nước phân loại thành 03 độ mật: Tuyệt mật, Tối mật và Mật. Các phương án A 02 độ mật, C 04 độ mật và D 05 độ mật đều sai lệch với 3 cấp độ phân loại theo luật định.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "law-117-2025",
+        "Điều 8, Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10/12/2025"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-7",
+      "shortExplanation": "Đáp án A: Suy thoái về tư tưởng chính trị. Nghị quyết 04 khóa XII xếp việc nói, viết trái quan điểm, nói không đi đôi với làm vào nhóm suy thoái tư tưởng chính trị. Phương án B sai vì nhóm đạo đức gắn với vụ lợi, xa hoa; C là cấp độ phủ nhận nền tảng; còn D không thuộc các nhóm của Nghị quyết.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Mục 1, Phần II, Nghị quyết số 04-NQ/TW ngày 30/10/2016 của Ban Chấp hành Trung ương Đảng khóa XII"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-8",
+      "shortExplanation": "Đáp án B: phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của Nhân dân. Nguyên văn Di chúc 1969 gắn vế giữ Đảng trong sạch với tư cách lãnh đạo, người đầy tớ của Nhân dân. Phương án A là lời dặn về đoàn kết, C là chăm lo thanh niên, còn D là nhiệm vụ kinh tế sau chiến tranh.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Di chúc của Chủ tịch Hồ Chí Minh (bản viết ngày 10/5/1969)"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-9",
+      "shortExplanation": "Đáp án C: Là công việc thường xuyên, nghĩa vụ, trách nhiệm và quyền lợi của mọi tổ chức đảng, cán bộ, đảng viên. Quy định 18 xác định việc học tập, làm theo Bác là nền nếp thường xuyên, bắt buộc. Phương án A sai vì coi là từng đợt, B sai do chỉ dành cho lãnh đạo, D sai vì coi là tùy nghi khuyến khích.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Khoản 1, Điều 2, Quy định số 18-QĐ/TU ngày 22/7/2025 của Ban Thường vụ Tỉnh ủy Lào Cai"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-10",
+      "shortExplanation": "Đáp án A: Cực tăng trưởng, trung tâm kết nối giao thương kinh tế quốc tế. Báo cáo chính trị Đại hội Đảng bộ tỉnh khóa mới xác định rõ mục tiêu kết nối giao thương quốc tế. Phương án B và D sai vì thu hẹp vị thế về quy mô vùng Tây Bắc, còn C sai do tự đặt ra chỉ tiêu đứng đầu về FDI.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Báo cáo chính trị của Ban Chấp hành Đảng bộ tỉnh Lào Cai nhiệm kỳ 2020 - 2025 trình Đại hội đại biểu Đảng bộ tỉnh Lào Cai lần thứ I, nhiệm kỳ 2025 - 2030"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-11",
+      "shortExplanation": "Đáp án B: Góp phần xây dựng Nhà nước trong sạch, vững mạnh, gần dân, bảo đảm quyền làm chủ của nhân dân. Mục tiêu cao nhất theo Kết luận 114 là vì dân và phát huy quyền làm chủ. Phương án A sai do nặng về quản lý; C sai vì chạy theo thu ngân sách; D chỉ là giải quyết khiếu kiện sự vụ.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Mục 2 Kết luận số 114-KL/TW ngày 14/7/2015 của Ban Bí thư",
+        "mcq-tuyen-giao-dan-van-27"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-12",
+      "shortExplanation": "Đáp án C: Có biện pháp phạt phù hợp nhưng không thay thế các biện pháp xử lý theo quy định của pháp luật. Nghị định 61 cho phép hương ước phạt tự quản nhưng tuyệt đối không thay thế luật. Phương án A sai vì thay thế luật; D sai do tự ý phạt; B sai do cấm đoán tuyệt đối.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Khoản 4, Điều 5 Nghị định số 61/2023/NĐ-CP ngày 16/8/2023 của Chính phủ",
+        "mcq-tuyen-giao-dan-van-39"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-13",
+      "shortExplanation": "Đáp án D: Cả 3 phương án trên. Hướng dẫn 25 quy định 19 hành vi tiêu cực, gồm cả ba nhóm: A là làm trái chủ trương, pháp luật; B là không nêu gương; C là quan liêu, xa thực tế. Ba nội dung đều đúng nên chọn D; chọn riêng lẻ từng phương án sẽ thiếu sót.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Phần III Hướng dẫn số 25-HD/BCĐTW ngày 01/8/2022 của Ban Chỉ đạo Trung ương",
+        "mcq-noi-chinh-2"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-14",
+      "shortExplanation": "Đáp án A: Kiểm soát việc lãnh đạo, chỉ đạo và thực hiện quy định Đảng, pháp luật, nghiệp vụ, đạo đức trong tố tụng, thi hành án. Khoản 1 Điều 4 Quy định 132 xác định phạm vi kiểm soát bao quát từ lãnh đạo đến đạo đức tư pháp. Phương án B, C nhầm sang xây dựng pháp luật; D bó hẹp nội bộ.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Khoản 1, Điều 4 Quy định số 132-QĐ/TW ngày 27/10/2023 của Bộ Chính trị",
+        "mcq-noi-chinh-5"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-15",
+      "shortExplanation": "Đáp án A: 9 luật và 05 Nghị quyết. Theo Nghị quyết 31/2026/QH16, Quốc hội khóa XVI tại Kỳ họp thứ nhất đã thông qua đúng 9 luật và 05 nghị quyết để thể chế hóa Nghị quyết Đại hội XIV. Các phương án B, C, D đều sai lệch khi giảm bớt số lượng luật hoặc nghị quyết được ban hành.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Mục 1, Nghị quyết số 31/2026/QH16 ngày 24/4/2026 của Quốc hội",
+        "mcq-noi-chinh-15"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-16",
+      "shortExplanation": "Đáp án D: 10 mục tiêu. Khoản 2 Mục II Đề án số 04-ĐA/TU xác lập hệ thống gồm đúng 10 mục tiêu cụ thể về phòng chống lãng phí giai đoạn 2025-2030. Các phương án A (06), B (07) và C (08) đều thiếu mục tiêu, không bao quát trọn vẹn 10 chỉ tiêu của Đề án.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Khoản 2, Mục II Đề án số 04-ĐA/TU ngày 29/12/2025 của Ban Chấp hành Đảng bộ tỉnh Lào Cai",
+        "mcq-noi-chinh-17"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-17",
+      "shortExplanation": "Đáp án B: Lãng phí là quản lý, sử dụng nguồn lực công vượt định mức hoặc không hiệu quả, bỏ lỡ thời cơ phát triển đất nước. Điều 3 Luật 110 bao quát cả vượt định mức lẫn kém hiệu quả. Phương án A nhầm sang tham nhũng; C bó hẹp ở ngân sách; D mâu thuẫn khi nói vẫn hiệu quả.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Khoản 2, Điều 3 Luật Tiết kiệm, chống lãng phí số 110/2025/QH15",
+        "mcq-noi-chinh-27"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-18",
+      "shortExplanation": "Đáp án B: Phòng, chống lãng phí phải bảo đảm góp phần ổn định để phát triển. Đề án 04 xác định rõ phương châm hành động là giữ vững ổn định để thúc đẩy phát triển. Phương án A sai vì lấy xử phạt làm trọng tâm; C chỉ là tiết kiệm chi thường xuyên; D chỉ là một khâu thanh tra nghiệp vụ.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Mục 1, khoản 1 Đề án số 04-ĐA/TU ngày 29/12/2025 của Ban Chấp hành Đảng bộ tỉnh Lào Cai",
+        "mcq-noi-chinh-31"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-19",
+      "shortExplanation": "Đáp án C: Việc thực hiện nghị quyết chi bộ, nhiệm vụ được giao, trách nhiệm nêu gương và điều đảng viên không được làm. Khoản 1 Điều 6 Quy định 21 xác định đúng các nội dung kiểm tra trọng tâm đối với đảng viên. Phương án A dành cho tổ chức đảng; B nhầm sang cấp ủy viên; D áp dụng cho cán bộ lãnh đạo.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Khoản 1, Điều 6 Quy định số 21-QĐ/TW ngày 11/4/2026 của Ban Chấp hành Trung ương",
+        "mcq-kiem-tra-giam-sat-1"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-20",
+      "shortExplanation": "Đáp án C: Xây dựng, thực hiện đủ kế hoạch kiểm tra giám sát năm và không để cấp trên kỷ luật đảng viên mà chi bộ không phát hiện trước. Đề án 03 đòi hỏi hoàn thành kế hoạch và chủ động kiểm soát vi phạm. Phương án A thiếu vế kỷ luật; B sai lệch vì ghi 'đã phát hiện'; D là chỉ tiêu chung 70%.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Điểm 1.4 tiểu mục 1, mục II, phần II Đề án số 03-ĐA/TU ngày 29/12/2025 của Tỉnh ủy Lào Cai",
+        "mcq-kiem-tra-giam-sat-4"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-21",
+      "shortExplanation": "Đáp án A: Không quá 30 ngày. Theo Quyết định 299-QĐ/TU của Tỉnh ủy, thời gian giám sát chuyên đề của chi bộ không quá 30 ngày kể từ ngày triển khai. Các mốc 40, 50, 60 ngày ở phương án B, C, D đều vượt quá thời hạn quy định cho cấp chi bộ.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Quyết định 299-QĐ/TU, Điểm 2 Mục I Quy trình giám sát chuyên đề",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-22",
+      "shortExplanation": "Đáp án A: Việc thực hiện nhiệm vụ đảng viên, thực hiện nhiệm vụ chuyên môn được giao. Theo Điều 6 Quy định 21-QĐ/TW, chi bộ giám sát đảng viên về thực hiện nhiệm vụ đảng viên và chuyên môn được giao. Các phương án B, C, D là nội dung tập trung kiểm tra, không phải giám sát.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Quy định 21-QĐ/TW, Khoản 1 Điều 6",
+        "final-qd21-article6"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-23",
+      "shortExplanation": "Đáp án C: Sử dụng văn bằng, chứng chỉ, chứng nhận không hợp pháp. Theo Điều 4 Quy định 69-QĐ/TW, vi phạm văn bằng chứng chỉ không hợp pháp thuộc trường hợp không áp dụng thời hiệu kỷ luật, phát hiện lúc nào cũng bị xử lý. Phương án A và B vẫn chịu thời hiệu 5 hoặc 10 năm, còn D không phải vi phạm.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Quy định 69-QĐ/TW, Điểm b Khoản 2 Điều 4",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-24",
+      "shortExplanation": "Đáp án B: Là việc các tổ chức đảng xem xét, đánh giá, kết luận về ưu điểm, khuyết điểm hoặc vi phạm (nếu có) của cấp ủy, tổ chức đảng cấp dưới và đảng viên. Theo Điều 3 Quy định 21-QĐ/TW, kiểm tra gồm xem xét, kết luận ưu khuyết điểm. Phương án A là giám sát, C chỉ nói Ủy ban Kiểm tra, D nhầm thanh tra.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Quy định 21-QĐ/TW, Khoản 3 Điều 3",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-25",
+      "shortExplanation": "Đáp án C: Biểu quyết, ứng cử và bầu cử cơ quan lãnh đạo các cấp của Đảng theo quy định của Bộ Chính trị. Điều 3 Điều lệ Đảng quy định quyền biểu quyết, ứng cử và bầu cử chỉ dành cho đảng viên chính thức. Đảng viên dự bị vẫn có quyền thông tin ở A, phê bình ở B và trình bày ý kiến ở D.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Điều lệ Đảng Cộng sản Việt Nam, Điều 3",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-26",
+      "shortExplanation": "Đáp án A: Ngay sau khi được bầu. Khoản 1 Điều 13 Điều lệ Đảng quy định cấp ủy khóa mới được điều hành công việc ngay sau khi được bầu để lãnh đạo liên tục. Các phương án B, C, D đều sai vì cấp ủy không phải chờ bế mạc đại hội hay chờ cấp trên chuẩn y.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Điều lệ Đảng Cộng sản Việt Nam, Khoản 1 Điều 13",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-27",
+      "shortExplanation": "Đáp án B: Đủ 18 tuổi trở lên (tính theo tháng). Theo Quy định 208-QĐ/TW, người vào Đảng khi chi bộ xét kết nạp phải đủ 18 tuổi trở lên tính theo tháng. Phương án D với mốc 17 tuổi là chưa đủ tuổi, còn mốc 19 hay 20 tuổi ở A và C đã tự nâng tuổi sai quy định.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Quy định 208-QĐ/TW, Điểm 1.1.1 Mục 1 Chương III",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-28",
+      "shortExplanation": "Đáp án D: Trong kỳ sinh hoạt chi bộ gần nhất. Theo Hướng dẫn 01-HD/TW, chi ủy có trách nhiệm công bố quyết định trước toàn thể chi bộ trong kỳ sinh hoạt gần nhất. Phương án A sai vì sinh hoạt chi ủy không có toàn thể đảng viên; B và C nhầm sang các hội nghị hành chính cơ quan.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Hướng dẫn 01-HD/TW, Tiết b Điểm 4.5",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-29",
+      "shortExplanation": "Đáp án B: Cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng. Theo Hướng dẫn 38-HD/BTCTW, thẩm quyền quyết định chuyển giao thuộc về cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng. Cấp ủy cơ sở ở phương án A chỉ lập hồ sơ đề nghị, còn cấp tỉnh ở phương án C là vượt cấp.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Hướng dẫn 38-HD/BTCTW, Điểm 4.3.3 Mục II",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    },
+    {
+      "questionId": "final-mcq-30",
+      "shortExplanation": "Đáp án B: Nêu cao tinh thần trách nhiệm, tích cực tham gia thảo luận, góp ý xây dựng nghị quyết. Quy định 08-QĐ/TU yêu cầu đảng viên phải chủ động tham gia thảo luận xây dựng nghị quyết chi bộ. Các phương án A, C, D đều sai vì thể hiện sự thụ động, làm mất đi tính dân chủ sinh hoạt.",
+      "reviewStatus": "reviewed",
+      "sourceBasis": [
+        "Quy định 08-QĐ/TU, Khoản 3 Điều 2",
+        "final-mcq-source"
+      ],
+      "confidence": "high",
+      "needsReview": false
+    }
+  ]
+}

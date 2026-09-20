@@ -1,0 +1,25 @@
+# Bằng chứng nghiệm thu 30 lời giải trắc nghiệm Vòng thi cuối
+
+- Ngày nghiệm thu: 2026-09-20.
+- Phạm vi trắc nghiệm: Đúng 30 câu trắc nghiệm thuộc "Vòng thi cuối" (`final-mcq-1` đến `final-mcq-30`), lưu tại `data/curated/final-round-mcq-explanations.json` và biên dịch vào `bank.finalRound.multipleChoice` trong `site/data/question-bank.json`.
+- Độ dài và chuẩn trình bày:
+  - 100% (30/30 câu) đạt độ dài từ 55 đến 69 từ (nằm trọn trong ngưỡng 35–60 từ, tối đa 70 từ); thời gian nói tự nhiên từ 20–30 giây trước ban giám khảo.
+  - Tất cả mở đầu bằng đúng định dạng `Đáp án X:`.
+  - Vượt qua phép thử Quy tắc 7: Khi lược bỏ câu đầu có chữ "Đáp án...", phần còn lại đứng độc lập vẫn giải thích đầy đủ vì sao đúng.
+  - Trả lời rõ ràng hai vế: TẠI SAO đáp án đúng (căn cứ pháp lý, điều khoản, số liệu, thẩm quyền) VÀ các phương án còn lại SAI hoặc THIẾU ở đâu.
+  - Tuyệt đối không dùng các câu mẫu chung chung ("Phương án này đủ điều kiện...", "Cốt lõi là tuân thủ...", "Các phương án khác thiếu ý...", "Con số này là mốc cụ thể...").
+  - Câu 13 ("Cả 3 phương án trên"): Tóm tắt rõ ràng 3 nhóm hành vi tiêu cực (A: làm trái chủ trương/pháp luật; B: không nêu gương; C: quan liêu, xa thực tế) và lý do phải chọn D thay vì chọn riêng lẻ.
+  - Câu 22: Giữ vững đáp án A theo Khoản 1 Điều 6 Quy định 21-QĐ/TW (nhiệm vụ đảng viên và nhiệm vụ chuyên môn; B, C, D là nội dung kiểm tra).
+  - Các câu phương án dài (câu 14, 17): Tóm tắt trọn vẹn chủ thể, hành vi, điểm cốt lõi, không dùng dấu ba chấm `...`.
+  - Cả 30 lời giải hoàn toàn phân biệt, không trùng lặp nội dung giải thích.
+- Quy trình biên soạn và bình duyệt chéo:
+  - Chia 3 nhóm qua subagents độc lập (Nhóm 1: 1–10, Nhóm 2: 11–20, Nhóm 3: 21–30).
+  - Bình duyệt chéo chéo 100% (Nhóm 1 duyệt Nhóm 2, Nhóm 2 duyệt Nhóm 3, Nhóm 3 duyệt Nhóm 1).
+  - Hợp nhất và rà soát trực tiếp bởi điều phối viên chính.
+- Kiểm thử và Cổng chất lượng:
+  - `tests/test_final_round.ps1`: Đạt (mã thoát 0).
+  - `tests/test_exam_delivery_support.ps1`: Đạt (mã thoát 0), kiểm tra toàn diện 30 câu vòng cuối cùng ngân hàng chung.
+  - `tools/run_gates.ps1`: Cả 7 cổng bắt buộc đều đạt (mã thoát 0).
+- Kiểm tra giao diện di động (390 × 844):
+  - Kiểm tra 4 nhóm câu điển hình (câu số liệu, câu thẩm quyền, câu "Cả 3 phương án", câu phương án dài). Lời giải hiển thị gọn gàng, cách dòng thoáng, không tràn khung ngang.
+- Bộ nhớ đệm Service Worker: Cập nhật `CACHE_NAME` thành `on-thi-chi-bo-2026-09-20-final-round-mcq-explanations` trong `site/service-worker.js`.

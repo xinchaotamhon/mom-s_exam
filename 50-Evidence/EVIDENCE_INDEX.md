@@ -6,6 +6,7 @@
 - [Sửa lỗi triển khai Cloudflare ngày 16/08/2026](2026-08-16-cloudflare-deploy-fix.md)
 - [Tích hợp vòng thi cuối ngày 19/09/2026](2026-09-19-final-round.md)
 - [Lời giải ngắn và liên hệ Trường Mầm non Sơn Thịnh ngày 19/09/2026](2026-09-19-exam-delivery-support.md)
+- [Nghiệm thu 30 lời giải trắc nghiệm Vòng thi cuối ngày 20/09/2026](2026-09-20-final-round-mcq-explanations.md)
 - [Ảnh trang đầu trên máy tính](home-desktop.png)
 - [Ảnh trang đầu ở chiều rộng 390 px](home-mobile-cdp.png)
 - [Ảnh thẻ trắc nghiệm trên điện thoại](practice-mobile.png)

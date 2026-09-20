@@ -13,6 +13,12 @@ if ($derived.provenance.sources.'final-mcq-source'.sha256 -ne 'b2578ede8aefaee4f
 if ($derived.provenance.sources.'final-scenario-source'.sha256 -ne 'ab84877e02f300fd79cae48e2e010153825330f21c390338f0e9c369fc4426ba') { throw 'Derived scenario provenance hash mismatch.' }
 if ((Get-FileHash -LiteralPath $correctionsPath -Algorithm SHA256).Hash.ToLowerInvariant() -ne $derived.provenance.correctionsSha256) { throw 'Derived final-round data is stale relative to final-round-corrections.json; rebuild it.' }
 
+$finalExplanationsFile = Join-Path $root 'data/curated/final-round-mcq-explanations.json'
+if (-not (Test-Path -LiteralPath $finalExplanationsFile)) { throw 'Missing final-round-mcq-explanations.json' }
+$finalExpPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $finalExplanationsFile | ConvertFrom-Json
+$finalExpItems = if ($finalExpPayload.items) { $finalExpPayload.items } else { $finalExpPayload }
+if (@($finalExpItems).Count -ne 30) { throw 'final-round-mcq-explanations.json must contain exactly 30 items' }
+
 if (@($derived.multipleChoice).Count -ne 30) { throw 'Final round must contain 30 MCQs.' }
 if (@($derived.scenarios).Count -ne 20) { throw 'Final round must contain 20 scenarios.' }
 if ($derived.provenance.renderStatus -notmatch 'not-rendered') { throw 'Render limitation must be recorded for final-round sources.' }

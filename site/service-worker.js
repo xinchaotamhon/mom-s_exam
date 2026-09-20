@@ -1,4 +1,4 @@
-const CACHE_NAME = 'on-thi-chi-bo-2026-09-19-exam-delivery-support';
+const CACHE_NAME = 'on-thi-chi-bo-2026-09-20-final-round-mcq-explanations';
 const CORE_ASSETS = [
   '/',
   '/index.html',

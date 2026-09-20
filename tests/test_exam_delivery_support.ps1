@@ -1,12 +1,14 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $PSScriptRoot
 & (Join-Path $root 'tools/compile_content.ps1') | Out-Null
 
 $bank = Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $root 'site/data/question-bank.json') | ConvertFrom-Json
 $mcqPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $root 'data/curated/mcq-explanations.json') | ConvertFrom-Json
+$finalMcqPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $root 'data/curated/final-round-mcq-explanations.json') | ConvertFrom-Json
 $oralPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $root 'data/curated/oral-school-links.json') | ConvertFrom-Json
 $scenarioPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath (Join-Path $root 'data/curated/final-scenario-school-links.json') | ConvertFrom-Json
+$finalMcqItems = if ($finalMcqPayload.items) { $finalMcqPayload.items } else { $finalMcqPayload }
 
 function Get-WordCount([string]$Text) {
     if ([string]::IsNullOrWhiteSpace($Text)) { return 0 }
@@ -25,10 +27,12 @@ function Normalize-Text([string]$Value) {
 }
 
 Assert-UniqueCoverage @($bank.multipleChoice.id) @($mcqPayload.items) 'MCQ explanations'
+Assert-UniqueCoverage @($bank.finalRound.multipleChoice.id) @($finalMcqItems) 'Final round MCQ explanations'
 Assert-UniqueCoverage @($bank.oral.id) @($oralPayload.items) 'Oral school links'
 Assert-UniqueCoverage @($bank.finalRound.scenarios.id) @($scenarioPayload.items) 'Final scenario school links'
 
 if (@($mcqPayload.items).Count -ne 395) { throw 'Expected 395 concise MCQ explanations.' }
+if (@($finalMcqItems).Count -ne 30) { throw 'Expected 30 concise final-round MCQ explanations.' }
 if (@($oralPayload.items).Count -ne 143) { throw 'Expected 143 oral school applications.' }
 if (@($scenarioPayload.items).Count -ne 20) { throw 'Expected 20 final-scenario school applications.' }
 
@@ -66,12 +70,54 @@ foreach ($scenario in @($bank.finalRound.scenarios)) {
     if ($scenario.schoolApplication -match '(?i)đã xảy ra tại trường|trường đã vi phạm') { throw "$($scenario.id) presents an invented incident as fact." }
 }
 
+$finalMcqMap = @{}
+foreach ($item in @($finalMcqItems)) { $finalMcqMap[[string]$item.questionId] = $item }
+
+$finalExplanations = @()
 foreach ($finalQuestion in @($bank.finalRound.multipleChoice)) {
-    $normalizedPrompt = Normalize-Text $finalQuestion.prompt
-    $matches = @($bank.multipleChoice | Where-Object { (Normalize-Text $_.prompt) -eq $normalizedPrompt })
-    if ($matches.Count -ne 1 -or $finalQuestion.explanation -ne $matches[0].explanation) {
-        throw "$($finalQuestion.id) must reuse the reviewed concise explanation from the 395-question bank."
+    $item = $finalMcqMap[$finalQuestion.id]
+    if ($null -eq $item) { throw "$($finalQuestion.id) is missing from final-round-mcq-explanations.json" }
+    if ($finalQuestion.explanation -ne $item.shortExplanation) {
+        throw "$($finalQuestion.id) does not use its curated final round explanation."
     }
+    $words = Get-WordCount $finalQuestion.explanation
+    if ($words -lt 25 -or $words -gt 70) { throw "$($finalQuestion.id) explanation must contain 25-70 words; found $words." }
+    if ($finalQuestion.explanation -match '…|\.\.\.') { throw "$($finalQuestion.id) explanation is truncated with an ellipsis." }
+    if ($finalQuestion.explanation -notmatch "^(Chọn|Đáp án|Phương án)\s+$($finalQuestion.correctOption)\b") {
+        throw "$($finalQuestion.id) explanation must start with its correct option letter."
+    }
+    $correctText = ($finalQuestion.options | Where-Object id -eq $finalQuestion.correctOption | Select-Object -First 1).text
+    $oldTemplate = "Đáp án $($finalQuestion.correctOption). $correctText"
+    if ((Normalize-Text $finalQuestion.explanation) -eq (Normalize-Text $oldTemplate)) {
+        throw "$($finalQuestion.id) only repeats the correct option."
+    }
+    foreach ($banned in @(
+        'đủ điều kiện và trình tự',
+        'thiếu điều kiện hoặc nhầm đối tượng',
+        'Cốt lõi là tuân thủ',
+        'tuân thủ đúng quy định',
+        'nội dung đúng trọng tâm',
+        'Đây là nội dung',
+        'mốc cụ thể theo quy định',
+        'Con số này là mốc',
+        'Mấu chốt là',
+        'đúng chủ thể và thẩm quyền',
+        'Lựa chọn này đủ điều kiện'
+    )) {
+        if ($finalQuestion.explanation -match [regex]::Escape($banned)) {
+            throw "$($finalQuestion.id) contains banned boilerplate phrase: $banned"
+        }
+    }
+    if ($correctText -match '(?i)cả\s*3|cả ba' -and $finalQuestion.explanation -notmatch '(?i)A.+B.+C') {
+        throw "$($finalQuestion.id) is a combined answer but does not summarize component groups."
+    }
+    if ($finalQuestion.explanationKind -ne 'concise-oral-rationale') {
+        throw "$($finalQuestion.id) lost its concise explanation marker."
+    }
+    $finalExplanations += $finalQuestion.explanation
+}
+if (@($finalExplanations | Select-Object -Unique).Count -ne 30) {
+    throw 'Final round MCQ explanations must all be distinct from one another.'
 }
 
 $sourceIds = @($bank.sources.id)

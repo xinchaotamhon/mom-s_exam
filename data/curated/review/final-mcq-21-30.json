@@ -1,0 +1,132 @@
+[
+  {
+    "questionId": "final-mcq-21",
+    "correctOption": "A",
+    "decisiveRule": "Theo điểm 2 mục I Quy trình giám sát chuyên đề của chi bộ ban hành kèm Quyết định số 299-QĐ/TU, thời gian tiến hành một cuộc giám sát chuyên đề của chi bộ được ấn định không quá 30 ngày kể từ ngày triển khai.",
+    "distractorFault": "Các phương án B (không quá 40 ngày), C (không quá 50 ngày) và D (không quá 60 ngày) đều vượt quá giới hạn thời gian quy định cho một cuộc giám sát chuyên đề cấp chi bộ.",
+    "shortExplanation": "Đáp án A: Không quá 30 ngày. Theo Quyết định 299-QĐ/TU của Tỉnh ủy, thời gian giám sát chuyên đề của chi bộ không quá 30 ngày kể từ ngày triển khai. Các mốc 40, 50, 60 ngày ở phương án B, C, D đều vượt quá thời hạn quy định cho cấp chi bộ.",
+    "sourceBasis": [
+      "Quyết định 299-QĐ/TU, Điểm 2 Mục I Quy trình giám sát chuyên đề",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-22",
+    "correctOption": "A",
+    "decisiveRule": "Khoản 1 Điều 6 Quy định số 21-QĐ/TW xác định nội dung giám sát thường xuyên, giám sát chuyên đề đối với đảng viên của chi bộ gồm: Việc thực hiện nhiệm vụ đảng viên, thực hiện nhiệm vụ chuyên môn được giao.",
+    "distractorFault": "Các phương án B, C, D (thực hiện nghị quyết chi bộ, nhiệm vụ chi bộ phân công, quy định những điều đảng viên không được làm, trách nhiệm nêu gương) là các nội dung tập trung kiểm tra theo Điều 6, không phải nội dung của công tác giám sát.",
+    "shortExplanation": "Đáp án A: Việc thực hiện nhiệm vụ đảng viên, thực hiện nhiệm vụ chuyên môn được giao. Theo Điều 6 Quy định 21-QĐ/TW, chi bộ giám sát đảng viên về thực hiện nhiệm vụ đảng viên và chuyên môn được giao. Các phương án B, C, D là nội dung tập trung kiểm tra, không phải giám sát.",
+    "sourceBasis": [
+      "Quy định 21-QĐ/TW, Khoản 1 Điều 6",
+      "final-qd21-article6"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-23",
+    "correctOption": "C",
+    "decisiveRule": "Điểm b khoản 2 Điều 4 Quy định số 69-QĐ/TW khẳng định không áp dụng thời hiệu kỷ luật đối với hành vi sử dụng văn bằng, chứng chỉ, chứng nhận không hợp pháp (xử lý kỷ luật bất cứ khi nào phát hiện vi phạm).",
+    "distractorFault": "Vi phạm ở phương án A (đạo đức, lối sống) và B (gây hậu quả nghiêm trọng) vẫn áp dụng thời hiệu kỷ luật là 5 năm hoặc 10 năm theo khoản 1 Điều 4; phương án D là thực hiện nhiệm vụ, không phải vi phạm.",
+    "shortExplanation": "Đáp án C: Sử dụng văn bằng, chứng chỉ, chứng nhận không hợp pháp. Theo Điều 4 Quy định 69-QĐ/TW, hành vi dùng văn bằng chứng chỉ giả luôn bị kỷ luật vô thời hạn khi phát hiện. Các vi phạm ở phương án A và B vẫn chịu thời hiệu 5 hoặc 10 năm, còn D không phải vi phạm.",
+    "sourceBasis": [
+      "Quy định 69-QĐ/TW, Điểm b Khoản 2 Điều 4",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-24",
+    "correctOption": "B",
+    "decisiveRule": "Khoản 3 Điều 3 Quy định số 21-QĐ/TW định nghĩa kiểm tra của Đảng là việc các tổ chức đảng xem xét, đánh giá, kết luận về ưu điểm, khuyết điểm hoặc vi phạm (nếu có) của cấp ủy, tổ chức đảng cấp dưới và đảng viên.",
+    "distractorFault": "Phương án A mô tả công tác giám sát; phương án C thu hẹp sai thẩm quyền chỉ riêng Ủy ban Kiểm tra; phương án D nhầm lẫn sang hoạt động thanh tra tài chính, cán bộ của cơ quan nhà nước.",
+    "shortExplanation": "Đáp án B: Là việc các tổ chức đảng xem xét, đánh giá, kết luận về ưu điểm, khuyết điểm hoặc vi phạm (nếu có) của cấp ủy, tổ chức đảng cấp dưới và đảng viên. Theo Điều 3 Quy định 21-QĐ/TW, kiểm tra gồm xem xét, kết luận ưu khuyết điểm. Phương án A là giám sát, C chỉ nói Ủy ban Kiểm tra, D nhầm thanh tra.",
+    "sourceBasis": [
+      "Quy định 21-QĐ/TW, Khoản 3 Điều 3",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-25",
+    "correctOption": "C",
+    "decisiveRule": "Điều 3 Điều lệ Đảng quy định quyền biểu quyết, ứng cử và bầu cử cơ quan lãnh đạo các cấp chỉ thuộc về đảng viên chính thức; đảng viên dự bị không có quyền biểu quyết, ứng cử và bầu cử.",
+    "distractorFault": "Các quyền ở phương án A (thông tin, thảo luận), B (phê bình, chất vấn) và D (trình bày ý kiến khi tổ chức đảng nhận xét, kỷ luật) đều là quyền mà đảng viên dự bị được thực hiện đầy đủ như đảng viên chính thức.",
+    "shortExplanation": "Đáp án C: Biểu quyết, ứng cử và bầu cử cơ quan lãnh đạo các cấp của Đảng theo quy định của Bộ Chính trị. Điều 3 Điều lệ Đảng quy định quyền biểu quyết, ứng cử và bầu cử chỉ dành cho đảng viên chính thức. Đảng viên dự bị vẫn có quyền thông tin ở A, phê bình ở B và trình bày ý kiến ở D.",
+    "sourceBasis": [
+      "Điều lệ Đảng Cộng sản Việt Nam, Điều 3",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-26",
+    "correctOption": "A",
+    "decisiveRule": "Khoản 1 Điều 13 Điều lệ Đảng quy định cấp ủy khóa mới được điều hành công việc ngay sau khi được bầu nhằm bảo đảm công tác lãnh đạo liên tục, thông suốt.",
+    "distractorFault": "Các phương án B, C, D làm gián đoạn quyền điều hành; thủ tục cấp trên chuẩn y là để công nhận kết quả bầu cử, không phải điều kiện chờ để cấp ủy khóa mới bắt đầu điều hành công việc.",
+    "shortExplanation": "Đáp án A: Ngay sau khi được bầu. Khoản 1 Điều 13 Điều lệ Đảng quy định cấp ủy khóa mới được điều hành công việc ngay sau khi được bầu để lãnh đạo liên tục. Các phương án B, C, D đều sai vì cấp ủy không phải chờ bế mạc đại hội hay chờ cấp trên chuẩn y.",
+    "sourceBasis": [
+      "Điều lệ Đảng Cộng sản Việt Nam, Khoản 1 Điều 13",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-27",
+    "correctOption": "B",
+    "decisiveRule": "Điểm 1.1.1, khoản 1.1, Mục 1, Chương III Quy định số 208-QĐ/TW quy định tại thời điểm chi bộ xét kết nạp, người vào Đảng phải đủ 18 tuổi trở lên (tính theo tháng).",
+    "distractorFault": "Mốc 17 tuổi (phương án D) chưa đủ tuổi theo Điều lệ Đảng; mốc 19 tuổi (C) và 20 tuổi (A) tự ý nâng cao điều kiện tuổi đời sai với tiêu chuẩn quy định.",
+    "shortExplanation": "Đáp án B: Đủ 18 tuổi trở lên (tính theo tháng). Theo Quy định 208-QĐ/TW, người vào Đảng khi chi bộ xét kết nạp phải đủ 18 tuổi trở lên tính theo tháng. Phương án D với mốc 17 tuổi là chưa đủ tuổi, còn mốc 19 hay 20 tuổi ở A và C đã tự nâng tuổi sai quy định.",
+    "sourceBasis": [
+      "Quy định 208-QĐ/TW, Điểm 1.1.1 Mục 1 Chương III",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-28",
+    "correctOption": "D",
+    "decisiveRule": "Tiết b, điểm 4.5 Hướng dẫn số 01-HD/TW quy định sau khi có quyết định công nhận đảng viên chính thức của cấp có thẩm quyền, chi ủy có trách nhiệm công bố quyết định trước chi bộ trong kỳ sinh hoạt chi bộ gần nhất.",
+    "distractorFault": "Phương án A sai vì họp chi ủy chỉ gồm các chi ủy viên, không bảo đảm công khai trước toàn thể chi bộ; phương án B và C nhầm lẫn sang các diễn đàn hành chính, giao ban chuyên môn của cơ quan.",
+    "shortExplanation": "Đáp án D: Trong kỳ sinh hoạt chi bộ gần nhất. Theo Hướng dẫn 01-HD/TW, chi ủy có thẩm quyền công bố quyết định trước chi bộ trong kỳ sinh hoạt chi bộ gần nhất. Phương án A sai vì sinh hoạt chi ủy không có toàn thể đảng viên, còn B và C nhầm sang hội nghị chuyên môn cơ quan.",
+    "sourceBasis": [
+      "Hướng dẫn 01-HD/TW, Tiết b Điểm 4.5",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-29",
+    "correctOption": "B",
+    "decisiveRule": "Điểm 4.3.3 Mục II Hướng dẫn số 38-HD/BTCTW quy định khi chuyển giao chi bộ trực thuộc đảng ủy cơ sở ra ngoài phạm vi đảng bộ cơ sở, cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng có thẩm quyền ra quyết định chuyển giao tổ chức đảng và đảng viên.",
+    "distractorFault": "Cấp ủy cơ sở (phương án A) chỉ làm hồ sơ đề nghị chứ không đủ thẩm quyền quyết định chuyển giao ra ngoài đảng bộ; cấp ủy cấp tỉnh (phương án C) là vượt cấp; phương án D sai mô hình cấp ủy.",
+    "shortExplanation": "Đáp án B: Cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng. Theo Hướng dẫn 38-HD/BTCTW, thẩm quyền quyết định chuyển giao thuộc về cấp ủy cấp trên trực tiếp của tổ chức cơ sở đảng. Cấp ủy cơ sở ở phương án A chỉ lập hồ sơ đề nghị, còn cấp tỉnh ở phương án C là vượt cấp.",
+    "sourceBasis": [
+      "Hướng dẫn 38-HD/BTCTW, Điểm 4.3.3 Mục II",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-30",
+    "correctOption": "B",
+    "decisiveRule": "Khoản 3 Điều 2 Quy định số 08-QĐ/TU quy định khi tham gia sinh hoạt chi bộ, đảng viên có trách nhiệm nêu cao tinh thần trách nhiệm, tích cực tham gia thảo luận, đóng góp ý kiến xây dựng nghị quyết.",
+    "distractorFault": "Các phương án A, C, D đều mang tính thụ động một chiều ('chỉ nghe', 'chỉ phát biểu khi yêu cầu', 'chỉ biểu quyết'), hạn chế quyền phát biểu và vi phạm nguyên tắc tập trung dân chủ trong sinh hoạt chi bộ.",
+    "shortExplanation": "Đáp án B: Nêu cao tinh thần trách nhiệm, tích cực tham gia thảo luận, góp ý xây dựng nghị quyết. Quy định 08-QĐ/TU yêu cầu đảng viên phải chủ động tham gia thảo luận xây dựng nghị quyết chi bộ. Các phương án A, C, D đều sai vì thể hiện sự thụ động, làm mất đi tính dân chủ sinh hoạt.",
+    "sourceBasis": [
+      "Quy định 08-QĐ/TU, Khoản 3 Điều 2",
+      "final-mcq-source"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  }
+]

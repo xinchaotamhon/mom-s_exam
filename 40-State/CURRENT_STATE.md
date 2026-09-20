@@ -1,5 +1,5 @@
 ---
-last_verified: 2026-09-19
+last_verified: 2026-09-20
 verified_by: Codex
 status: active
 ---
@@ -21,6 +21,7 @@ status: active
 - Mã nguồn đã được đẩy an toàn lên nhánh `main` của `https://github.com/xinchaotamhon/mom-s_exam`; mốc xuất bản đầu tiên chứa đủ ứng dụng và giấy phép là `ab0744b`.
 - Vòng thi cuối được tách riêng: 30 câu trắc nghiệm và 20 tình huống, giữ nguyên bộ 538 câu và khóa localStorage `on-thi-bi-thu-chi-bo-v1`.
 - 30 câu trắc nghiệm vòng cuối là tuyển chọn lại từ 395 câu cũ; focused gate đối chiếu prompt và 4 lựa chọn với ngân hàng cũ. Có 29 đáp án vốn đã khớp; câu trùng về giám sát được hiệu chỉnh về A theo Điều 6 Quy định 21-QĐ/TW ở cả hai bản hiển thị.
+- Toàn bộ 30 câu trắc nghiệm Vòng thi cuối đã có bộ lời giải ngắn cụ thể, chuẩn xác (55–69 từ, mở đầu bằng `Đáp án X:`, trả lời rõ tại sao đúng và phương án nhiễu sai ở đâu, không dùng văn mẫu chung chung, vượt qua phép thử Quy tắc 7), lưu độc lập tại `data/curated/final-round-mcq-explanations.json` và biên dịch trực tiếp vào `bank.finalRound.multipleChoice`.
 - Có 3 câu vòng cuối publicly-verified (2 tình huống đảng phí và 1 MCQ giám sát), 47 câu còn lại giữ trạng thái source-provided. Các hiệu chỉnh lặp lại được lưu trong `data/curated/final-round-corrections.json`.
 - Pipeline vòng cuối ghi hash corrections vào derived data và gate phát hiện dữ liệu dẫn xuất cũ; tình huống 10 đã loại số trang `11` bị dính khỏi dòng đáp án bằng quy tắc hẹp.
 - Hai DOCX vòng cuối được sao chép bất biến vào `data/source`, có SHA-256 trong `FINAL_ROUND_PROVENANCE.md`; dữ liệu dẫn xuất nằm ở `data/derived/final-round.json` và trường `finalRound` trong gói site.
@@ -32,14 +33,16 @@ status: active
 - Tích hợp khu vực “Vòng thi cuối” trên giao diện điện thoại; trắc nghiệm chấm đáp án, tình huống cho xem đáp án/gợi ý sau khi tự trả lời.
 - Bổ sung nhãn “Giải thích ngắn — trình bày trong khoảng 20–30 giây” sau mỗi câu trắc nghiệm và nút “Liên hệ tại trường” cho mọi câu vấn đáp.
 - Bổ sung nguồn công khai về địa giới hiện hành của xã Văn Chấn và bối cảnh chăm sóc, giáo dục, chuyển đổi số của Trường Mầm non Sơn Thịnh.
+- Biên soạn, bình duyệt chéo và nghiệm thu toàn bộ 30 lời giải trắc nghiệm cụ thể cho Vòng thi cuối; cập nhật pipeline `compile_content.ps1` và các bài test kiểm tra.
 
 ## Điểm chưa biết
 
 - Chưa có bản chính thức của một số Quy định, Đề án và Quy chế nội bộ Tỉnh ủy Lào Cai được câu hỏi viện dẫn; 132 câu liên quan đã được nhận diện rõ trong dữ liệu.
-- Bản nội dung hỗ trợ trình bày ngày 19/09/2026 đã qua kiểm tra cục bộ; còn cần xác nhận Workers Build tự động đã nhận commit mới và kiểm tra URL thật.
+- Cần xác nhận Cloudflare Worker deployment và kiểm tra live site sau khi đẩy commit mới.
 
 ## Bằng chứng
 
 - `50-Evidence/2026-08-15-release-candidate.md`
 - `50-Evidence/2026-09-19-final-round.md`
 - `50-Evidence/2026-09-19-exam-delivery-support.md`
+- `50-Evidence/2026-09-20-final-round-mcq-explanations.md`

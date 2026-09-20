@@ -1,0 +1,128 @@
+[
+  {
+    "questionId": "final-mcq-1",
+    "correctOption": "A",
+    "decisiveRule": "Điểm 1.1 khoản 1 Điều 2 Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị quy định đảng viên dự bị thực hiện đóng đảng phí như đối với đảng viên chính thức ngay từ tháng được kết nạp.",
+    "distractorFault": "Phương án B sai vì đảng viên dự bị phải đóng đảng phí ngay khi kết nạp chứ không hoãn đến khi chuyển chính thức; phương án C sai vì không có mức đóng 50%; phương án D sai vì đảng phí là nghĩa vụ bắt buộc theo mức thu nhập quy định, không do tự nguyện lựa chọn.",
+    "shortExplanation": "Đáp án A: Thực hiện như đối với đảng viên chính thức. Theo Điểm 1.1 Điều 2 Quy định 01, đảng viên dự bị đóng đảng phí như đảng viên chính thức ngay khi kết nạp. Phương án B sai vì không được hoãn, C sai vì không có mức một nửa, còn D sai do đảng phí bắt buộc, không tự chọn.",
+    "sourceBasis": [
+      "qd-01-2026",
+      "Điểm 1.1, khoản 1, Điều 2, Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-2",
+    "correctOption": "B",
+    "decisiveRule": "Điểm 1.4 khoản 1 Điều 2 Quy định số 01-QĐ/TW quy định đảng viên không đóng đảng phí 03 tháng trong một năm mà không có lý do chính đáng thì chi bộ xem xét, đề nghị cấp ủy có thẩm quyền quyết định xóa tên trong danh sách đảng viên.",
+    "distractorFault": "Các phương án A (02 tháng), C (04 tháng) và D (05 tháng) sai lệch mốc thời hạn; quy định chế tài xóa tên của Đảng yêu cầu mốc chuẩn xác là 03 tháng trong một năm.",
+    "shortExplanation": "Đáp án B: 03 tháng. Theo Điểm 1.4 Điều 2 Quy định 01, đảng viên không đóng đảng phí 03 tháng trong năm không lý do chính đáng sẽ bị chi bộ đề nghị cấp ủy xóa tên. Các phương án A 02 tháng, C 04 tháng và D 05 tháng đều sai lệch mốc thời hạn xử lý kỷ luật.",
+    "sourceBasis": [
+      "qd-01-2026",
+      "Điểm 1.4, khoản 1, Điều 2, Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-3",
+    "correctOption": "C",
+    "decisiveRule": "Điểm 1.3 khoản 1 Điều 6 Quy định số 01-QĐ/TW quy định chi bộ cơ sở được để lại 70% số đảng phí còn lại sau khi trừ số đã để lại cho các tổ chức đảng cấp dưới để chi cho hoạt động công tác đảng, còn 30% nộp cấp trên.",
+    "distractorFault": "Phương án A (30%) sai vì đây là tỷ lệ phải trích nộp lên cấp ủy cấp trên; các phương án B (50%) và D (90%) là các con số sai, không được quy định áp dụng cho chi bộ cơ sở trong Quy định 01.",
+    "shortExplanation": "Đáp án C: 70%. Theo Điểm 1.3 Điều 6 Quy định 01, chi bộ cơ sở được giữ lại 70% số đảng phí còn lại để chi hoạt động công tác đảng. Phương án A 30% sai vì là phần phải nộp lên cấp ủy cấp trên, còn mức 50% ở B và 90% ở D đều không có trong quy định.",
+    "sourceBasis": [
+      "qd-01-2026",
+      "Điểm 1.3, khoản 1, Điều 6, Quy định số 01-QĐ/TW ngày 03/02/2026 của Bộ Chính trị về chế độ đảng phí"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-4",
+    "correctOption": "D",
+    "decisiveRule": "Điểm n khoản 4 Điều 11 Quy định số 399-QĐ/TW ngày 09/01/2026 của Ban Bí thư quy định chi bộ có thẩm quyền ban hành đồng thời cả ba thể loại văn bản chuyên môn gồm đề án, phương án và dự án.",
+    "distractorFault": "Phương án A sai vì chi bộ không có thẩm quyền ban hành thể loại 'hướng dẫn'; phương án B sai vì chi bộ không được ban hành 'chỉ thị'; phương án C sai vì chi bộ không có thẩm quyền ban hành 'thông cáo'.",
+    "shortExplanation": "Đáp án D: Đề án, phương án và dự án. Điểm n Điều 11 Quy định 399 quy định chi bộ được ban hành cả ba thể loại văn bản chuyên môn này. Phương án A sai vì chi bộ không có thẩm quyền ban hành hướng dẫn, B sai do không được ra chỉ thị, và C sai vì không có thẩm quyền ban hành thông cáo.",
+    "sourceBasis": [
+      "qd-399-2026",
+      "Điểm n, khoản 4, Điều 11, Quy định số 399-QĐ/TW ngày 09/01/2026 của Ban Bí thư về thể loại, thẩm quyền ban hành và thể thức văn bản của Đảng"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-5",
+    "correctOption": "C",
+    "decisiveRule": "Điểm 3.2.2 tiểu mục 3 Mục I Phần II Hướng dẫn số 05-HD/VPTW ngày 27/5/2026 của Văn phòng Trung ương Đảng quy định số văn bản nhỏ hơn 10 phải thêm chữ số 0 phía trước (05), giữa số và tên thể loại ngăn cách bằng dấu nối (-), giữa thể loại và cơ quan ban hành ngăn cách bằng dấu chéo (/): 'Số 05-BC/CB'.",
+    "distractorFault": "Phương án A (Số 5-BC/CB) và B (Số 5 BC/CB) sai vì số thứ tự dưới 10 viết đơn lẻ thiếu chữ số 0 phía trước, đồng thời B thiếu dấu gạch nối; phương án D (Số 05/BC-CB) sai vì dùng sai vị trí dấu gạch chéo và dấu gạch nối.",
+    "shortExplanation": "Đáp án C: Số 05-BC/CB. Hướng dẫn 05 quy định số văn bản nhỏ hơn 10 phải thêm chữ số 0 phía trước, dùng dấu gạch nối với tên thể loại và dấu gạch chéo với cơ quan ban hành. Phương án A và B sai vì viết số 5 đơn lẻ, còn D sai do đảo lộn giữa dấu gạch chéo và dấu gạch nối.",
+    "sourceBasis": [
+      "hd-05-2026",
+      "Điểm 3.2.2, tiểu mục 3, Mục I, Phần II, Hướng dẫn số 05-HD/VPTW ngày 27/5/2026 của Văn phòng Trung ương Đảng về thể thức và kỹ thuật trình bày văn bản của Đảng"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-6",
+    "correctOption": "B",
+    "decisiveRule": "Điều 8 Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10/12/2025 quy định bí mật nhà nước được phân loại thành 03 độ mật: Tuyệt mật, Tối mật và Mật.",
+    "distractorFault": "Các phương án A (02 độ mật), C (04 độ mật) và D (05 độ mật) đều sai; pháp luật về bảo vệ bí mật nhà nước quy định thống nhất duy nhất 03 cấp độ mật từ trước đến nay, không có độ mật thứ tư hoặc thứ năm.",
+    "shortExplanation": "Đáp án B: 03 độ mật. Điều 8 Luật Bảo vệ bí mật nhà nước quy định bí mật nhà nước phân loại thành 03 độ mật: Tuyệt mật, Tối mật và Mật. Các phương án A 02 độ mật, C 04 độ mật và D 05 độ mật đều sai lệch với 3 cấp độ phân loại theo luật định.",
+    "sourceBasis": [
+      "law-117-2025",
+      "Điều 8, Luật Bảo vệ bí mật nhà nước số 117/2025/QH15 ngày 10/12/2025"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-7",
+    "correctOption": "A",
+    "decisiveRule": "Mục 1 Phần II Nghị quyết số 04-NQ/TW ngày 30/10/2016 của Ban Chấp hành Trung ương Đảng khóa XII xếp hành vi 'nói và viết không đúng quan điểm, đường lối của Đảng; nói không đi đôi với làm; nói và làm không nhất quán…' vào nhóm 9 biểu hiện suy thoái về tư tưởng chính trị.",
+    "distractorFault": "Phương án B sai vì nhóm suy thoái đạo đức, lối sống gắn với chủ nghĩa cá nhân, vụ lợi, xa hoa, lãng phí; phương án C sai vì tự diễn biến, tự chuyển hóa là mức độ biến chất tư tưởng, phủ nhận chủ nghĩa Mác-Lênin; phương án D sai vì không phải tên nhóm phân loại chính thức của Nghị quyết 04.",
+    "shortExplanation": "Đáp án A: Suy thoái về tư tưởng chính trị. Nghị quyết 04 khóa XII xếp việc nói, viết trái quan điểm, nói không đi đôi với làm vào nhóm suy thoái tư tưởng chính trị. Phương án B sai vì nhóm đạo đức gắn với vụ lợi, xa hoa; C là cấp độ phủ nhận nền tảng; còn D không thuộc các nhóm của Nghị quyết.",
+    "sourceBasis": [
+      "Mục 1, Phần II, Nghị quyết số 04-NQ/TW ngày 30/10/2016 của Ban Chấp hành Trung ương Đảng khóa XII"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-8",
+    "correctOption": "B",
+    "decisiveRule": "Trong Di chúc bản viết ngày 10/5/1969, Chủ tịch Hồ Chí Minh căn dặn: 'Phải giữ gìn Đảng ta thật trong sạch, phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của Nhân dân'.",
+    "distractorFault": "Phương án A sai vì là lời căn dặn về giữ gìn sự đoàn kết nhất trí trong Đảng; phương án C sai vì thuộc đoạn căn dặn chăm lo bồi dưỡng cho thế hệ thanh niên; phương án D sai vì thuộc phần dặn dò kế hoạch tái thiết kinh tế - văn hóa sau ngày chiến thắng.",
+    "shortExplanation": "Đáp án B: phải xứng đáng là người lãnh đạo, là người đầy tớ thật trung thành của Nhân dân. Nguyên văn Di chúc 1969 gắn vế giữ Đảng trong sạch với tư cách lãnh đạo, người đầy tớ của Nhân dân. Phương án A là lời dặn về đoàn kết, C là chăm lo thanh niên, còn D là nhiệm vụ kinh tế sau chiến tranh.",
+    "sourceBasis": [
+      "Di chúc của Chủ tịch Hồ Chí Minh (bản viết ngày 10/5/1969)"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-9",
+    "correctOption": "C",
+    "decisiveRule": "Khoản 1 Điều 2 Quy định số 18-QĐ/TU ngày 22/7/2025 của Ban Thường vụ Tỉnh ủy Lào Cai xác định việc học tập và làm theo Bác là công việc thường xuyên, đồng thời là nghĩa vụ, trách nhiệm và quyền lợi của mỗi tổ chức đảng, cán bộ, đảng viên, công chức, viên chức.",
+    "distractorFault": "Phương án A sai vì đây là việc làm thường xuyên, liên tục chứ không phải phong trào từng đợt; phương án B sai vì là trách nhiệm của mọi cán bộ, đảng viên chứ không riêng cán bộ lãnh đạo; phương án D sai vì đây là nghĩa vụ bắt buộc, không phải nội dung khuyến khích tùy tiện.",
+    "shortExplanation": "Đáp án C: Là công việc thường xuyên, đồng thời là nghĩa vụ, trách nhiệm và quyền lợi của mỗi tổ chức đảng, cán bộ, đảng viên, công chức, viên chức. Khoản 1 Điều 2 Quy định 18 xác định đây là việc thường xuyên, bắt buộc. Phương án A sai vì coi là từng đợt, B sai do chỉ cho lãnh đạo, D sai vì chỉ khuyến khích.",
+    "sourceBasis": [
+      "Khoản 1, Điều 2, Quy định số 18-QĐ/TU ngày 22/7/2025 của Ban Thường vụ Tỉnh ủy Lào Cai"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  },
+  {
+    "questionId": "final-mcq-10",
+    "correctOption": "A",
+    "decisiveRule": "Báo cáo chính trị của Ban Chấp hành Đảng bộ tỉnh Lào Cai nhiệm kỳ 2020 - 2025 trình Đại hội đại biểu Đảng bộ tỉnh lần thứ I nhiệm kỳ 2025 - 2030 xác định đầy đủ chủ đề với đột phá: 'trở thành cực tăng trưởng, trung tâm kết nối giao thương kinh tế quốc tế, phát triển theo hướng xanh, hài hòa, bản sắc, hạnh phúc'.",
+    "distractorFault": "Phương án B và D sai vì thu hẹp vị thế phát triển của Lào Cai xuống quy mô vùng Tây Bắc (kết nối vùng Tây Bắc hoặc cực tăng trưởng Tây Bắc); phương án C sai vì tự đưa thêm tiêu chí không có trong văn kiện là 'đứng đầu cả nước về thu hút FDI'.",
+    "shortExplanation": "Đáp án A: Cực tăng trưởng, trung tâm kết nối giao thương kinh tế quốc tế. Báo cáo chính trị Đại hội Đảng bộ tỉnh khóa mới xác định rõ mục tiêu kết nối giao thương quốc tế. Phương án B và D sai vì thu hẹp vị thế về quy mô vùng Tây Bắc, còn C sai do tự đặt ra chỉ tiêu đứng đầu về FDI.",
+    "sourceBasis": [
+      "Báo cáo chính trị của Ban Chấp hành Đảng bộ tỉnh Lào Cai nhiệm kỳ 2020 - 2025 trình Đại hội đại biểu Đảng bộ tỉnh Lào Cai lần thứ I, nhiệm kỳ 2025 - 2030"
+    ],
+    "confidence": "high",
+    "needsReview": false
+  }
+]

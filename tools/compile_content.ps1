@@ -1,4 +1,4 @@
-﻿param(
+param(
     [string]$BankPath = 'data/derived/question-bank-base.json',
     [string]$PlanPath = 'data/curated/content-plan.json',
     [string]$SourcesPath = 'data/curated/sources.json',
@@ -7,6 +7,7 @@
     [string]$McqExplanationsPath = 'data/curated/mcq-explanations.json',
     [string]$OralSchoolLinksPath = 'data/curated/oral-school-links.json',
     [string]$FinalScenarioSchoolLinksPath = 'data/curated/final-scenario-school-links.json',
+    [string]$FinalMcqExplanationsPath = 'data/curated/final-round-mcq-explanations.json',
     [string]$OutputPath = 'site/data/question-bank.json'
 )
 
@@ -154,9 +155,12 @@ $finalCorrections = Get-Content -Raw -Encoding UTF8 -LiteralPath $FinalCorrectio
 $mcqExplanationPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $McqExplanationsPath | ConvertFrom-Json
 $oralSchoolPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $OralSchoolLinksPath | ConvertFrom-Json
 $finalScenarioSchoolPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $FinalScenarioSchoolLinksPath | ConvertFrom-Json
+$finalMcqExplanationPayload = Get-Content -Raw -Encoding UTF8 -LiteralPath $FinalMcqExplanationsPath | ConvertFrom-Json
 $mcqExplanationMap = New-ItemMap $mcqExplanationPayload.items 'MCQ explanations'
 $oralSchoolMap = New-ItemMap $oralSchoolPayload.items 'Oral school links'
 $finalScenarioSchoolMap = New-ItemMap $finalScenarioSchoolPayload.items 'Final scenario school links'
+$finalMcqItems = if ($finalMcqExplanationPayload.items) { $finalMcqExplanationPayload.items } else { $finalMcqExplanationPayload }
+$finalMcqExplanationMap = New-ItemMap $finalMcqItems 'Final MCQ explanations'
 if (@($finalRound.multipleChoice).Count -ne 30 -or @($finalRound.scenarios).Count -ne 20) {
     throw 'Final round must contain exactly 30 multiple-choice questions and 20 scenarios.'
 }
@@ -253,10 +257,11 @@ foreach ($scenario in @($finalRound.scenarios)) {
 }
 
 foreach ($finalQuestion in @($finalRound.multipleChoice)) {
-    $normalizedPrompt = Normalize-QuestionText $finalQuestion.prompt
-    $matches = @($bank.multipleChoice | Where-Object { (Normalize-QuestionText $_.prompt) -eq $normalizedPrompt })
-    if ($matches.Count -ne 1) { throw "Final MCQ $($finalQuestion.id) must match exactly one original question for its concise explanation." }
-    $finalQuestion.explanation = $matches[0].explanation
+    $support = $finalMcqExplanationMap[$finalQuestion.id]
+    if ($null -eq $support -or [string]::IsNullOrWhiteSpace($support.shortExplanation)) {
+        throw "Missing concise explanation for final MCQ $($finalQuestion.id)."
+    }
+    $finalQuestion.explanation = [string]$support.shortExplanation
     $finalQuestion | Add-Member -NotePropertyName explanationKind -NotePropertyValue 'concise-oral-rationale' -Force
 }
 
